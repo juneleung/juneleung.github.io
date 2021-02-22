@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Compose on Compose Docs</title>
-    <link>https://example.com/</link>
+    <link>https://juneleung.github.io/</link>
     <description>Recent content in Compose on Compose Docs</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://juneleung.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install theme</title>
-      <link>https://example.com/docs/compose/install-theme/</link>
+      <link>https://juneleung.github.io/docs/compose/install-theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/compose/install-theme/</guid>
+      <guid>https://juneleung.github.io/docs/compose/install-theme/</guid>
       <description>Prerequisites First ensure that you have hugo installed.
 You need a recent extended version (we recommend version 0.61 or later) of Hugo to do local builds and previews of sites (like this one) that uses this theme.
 If you install from the release page, make sure to get the extended Hugo version, which supports sass; you may need to scroll down the list of releases to see it.
@@ -19,10 +19,10 @@ For comprehensive Hugo documentation, see gohugo.</description>
     
     <item>
       <title>Use forestry CMS</title>
-      <link>https://example.com/docs/compose/use-forestry-cms/</link>
+      <link>https://juneleung.github.io/docs/compose/use-forestry-cms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/compose/use-forestry-cms/</guid>
+      <guid>https://juneleung.github.io/docs/compose/use-forestry-cms/</guid>
       <description>Do you prefer managing your site using a CMS? Or would you like to make it easier for someone (a non-techie, perhaps) in your team to make edits easily? If interested, follow along. Else, skip to the next section
 Let&#39;s sync your site with forestry CMS.
 Prerequisites !! Obviously you ought to have a github account. This is where your website source will live. Basically, forestry will read from github and write (commmit) to your github repo.</description>
@@ -30,10 +30,10 @@ Prerequisites !! Obviously you ought to have a github account. This is where you
     
     <item>
       <title>Content organization</title>
-      <link>https://example.com/docs/compose/organize-content/</link>
+      <link>https://juneleung.github.io/docs/compose/organize-content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/compose/organize-content/</guid>
+      <guid>https://juneleung.github.io/docs/compose/organize-content/</guid>
       <description>This theme is primarily meant for documentation.
 Documentation All your documentation content should be authored within the docs directory.
 Unlike other regular pages, the documentation pages will have a left sidebar. This sidebar will list links to all the pages in the documentation pages. Beneath each link, there will be a collapsible list of table of contents&#39; links. These nested lists will unfold automatically on the active/current page.
@@ -42,10 +42,10 @@ Home Page At the root level there&#39;s an _index.</description>
     
     <item>
       <title>Shortcodes</title>
-      <link>https://example.com/docs/compose/shortcodes/</link>
+      <link>https://juneleung.github.io/docs/compose/shortcodes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/compose/shortcodes/</guid>
+      <guid>https://juneleung.github.io/docs/compose/shortcodes/</guid>
       <description>Instead of writing all your site pages from scratch, Hugo lets you define and use shortcodes.
 Why shortcodes? While markdown is sufficient to produce simple pages, it&#39;s insufficient where complex page structures are needed. Thusly, whenever we need special styling, shortcodes compliment the shortcomings of markdown.
 This way, you can side step complex html and css boilerplate in your content files.
@@ -54,20 +54,20 @@ Sometimes, the shortcode will wrap content, sometimes it won&#39;t. When content
     
     <item>
       <title>Shortcodes Applied</title>
-      <link>https://example.com/docs/compose/shortcodes-example/</link>
+      <link>https://juneleung.github.io/docs/compose/shortcodes-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/compose/shortcodes-example/</guid>
+      <guid>https://juneleung.github.io/docs/compose/shortcodes-example/</guid>
       <description>Blocks, columns &amp;amp; buttons 1{{&amp;lt; block &amp;#34;grid-2&amp;#34; &amp;gt;}} 2{{&amp;lt; column &amp;gt;}} 3#### Coumn 1  4 5Lorem ipsum dolor sit amet, 6... 7 8{{&amp;lt; button &amp;#34;https://github.com/onweru/compose&amp;#34; &amp;#34;Download Theme&amp;#34; &amp;gt;}} 9 10{{&amp;lt; /column &amp;gt;}} 11{{&amp;lt; column &amp;gt;}} 12 13&amp;lt;!-- generates 👇 --&amp;gt; Coumn 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title>Search Function</title>
-      <link>https://example.com/docs/compose/search/</link>
+      <link>https://juneleung.github.io/docs/compose/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/compose/search/</guid>
+      <guid>https://juneleung.github.io/docs/compose/search/</guid>
       <description>Firstly, ensure you have these lines inside your config.toml file
 1[outputs] 2 home = [&amp;#34;HTML&amp;#34;, &amp;#34;RSS&amp;#34;,&amp;#34;JSON&amp;#34;] Compose implements fuse.js to enable search functionality. At the time of this writing, search on these theme takes either of this forms:
 1. Passive search This occurs only when the user loads the search page i.e /search/. They can directly navigate to that url. Alternatively, the user can type you search query on the search field and click enter.</description>
@@ -75,10 +75,10 @@ dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
     
     <item>
       <title>Graphs, charts &amp; dynamic tables</title>
-      <link>https://example.com/docs/compose/graphs-charts-tables/</link>
+      <link>https://juneleung.github.io/docs/compose/graphs-charts-tables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/compose/graphs-charts-tables/</guid>
+      <guid>https://juneleung.github.io/docs/compose/graphs-charts-tables/</guid>
       <description>Using chart js library you can display data you have stored in a csv file as a pie chart, bar graph or doughnut chart.
 At this point if you want to display data from a json or yaml file, you would need to convert it into csv first. Else the template will error out.
 Once you have a csv file, you display the charts as follows:
@@ -87,10 +87,10 @@ Show a pie, doughnut &amp;amp; bar chart at once Firstly define the data you wan
     
     <item>
       <title>Getting started</title>
-      <link>https://example.com/docs/clarity/getting-started/</link>
+      <link>https://juneleung.github.io/docs/clarity/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/clarity/getting-started/</guid>
+      <guid>https://juneleung.github.io/docs/clarity/getting-started/</guid>
       <description>Prerequisites Firstly, ensure you have installed the extended version of Hugo. See installation steps from Hugo&#39;s official docs.
 Getting up and running Read the prerequisites above and verify you&#39;re using the extended version of Hugo. There are at least two ways of quickly getting started with Hugo and the VMware Clarity theme:
 Option 1 (recommended) Generate a new Hugo site and add this theme as a Git submodule inside your themes folder:</description>
@@ -98,10 +98,10 @@ Option 1 (recommended) Generate a new Hugo site and add this theme as a Git subm
     
     <item>
       <title>Features</title>
-      <link>https://example.com/docs/clarity/features/</link>
+      <link>https://juneleung.github.io/docs/clarity/features/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/clarity/features/</guid>
+      <guid>https://juneleung.github.io/docs/clarity/features/</guid>
       <description>Blog with tagging and category options
   Deeplinks
   Native Image Lazy Loading
@@ -118,10 +118,10 @@ Option 1 (recommended) Generate a new Hugo site and add this theme as a Git subm
     
     <item>
       <title>Customization</title>
-      <link>https://example.com/docs/clarity/customize/</link>
+      <link>https://juneleung.github.io/docs/clarity/customize/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/clarity/customize/</guid>
+      <guid>https://juneleung.github.io/docs/clarity/customize/</guid>
       <description>Configuration If set, jump over to the config.toml file and start configuring your site.
 This section will mainly cover settings that are unique to this theme. If something is not covered here (or elsewhere in this file), there&#39;s a good chance it is covered in this Hugo docs page.
 Global Parameters These options set global values that some pages or all pages in the site use by default.
@@ -130,20 +130,20 @@ Global Parameters These options set global values that some pages or all pages i
     
     <item>
       <title>Manipulating Images</title>
-      <link>https://example.com/docs/clarity/images/</link>
+      <link>https://juneleung.github.io/docs/clarity/images/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/clarity/images/</guid>
+      <guid>https://juneleung.github.io/docs/clarity/images/</guid>
       <description>Images Image figure captions You have the option of adding captions to images in blog posts and automatically prepending a desired string such as &amp;quot;Figure N&amp;quot; to the alt text. This is controlled via two global settings.
 figurePositionLabel is a string which will be prepended to any alt text of an article image. By default, this is set to &amp;quot;Figure.&amp;quot; And figurePositionShow controls, globally, whether to show this label. It does not affect whether to show the image alt text, only the prefix figure caption.</description>
     </item>
     
     <item>
       <title>Blogging</title>
-      <link>https://example.com/docs/clarity/blogging/</link>
+      <link>https://juneleung.github.io/docs/clarity/blogging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/clarity/blogging/</guid>
+      <guid>https://juneleung.github.io/docs/clarity/blogging/</guid>
       <description>Blog directory Edit the config.toml file and change the mainSections key. Values will be directories where the blogs reside.
 1[params]2...3mainSections = [&amp;#34;posts&amp;#34;, &amp;#34;docs&amp;#34;, &amp;#34;blogs&amp;#34;]4...For more info, see the Hugo docs.
 Mobile menu positioning The navigation menu when mobile browsing can be configured in config.toml to open right or left depending on preference. The &amp;quot;hamburger&amp;quot; menu icon will always display in the upper right hand corner regardless.
@@ -152,39 +152,39 @@ Mobile menu positioning The navigation menu when mobile browsing can be configur
     
     <item>
       <title>Customize layouts &amp; components</title>
-      <link>https://example.com/docs/compose/customize/</link>
+      <link>https://juneleung.github.io/docs/compose/customize/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/compose/customize/</guid>
+      <guid>https://juneleung.github.io/docs/compose/customize/</guid>
       <description>Shortcodes modifiers These modifiers are classes you can use with shortcodes to customize the look and feel of your layouts and components.
 Grid    modifier space     grid-2 2 columns   grid-3 3 columns   grid-4 4 columns    Spacing    modifier space     mt-1 1.5rem top margin   mt-2 3rem top margin   mt-3 4.</description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://example.com/search/</link>
+      <link>https://juneleung.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/search/</guid>
+      <guid>https://juneleung.github.io/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Syntax Highlighting</title>
-      <link>https://example.com/docs/clarity/syntax-highlighting/</link>
+      <link>https://juneleung.github.io/docs/clarity/syntax-highlighting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/clarity/syntax-highlighting/</guid>
+      <guid>https://juneleung.github.io/docs/clarity/syntax-highlighting/</guid>
       <description>Code Display line numbers Choose whether to display line numbers within a code block globally with the parameter codeLineNumbers setting to true or false.
 1[params]2...3codeLineNumbers = true# Shows line numbers for all code blocks globally.4...Limit code block height You can globally control the number of lines which are displayed by default for your code blocks. Code which has the number of lines exceed this value will dynamically cause two code block expansion buttons to appear, allowing the user to expand to full length and contract.</description>
     </item>
     
     <item>
       <title>Theme Overrides</title>
-      <link>https://example.com/docs/clarity/theme-overrides/</link>
+      <link>https://juneleung.github.io/docs/clarity/theme-overrides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/clarity/theme-overrides/</guid>
+      <guid>https://juneleung.github.io/docs/clarity/theme-overrides/</guid>
       <description>Custom CSS and JS To minimize HTTP requests per page, we would recommend loading CSS styles and JavaScript helpers in single bundles. That is to say, one CSS file and one JavaScript file. Using Hugo minify functions, these files will be minified to optimize the size.
 Going by the above 👆🏻 reason, we recommend adding custom CSS and JS via this custom SASS file and custom JavaScript file.
 However, sometimes you may need to load additional style or script files.</description>
