@@ -98,8 +98,7 @@ const Paper = () => {
         <h2 className="mb-5">Paper</h2>
         
         {config.papers.map(paper => (
-        <div className="resume-item d-flex flex-column flex-md-row mb-5">
-          <img height="125px" src={paper.thumbnail}></img>
+        <div className="resume-item d-flex flex-column align-items-start flex-md-row justify-content-md-between mb-5">
           <div className="resume-content ml-3">
             <h3 className="mb-0">{paper.title}</h3>
             <div>{paper.conference}</div>
@@ -112,6 +111,7 @@ const Paper = () => {
               ))}
             </div>
           </div>
+          <img height="125px" src={paper.thumbnail}></img>
         </div>
       ))}
       </div>
