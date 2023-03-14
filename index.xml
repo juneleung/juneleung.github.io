@@ -6,10 +6,19 @@
     <description>Recent content on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2023 01:32:04 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Mar 2023 01:33:25 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reel</title>
+      <link>http://example.org/reel/</link>
+      <pubDate>Wed, 15 Mar 2023 01:33:25 +0800</pubDate>
+      
+      <guid>http://example.org/reel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Research</title>
@@ -17,6 +26,15 @@
       <pubDate>Wed, 15 Mar 2023 01:32:04 +0800</pubDate>
       
       <guid>http://example.org/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Film</title>
+      <link>http://example.org/film/</link>
+      <pubDate>Wed, 15 Mar 2023 01:31:57 +0800</pubDate>
+      
+      <guid>http://example.org/film/</guid>
       <description></description>
     </item>
     
