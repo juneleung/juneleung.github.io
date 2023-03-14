@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Juneleung Chan</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Juneleung Chan</description>
+    <title>Blogs on Juneleung Chan</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blogs on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Contact</title>
-      <link>http://example.org/contact/</link>
-      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/contact/</guid>
-      <description>Mail me : juneleungchan@163.com</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://example.org/about/</link>
-      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/about/</guid>
-      <description>baseURL = &amp;#39;http://example.org/&amp;#39; languageCode = &amp;#39;en-us&amp;#39; title = &amp;#39;Juneleung Chan&amp;#39; PygmentsCodeFences = true PygmentsStyle = &amp;#34;solarized-dark256&amp;#34; pluralizelisttitles = &amp;#34;false&amp;#34; paginate = 18 disableHugoGeneratorInject = true [params] ava = &amp;#34;/img/mawar.png&amp;#34; The Source Code of this Theme Available in GitHub.
-Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content.</description>
-    </item>
     
     <item>
       <title>Red Rose</title>

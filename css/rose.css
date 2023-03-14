@@ -15,6 +15,11 @@ h1 {
 p {
   color: #e1D9D1;
 }
+
+.footfont {
+  font-size: 80%;
+}
+
 /*layout size*/
 .container-sm {
   max-width: 760px;
@@ -32,10 +37,11 @@ img {
 
 /*avatar/profile image*/
 .img-ava {
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
   margin-bottom: 30px;
+  object-fit:cover;
 }
 
 /*header/navbar*/
