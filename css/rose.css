@@ -3,10 +3,10 @@ body {
 }
 /*url link markdown*/
 a {
-  color: rebeccapurple;
+  color: hsl(184, 21%, 70%);
 }
 a:hover{
-  color: rebeccapurple;
+  color: hsl(184, 21%, 70%);
 }
 h1 {
   font-size: 1.6em;
