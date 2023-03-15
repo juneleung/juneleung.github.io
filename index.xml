@@ -37,7 +37,8 @@
       <pubDate>Wed, 15 Mar 2023 01:31:57 +0800</pubDate>
       
       <guid>http://example.org/film/</guid>
-      <description>COMMING SOON &amp;hellip;</description>
+      <description>2023
+   .container { display: flex; align-items: flex-end; } .text { margin-left: 20px; } h1 { font-size: 18px; margin: 0; } h2 { font-size: 18px; margin-bottom: 5px; } h3 { font-size: 16px; margin-bottom: 5px; } img { max-width: 20%; height: auto; margin-bottom: 30px; } a { text-decoration: none; } :root { --filtered-color: rgb(110, 20, 30); } .image-container { flex-wrap: wrap; } .image-container img { max-height: 20px; width: auto; object-fit: cover; flex: 1; }    流浪地球2 (2023) The Wandering Earth Ⅱ @流程研发 Pipeline TD / Digital Intermediate Engineer           .</description>
     </item>
     
     <item>
@@ -49,16 +50,6 @@
       <description>Mail me : juneleungchan@163.com
 Github: https://github.com/juneleung
 CMDB: 陈俊良</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://example.org/about/</link>
-      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/about/</guid>
-      <description>baseURL = &amp;#39;http://example.org/&amp;#39; languageCode = &amp;#39;en-us&amp;#39; title = &amp;#39;Juneleung Chan&amp;#39; PygmentsCodeFences = true PygmentsStyle = &amp;#34;solarized-dark256&amp;#34; pluralizelisttitles = &amp;#34;false&amp;#34; paginate = 18 disableHugoGeneratorInject = true [params] ava = &amp;#34;/img/mawar.png&amp;#34; The Source Code of this Theme Available in GitHub.
-Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content.</description>
     </item>
     
     <item>
