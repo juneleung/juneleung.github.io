@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Red Rose on Juneleung Chan</title>
-    <link>http://example.org/tags/red-rose/</link>
-    <description>Recent content in Red Rose on Juneleung Chan</description>
+    <title>Useful Web on Juneleung Chan</title>
+    <link>http://example.org/tags/useful-web/</link>
+    <description>Recent content in Useful Web on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/red-rose/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/useful-web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Red Rose</title>
-      <link>http://example.org/archeive/rose/</link>
+      <title>Useful Web</title>
+      <link>http://example.org/archive/usefulweb/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/archeive/rose/</guid>
+      <guid>http://example.org/archive/usefulweb/</guid>
       <description>A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.
 There are over three hundred species and tens of thousands of cultivars.They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles.
 Their flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds.</description>

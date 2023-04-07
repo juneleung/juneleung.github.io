@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/archeive/</loc>
+    <loc>http://example.org/archive/</loc>
     <lastmod>2023-04-06T01:32:04+08:00</lastmod>
   </url>
   
@@ -28,27 +28,32 @@
   </url>
   
   <url>
-    <loc>http://example.org/blog/</loc>
-    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+    <loc>http://example.org/archive/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/red-rose/</loc>
-    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/blog/mawar/</loc>
-    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/blog/rose/</loc>
-    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+    <loc>http://example.org/tags/di-tech/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/tags/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/archive/twe2-di/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/useful-sites/</loc>
+    <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/archive/useful-sites/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url>
   

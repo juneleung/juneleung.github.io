@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Archeive</title>
-      <link>http://example.org/archeive/</link>
+      <title>Archive</title>
+      <link>http://example.org/archive/</link>
       <pubDate>Thu, 06 Apr 2023 01:32:04 +0800</pubDate>
       
-      <guid>http://example.org/archeive/</guid>
+      <guid>http://example.org/archive/</guid>
       <description>COMMING SOON &amp;hellip;</description>
     </item>
     
@@ -53,25 +53,24 @@ CMDB: 陈俊良</description>
     </item>
     
     <item>
-      <title>Red Rose</title>
-      <link>http://example.org/blog/mawar/</link>
-      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      <title>The Wandering Earth II - DI Pipeline</title>
+      <link>http://example.org/archive/twe2-di/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/mawar/</guid>
-      <description>A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.
-There are over three hundred species and tens of thousands of cultivars.They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles.
-Their flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds.</description>
+      <guid>http://example.org/archive/twe2-di/</guid>
+      <description>News: 《流浪地球2 | 摄影拍摄、监看、现场调色、DIT以及后期DI 全流程回顾》 Download: DI workflow &amp;amp; Pipeline PDF </description>
     </item>
     
     <item>
-      <title>Red Rose</title>
-      <link>http://example.org/blog/rose/</link>
+      <title>Useful Sites of DI</title>
+      <link>http://example.org/archive/useful-sites/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/rose/</guid>
-      <description>A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.
-There are over three hundred species and tens of thousands of cultivars.They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles.
-Their flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds.</description>
+      <guid>http://example.org/archive/useful-sites/</guid>
+      <description>
+Hope these sites inspire you in some moments.
+
+Film-Grab: https://film-grab.com/ shotdeck: https://shotdeck.com/ sharegrid: https://www.sharegrid.com/learn </description>
     </item>
     
   </channel>

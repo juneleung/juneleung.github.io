@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archives on Juneleung Chan</title>
+    <link>http://example.org/archive/</link>
+    <description>Recent content in Archives on Juneleung Chan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/archive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Wandering Earth II - DI Pipeline</title>
+      <link>http://example.org/archive/twe2-di/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/twe2-di/</guid>
+      <description>News: 《流浪地球2 | 摄影拍摄、监看、现场调色、DIT以及后期DI 全流程回顾》 Download: DI workflow &amp;amp; Pipeline PDF </description>
+    </item>
+    
+    <item>
+      <title>Useful Sites of DI</title>
+      <link>http://example.org/archive/useful-sites/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/useful-sites/</guid>
+      <description>
+Hope these sites inspire you in some moments.
+
+Film-Grab: https://film-grab.com/ shotdeck: https://shotdeck.com/ sharegrid: https://www.sharegrid.com/learn </description>
+    </item>
+    
+  </channel>
+</rss>

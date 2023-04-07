@@ -6,17 +6,26 @@
     <description>Recent content in Tags on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Red Rose</title>
-      <link>http://example.org/tags/red-rose/</link>
+      <title>DI Tech</title>
+      <link>http://example.org/tags/di-tech/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/di-tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Useful Sites</title>
+      <link>http://example.org/tags/useful-sites/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/red-rose/</guid>
+      <guid>http://example.org/tags/useful-sites/</guid>
       <description></description>
     </item>
     
