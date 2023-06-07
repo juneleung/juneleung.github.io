@@ -1,64 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>http://example.org/archive/</loc>
     <lastmod>2023-04-06T01:32:04+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2023-04-06T01:32:04+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://example.org/film/</loc>
     <lastmod>2023-03-23T01:33:25+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://example.org/reel/</loc>
     <lastmod>2023-03-15T01:33:25+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://example.org/contact/</loc>
     <lastmod>2023-03-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://example.org/archive/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://example.org/tags/di-tech/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://example.org/tags/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://example.org/archive/twe2-di/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://example.org/tags/useful-sites/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://example.org/archive/useful-sites/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://example.org/categories/</loc>
   </url>
-  
 </urlset>

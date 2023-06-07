@@ -6,11 +6,7 @@
     <description>Recent content in Useful Sites on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://example.org/tags/useful-sites/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/useful-sites/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Useful Sites of DI</title>
       <link>http://example.org/archive/useful-sites/</link>
@@ -19,7 +15,6 @@
       <guid>http://example.org/archive/useful-sites/</guid>
       <description>
 Hope these sites inspire you in some moments.
-
 Film-Grab: https://film-grab.com/ shotdeck: https://shotdeck.com/ sharegrid: https://www.sharegrid.com/learn </description>
     </item>
     
