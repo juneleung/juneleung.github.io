@@ -35,10 +35,10 @@
     <loc>http://example.org/archive/twe2-di/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/res/</loc>
+    <loc>http://example.org/archive/useful-sites/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/useful-sites/</loc>
+    <loc>http://example.org/tags/res/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/categories/</loc>

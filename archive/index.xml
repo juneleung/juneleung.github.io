@@ -21,7 +21,7 @@ OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVi
     </item>
     
     <item>
-      <title>The Wandering Earth II - DI Pipeline</title>
+      <title>流浪地球2 DI流程设计 The Wandering Earth II - DI Pipeline</title>
       <link>http://example.org/archive/twe2-di/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       
@@ -32,14 +32,16 @@ News: 《流浪地球2 | 摄影拍摄、监看、现场调色、DIT以及后期D
     </item>
     
     <item>
-      <title>Useful Sites of DI</title>
+      <title>DI常用网站 Useful Sites of DI</title>
       <link>http://example.org/archive/useful-sites/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/archive/useful-sites/</guid>
       <description>
 Useful Sites of DI
-Film-Grab: https://film-grab.com/ shotdeck: https://shotdeck.com/ sharegrid: https://www.sharegrid.com/learn </description>
+参考静帧 Reference
+Film-Grab: https://film-grab.com/ shotdeck: https://shotdeck.com/ 镜头测试 Lens Testing Lib
+sharegrid: https://www.sharegrid.com/learn </description>
     </item>
     
   </channel>
