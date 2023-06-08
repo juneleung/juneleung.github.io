@@ -22,7 +22,7 @@ p {
 
 /*layout size*/
 .container-sm {
-  max-width: 760px;
+  max-width: 1300px;
 } 
 
 /*backround color*/
@@ -115,4 +115,8 @@ kbd {
   padding-left: 10px;
  
   font-size: 13px !important;
+}
+
+table{
+  width: 100%;
 }

@@ -6,7 +6,7 @@
     <description>Recent content on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reel</title>
       <link>http://example.org/reel/</link>
@@ -26,6 +26,19 @@ MORE REELS COMMING SOON &amp;hellip;</description>
       
       <guid>http://example.org/archive/</guid>
       <description>COMING SOON &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Davinci Resolve API</title>
+      <link>http://example.org/archive/drapi/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/drapi/</guid>
+      <description>API Updated as of 17 May 2023
+&lt;!DOCTYPE html&gt; Resolve Fusion() &amp;ndash;&amp;gt; Fusion % Returns the Fusion object. Starting point for Fusion scripts.
+GetMediaStorage() &amp;ndash;&amp;gt; MediaStorage % Returns the media storage object to query and act on media locations.
+GetProjectManager() &amp;ndash;&amp;gt; ProjectManager % Returns the project manager object for currently open database.
+OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVinci Resolve. Input can be one of (&amp;ldquo;media&amp;rdquo;, &amp;ldquo;cut&amp;rdquo;, &amp;ldquo;edit&amp;rdquo;, &amp;ldquo;fusion&amp;rdquo;, &amp;ldquo;color&amp;rdquo;, &amp;ldquo;fairlight&amp;rdquo;, &amp;ldquo;deliver&amp;rdquo;).</description>
     </item>
     
     <item>
@@ -68,7 +81,7 @@ News: 《流浪地球2 | 摄影拍摄、监看、现场调色、DIT以及后期D
       
       <guid>http://example.org/archive/useful-sites/</guid>
       <description>
-Hope these sites inspire you in some moments.
+Useful Sites of DI
 Film-Grab: https://film-grab.com/ shotdeck: https://shotdeck.com/ sharegrid: https://www.sharegrid.com/learn </description>
     </item>
     

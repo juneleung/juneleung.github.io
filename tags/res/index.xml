@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Useful Sites on Juneleung Chan</title>
-    <link>http://example.org/tags/useful-sites/</link>
-    <description>Recent content in Useful Sites on Juneleung Chan</description>
+    <title>RES on Juneleung Chan</title>
+    <link>http://example.org/tags/res/</link>
+    <description>Recent content in RES on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/useful-sites/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/res/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Useful Sites of DI</title>
       <link>http://example.org/archive/useful-sites/</link>
@@ -14,7 +14,7 @@
       
       <guid>http://example.org/archive/useful-sites/</guid>
       <description>
-Hope these sites inspire you in some moments.
+Useful Sites of DI
 Film-Grab: https://film-grab.com/ shotdeck: https://shotdeck.com/ sharegrid: https://www.sharegrid.com/learn </description>
     </item>
     
