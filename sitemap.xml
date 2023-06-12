@@ -5,7 +5,7 @@
     <loc>http://example.org/archive/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/colormanagementincgdi/</loc>
+    <loc>http://example.org/archive/color_management_in_cg_di/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/dev/</loc>
@@ -26,7 +26,7 @@
     <loc>http://example.org/tags/api/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/drapi/</loc>
+    <loc>http://example.org/archive/dr_api/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/film/</loc>
@@ -38,10 +38,10 @@
     <loc>http://example.org/tags/bts/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/twe2-di/</loc>
+    <loc>http://example.org/archive/twe2_di/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/useful-sites/</loc>
+    <loc>http://example.org/archive/useful_sites/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/res/</loc>

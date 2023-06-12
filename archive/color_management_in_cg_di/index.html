@@ -5,7 +5,7 @@
     <meta name="description" content="Your description">
     <meta name="theme-color" content="#000">
 
-    <link rel="canonical" href="http://example.org/archive/colormanagementincgdi/" />
+    <link rel="canonical" href="http://example.org/archive/color_management_in_cg_di/" />
 
     
     <link defer href="/css/bootstrap.min.css" rel="stylesheet">
@@ -151,23 +151,27 @@
 </body>
 </html>
 
-<h6 id="hahahugoshortcodes17hbhb"><a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/houdini/aces.hip" target="_blank">下载 HIP 工程 (Download HIP Project)</a>    
+<h6 id="hahahugoshortcodes17hbhb"><a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/houdini/aces.hip" target="_blank">.hip 工程 (.hip Project)</a>    
 
 </h6>
 <br>
-<p>将色卡作为渲染器Environment进行渲染。</p>
-<p>Render the color card as the renderer Environment.</p>
+<p>* 本测试将色卡作为渲染器Environment进行渲染</p>
+<p>* This test renders the ColorChecker as renderer Environment</p>
 <br>
-<p>工程设置 project settings:</p>
-<p>Arnold IP: Properties - Output - ColorSpace : ACES - ACEScg</p>
-<p>Render View: Color Correction - ACES - sRGB</p>
+<p>1、工程设置 Project settings:</p>
+<p>Arnold IP: &lt;Properties&gt; - &lt;Output&gt; - &lt;ColorSpace&gt;: ACES - ACEScg</p>
+<p>2、监看设置 Viewing settings:</p>
+<p>Render View: &lt;Color Correction&gt;: ACES - sRGB</p>
 <p><img src="/img/archive/ColorManagement/houdini/houdin-project.jpg" alt="Hproj"></p>
-<p>sRGB监看结果 Viewing in sRGB:</p>
+<p>3、sRGB监看结果 Viewing in sRGB:</p>
 <p><img src="/img/archive/ColorManagement/houdini/houdiniCGinsRGB.jpg" alt="Hout"></p>
-<p>Houdini渲染的ACEScg EXR: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/houdini/houdini_ACEScg_output.exr" target="_blank">houdini_ACEScg_output.exr</a>    
+<br>
+<p>* Houdini渲染的ACEScg EXR: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/houdini/houdini_ACEScg_output.exr" target="_blank">houdini_ACEScg_output.exr</a>    
 
 </p>
-<br>
+<p>* ACEScg EXR rendered from Houdini: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/houdini/houdini_ACEScg_output.exr" target="_blank">houdini_ACEScg_output.exr</a>    
+
+</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -187,31 +191,36 @@
 </body>
 </html>
 
-<h6 id="hahahugoshortcodes23hbhb"><a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/nuke/aces.nk" target="_blank">下载 nk 工程 (Download nk Project)</a>    
+<h6 id="hahahugoshortcodes24hbhb"><a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/nuke/aces.nk" target="_blank">.nk 工程 (.nk Project)</a>    
 
 </h6>
 <br>
-<p>项目色彩管理设置 project color management settings:</p>
-<p>OCIO Config: ACES 1.2</p>
-<p><img src="/img/archive/ColorManagement/nuke/nuke-projectsetting.jpg" alt="Nproj"></p>
-<p>将色卡作为输入图片。</p>
-<p>Use colorchecker as the input image.</p>
+<p>* 本测试将色卡作为输入图片。</p>
+<p>* Use ColorChecker as the input image in this test.</p>
 <br>
-<p>素材输入设置：Utility - Linear - sRGB;
-如果是从Houdini或其他软件渲染的ACEScg文件，则此处选择为 ACES - ACEScg。</p>
-<p>&ldquo;Read&rdquo; settings: Utility - Linear - sRGB; If it is an ACEScg file rendered from Houdini or other software, select ACES - ACEScg here.</p>
+<p>1、项目设置 Project settings:</p>
+<p>&lt;Color&gt; - &lt;OCIO Config&gt;: ACES 1.2</p>
+<p><img src="/img/archive/ColorManagement/nuke/nuke-projectsetting.jpg" alt="Nproj"></p>
+<p>2、素材输入设置 &ldquo;Read&rdquo; settings:</p>
+<p>&lt;Read&gt; - &lt;Input Transform&gt;: &ldquo;Utility - Linear - sRGB&rdquo;</p>
+<p>* 注：如果是ACES cg文件，则此处选择为 &ldquo;ACES - ACEScg&rdquo;</p>
+<p>* Note: Select &ldquo;ACES - ACEScg&rdquo; if it is an ACES cg file</p>
 <p><img src="/img/archive/ColorManagement/nuke/nuke-inputColorspace.jpg" alt="NInpuptcolorspace"></p>
-<p>监看IP设置 viewing settings:</p>
+<p>3、监看IP设置 Viewing settings:</p>
 <p>sRGB(ACES)</p>
 <p><img src="/img/archive/ColorManagement/nuke/nuke-viewingIPsetting.jpg" alt="NIPcolor"></p>
-<p>文件写入设置 &ldquo;Write&rdquo; settings:</p>
-<p>Write - output transform: ACES - ACEScg</p>
+<p>4、文件写入设置 &ldquo;Write&rdquo; settings:</p>
+<p>&lt;Write&gt; - &lt;Output Transform&gt;: &ldquo;ACES - ACEScg&rdquo;</p>
 <p><img src="/img/archive/ColorManagement/nuke/nuke-writeColorspace.jpg" alt="Nwrite"></p>
-<p>工程节点设置 project node graph:</p>
+<p>5、工程节点设置 Project node graph:</p>
 <p><img src="/img/archive/ColorManagement/nuke/nuke-projectnode.jpg" alt="Nprojnode"></p>
-<p>sRGB监看结果 viewing in sRGB:</p>
+<p>6、sRGB监看结果 Viewing in sRGB:</p>
 <p><img src="/img/archive/ColorManagement/nuke/nukeCGinsRGB.jpg" alt="Nproj"></p>
-<p>Nuke渲染的ACEScg EXR (ACEScg EXR rendered from Nuke): <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/nuke/nuke_ACEScg_output.exr" target="_blank">nuke_ACEScg_output.exr</a>    
+<br>
+<p>* Nuke渲染的ACEScg EXR: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/nuke/nuke_ACEScg_output.exr" target="_blank">nuke_ACEScg_output.exr</a>    
+
+</p>
+<p>* ACEScg EXR rendered from Nuke: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/nuke/nuke_ACEScg_output.exr" target="_blank">nuke_ACEScg_output.exr</a>    
 
 </p>
 <hr>
@@ -233,14 +242,16 @@
 </body>
 </html>
 
-<p>将色卡作为输入图片。</p>
-<p>Use colorchecker as the input image.</p>
+<p>* 本测试将色卡作为输入图片。</p>
+<p>* Use ColorChecker as the input image in this test.</p>
 <br>
-<p>文件色彩空间 file color space:</p>
-<p>OCIO - File Color Space - Utility - Utility-Linear-sRGB</p>
+<p>1、启用文件色彩空间 Active File color space:</p>
+<p>&lt;OCIO&gt; - &lt;File Color Space&gt; - &ldquo;Active&rdquo;</p>
+<p>2、选择文件色彩空间 Select File color space:</p>
+<p>&lt;OCIO&gt; - &lt;File Color Space&gt; - &lt;Utility&gt; - &ldquo;Utility-Linear-sRGB&rdquo;</p>
 <p><img src="/img/archive/ColorManagement/RV/rv-filecolorspace.jpg" alt="RVIn"></p>
-<p>显示文件色彩空间 display color space:</p>
-<p>OCIO - MonitorName - ACES - sRGB</p>
+<p>3、选择显示文件色彩空间 Select display color space:</p>
+<p>&lt;OCIO&gt; - &lt;MonitorName&gt; - &ldquo;ACES - sRGB&rdquo;</p>
 <p><img src="/img/archive/ColorManagement/RV/rv-displaycolorspace.jpg" alt="RVDisplay"></p>
 <hr>
 <!DOCTYPE html>
@@ -261,21 +272,25 @@
 </body>
 </html>
 
-<h6 id="hahahugoshortcodes30hbhb"><a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/davinci/AcesDR1813.drp" target="_blank">下载 Davinci 工程 (Download Davici Project) (18.1.3)</a>    
+<h6 id="hahahugoshortcodes33hbhb"><a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/davinci/AcesDR1813.drp" target="_blank">.drp 工程 (.drp Project) (18.1.3)</a>    
 
 </h6>
 <br>
-<p>工程色彩设置 project color settings:</p>
+<p>1、工程色彩设置 project color settings:</p>
 <p><img src="/img/archive/ColorManagement/davinci/davinci-projectsetting.jpg" alt="DRproj"></p>
-<p>转为sRGB监看色卡 viewing in sRGB:</p>
+<p>2、转为sRGB监看色卡 viewing in sRGB:</p>
 <p><img src="/img/archive/ColorManagement/davinci/davinci-projectnode-viewingSource.jpg" alt="DRck14"></p>
-<p>转为ACEScg以供渲染 Convert to ACEScg for rendering:</p>
+<p>3、转为ACEScg以供渲染 Convert to ACEScg for rendering:</p>
 <p><img src="/img/archive/ColorManagement/davinci/davinci-projectnode-renderingACEScg.jpg" alt="RVDisplay"></p>
-<p>转为sRGB监看ACEScg渲染后结果 viewing ACEScg render result in sRGB:</p>
+<p>4、转为sRGB监看ACEScg渲染后结果 viewing ACEScg render result in sRGB:</p>
 <p><img src="/img/archive/ColorManagement/davinci/davinci-projectnode-viewingACEScg.jpg" alt="RVDisplay"></p>
-<p>sRGB监看色卡 viewing in sRGB:</p>
+<p>5、sRGB监看色卡 viewing in sRGB:</p>
 <p><img src="/img/archive/ColorManagement/davinci/davinciCGinsRGB.jpg" alt="RVDisplay"></p>
-<p>达芬奇渲染的ACEScg EXR (ACEScg EXR rendered by DaVinci): <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/davinci/davinci_ACEScg_output.exr" target="_blank">davinci_ACEScg_output.exr</a>    
+<br>
+<p>* 达芬奇渲染的ACEScg EXR: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/davinci/davinci_ACEScg_output.exr" target="_blank">davinci_ACEScg_output.exr</a>    
+
+</p>
+<p>* ACEScg EXR rendered by DaVinci: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/davinci/davinci_ACEScg_output.exr" target="_blank">davinci_ACEScg_output.exr</a>    
 
 </p>
 <hr>
@@ -297,14 +312,33 @@
 </body>
 </html>
 
-<p>不同软件监看窗口对比： Nuke &amp; Houdini &amp; Davinci &amp; RV</p>
-<p>Comparison of different software monitoring windows: Nuke &amp; Houdini &amp; Davinci &amp; RV</p>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>Viewing Comparison</h3>
+	</div>
+</body>
+</html>
+
 <br>
-<p>监看空间：sRGB</p>
-<p>Viewing space: sRGB</p>
+<p>* 不同软件监看窗口对比： Nuke &amp; Houdini &amp; Davinci &amp; RV</p>
+<p>* Comparison of different software monitoring windows: Nuke &amp; Houdini &amp; Davinci &amp; RV</p>
 <br>
-<p>取色计颜色一致</p>
-<p>The results of the color meter are consistent</p>
+<p>* 监看空间：sRGB</p>
+<p>* Viewing color space: sRGB</p>
+<br>
+<p>* 取色计颜色一致</p>
+<p>* The results of the color meter are consistent</p>
 <p><img src="/img/archive/ColorManagement/Compare/compareDifferentSoftware.jpg" alt="CompView"></p>
 <br>
 <!DOCTYPE html>
@@ -325,14 +359,33 @@
 </body>
 </html>
 
-<p>不同软件渲染结果对比： Nuke &amp; Houdini &amp; Davinci in ACEScg</p>
-<p>Comparison of rendering results from different software: Nuke &amp; Houdini &amp; Davinci in ACEScg</p>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>Comparison of rendering results</h3>
+	</div>
+</body>
+</html>
+
 <br>
-<p>监看空间：sRGB</p>
-<p>Viewing space: sRGB</p>
+<p>* 不同软件渲染结果对比： Nuke &amp; Houdini &amp; Davinci in ACEScg</p>
+<p>* Comparison of rendering results from different software: Nuke &amp; Houdini &amp; Davinci in ACEScg</p>
 <br>
-<p>取色计颜色一致</p>
-<p>The results of the color meter are consistent</p>
+<p>* 监看空间：sRGB</p>
+<p>* Viewing color space: sRGB</p>
+<br>
+<p>* 取色计颜色一致</p>
+<p>* The results of the color meter are consistent</p>
 <p><img src="/img/archive/ColorManagement/Compare/viewingDifferentResultInRV.jpg" alt="CompRend"></p>
 <p><br>
 <br></p>
