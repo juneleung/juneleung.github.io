@@ -6,7 +6,20 @@
     <description>Recent content on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CG &amp; DI色彩管理 Color Management in CG&amp;DI</title>
+      <link>http://example.org/archive/cgdicolormanagement/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/cgdicolormanagement/</guid>
+      <description>* 本测试所有文件和工程可以从 Github @juneleung: Color-Management-in-CG-DI 下载
+* All files and projects for this test can be downloaded from: Github @juneleung: Color-Management-in-CG-DI * 本测试使用OCIO (OpenColorIO )和ACES 1.2进行色彩管理
+* This test uses OCIO (OpenColorIO ) and ACES 1.2 for color management
+* 本测试使用的色卡为 (ITU-R_BT.709_ColorChecker2014.exr ), 其他色卡可以从 Github @colour-science: colour-nuke 下载。
+* The Macbeth ColorChecker used in this test is (ITU-R_BT.709_ColorChecker2014.exr ), other ColorCheckers can be downloaded from Github @colour-science: colour-nuke .</description>
+    </item>
+    
     <item>
       <title>Reel</title>
       <link>http://example.org/reel/</link>
@@ -80,9 +93,7 @@ News: 《流浪地球2 | 摄影拍摄、监看、现场调色、DIT以及后期D
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/archive/useful-sites/</guid>
-      <description>
-Useful Sites of DI
-参考静帧 Reference
+      <description> 参考静帧 Reference
 Film-Grab: https://film-grab.com/ shotdeck: https://shotdeck.com/ 镜头测试 Lens Testing Lib
 sharegrid: https://www.sharegrid.com/learn </description>
     </item>

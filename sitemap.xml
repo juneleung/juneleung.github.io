@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/archive/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/cgdicolormanagement/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/dev/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://example.org/reel/</loc>
     <lastmod>2023-06-07T01:33:25+08:00</lastmod>
   </url><url>
@@ -11,16 +26,7 @@
     <loc>http://example.org/tags/api/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/archive/drapi/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/film/</loc>
