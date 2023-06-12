@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CG &amp; DI色彩管理 Color Management in CG&amp;DI</title>
-      <link>http://example.org/archive/cgdicolormanagement/</link>
+      <link>http://example.org/archive/colormanagementincgdi/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/archive/cgdicolormanagement/</guid>
+      <guid>http://example.org/archive/colormanagementincgdi/</guid>
       <description>* 本测试所有文件和工程可以从 Github @juneleung: Color-Management-in-CG-DI 下载
 * All files and projects for this test can be downloaded from: Github @juneleung: Color-Management-in-CG-DI * 本测试使用OCIO (OpenColorIO )和ACES 1.2进行色彩管理
 * This test uses OCIO (OpenColorIO ) and ACES 1.2 for color management
