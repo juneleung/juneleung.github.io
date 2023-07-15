@@ -8,6 +8,25 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About Me</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description> &lt;!DOCTYPE html&gt; 教育 Education 2017 - 2021 北京电影学院 - 影视技术系 本科 Beijing Film Academy - Department of Film and Television Technology Bachelor 2021 - 2024 北京电影学院 - 中国电影高新技术研究院 硕士 Beijing Film Academy - China Film High-tech Research Institute Master </description>
+    </item>
+    
+    <item>
+      <title>Film</title>
+      <link>http://example.org/film/</link>
+      <pubDate>Sat, 15 Jul 2023 01:33:25 +0800</pubDate>
+      
+      <guid>http://example.org/film/</guid>
+      <description>2023
+&lt;!DOCTYPE html&gt; 长安三万里 (2023) Chang An @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 消失的她 (2023) Lost in the Stars @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 流浪地球2 (2023) The Wandering Earth Ⅱ @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 回廊亭 (2023) Revival @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 保你平安 (2023) Post Truth @流程研发 Pipeline TD / Digital Intermediate Engineer 2022</description>
+    </item>
+    
+    <item>
       <title>CG &amp; DI色彩管理 Color Management in CG&amp;DI</title>
       <link>http://example.org/archive/color_management_in_cg_di/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
@@ -51,16 +70,6 @@ MORE REELS COMMING SOON &amp;hellip;</description>
 GetMediaStorage() &amp;ndash;&amp;gt; MediaStorage % Returns the media storage object to query and act on media locations.
 GetProjectManager() &amp;ndash;&amp;gt; ProjectManager % Returns the project manager object for currently open database.
 OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVinci Resolve. Input can be one of (&amp;ldquo;media&amp;rdquo;, &amp;ldquo;cut&amp;rdquo;, &amp;ldquo;edit&amp;rdquo;, &amp;ldquo;fusion&amp;rdquo;, &amp;ldquo;color&amp;rdquo;, &amp;ldquo;fairlight&amp;rdquo;, &amp;ldquo;deliver&amp;rdquo;).</description>
-    </item>
-    
-    <item>
-      <title>Film</title>
-      <link>http://example.org/film/</link>
-      <pubDate>Thu, 23 Mar 2023 01:33:25 +0800</pubDate>
-      
-      <guid>http://example.org/film/</guid>
-      <description>2023
-&lt;!DOCTYPE html&gt; 长安三万里 (2023) Chang An @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 消失的她 (2023) Lost in the Stars @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 流浪地球2 (2023) The Wandering Earth Ⅱ @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 回廊亭 (2023) Revival @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 保你平安 (2023) Post Truth @流程研发 Pipeline TD / Digital Intermediate Engineer 2022</description>
     </item>
     
     <item>
