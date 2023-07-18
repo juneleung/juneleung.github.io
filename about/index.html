@@ -31,7 +31,7 @@
       <h1 class="float-md-start justify-content-center "><a class="head-rose" href="/">Juneleung Chan</a></h1>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link text-white" href="/">Home</a>
-        <a class="nav-link text-white" href="/about">About Me</a>
+        <a class="nav-link text-white" href="/about">About_Me</a>
         <a class="nav-link text-white" href="/film">Film</a>
         <a class="nav-link text-white" href="/reel">Reel</a>
         <a class="nav-link text-white" href="/archive">Archive</a>
@@ -46,67 +46,275 @@
 			<h1>About Me</h1>
 			<div class="time">Jul 15, 2023</div>
 			<div>
-				<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<hr>
-<p><br>
+				<hr>
+<br>
 <!DOCTYPE html>
 <html>
 <head>
 	
 	<style>
-		.center {
-			text-align: center;
+		.container {
+			display: flex;
+			align-items: flex-end;
+            max-width: 100%;
+		}
+
+        #logoID {
+            display: inline-block;
+        }
+
+        #logopic {
+        filter: grayscale(100%);
+        transition: filter 0.3s;
+        } 
+
+        #logoID:hover #logopic {
+        filter: grayscale(0%);
+        }
+
+		.text {
+			margin-left: 20px;
+		}
+		h1 {
+			font-size: 18px;
+			margin: 0;
+		}
+		h2 {
+            text-align: center;
+			font-size: 18px;
+			margin-bottom: 5px;
 		}
 		
+		img {
+			 
+			height: 20%;
+            max-width: 70px;
+			 
+		}
+		a {
+			text-decoration: none;
+		}
+
+		:root {
+			--filtered-color: rgb(110, 20, 30);
+		}
+
+		.image-container {
+  			flex-wrap: wrap;
+		}
+
+		.image-container img {
+			max-height: 20px; 
+			width: auto;
+			object-fit: cover;
+			flex: 1;
+			 
+			 
+		}
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+             
+        }
+        
+        .column1 {
+            width: 18%;
+        }
+        .column2 {
+            width: 50%;
+        }
+        .column3 {
+            width: auto;
+        }
+
+        td {
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+        }
+        
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        p {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .center {
+			text-align: center;
+		}
 	</style>
 </head>
 <body>
-	<div class="center">
+
+    <div>
+        <ul>
+            欢迎来到我的网站，关于我的介绍分为三部分：<br>
+            Welcome to my website, there are three parts about my introduction:<br><br>
+
+            <a href="#Skills"><h4># 技能 Skills</h4></a>
+            <a href="#Education"><h4># 教育 Education</h4></a>
+            <a href="#Experience"><h4># 经历 Experience</h4></a>
+
+        </ul>
+        <br>
+        <hr>
+    </div>
+
+    <div id="Skills">
+        <br>
+        <div class="center">
+            <h3>技能 Skills</h3>
+        </div>
+        <br>
+        <div class="container" id="logoID">
+            <table>
+                <tr>
+                <td><img src="/img/skills/resolve.svg" alt="DR"></td>
+                <td><img src="/img/skills/baselight.png" alt="BL"></td>
+                <td><img src="/img/skills/_unreal.svg" alt="UE"></td>
+                <td><img src="/img/skills/nuke.svg" alt="NK"></td>
+                <td><img src="/img/skills/houdini.svg" alt="HDN"></td>
+                <td><img src="/img/skills/shotgrid.svg" alt="SG"></td>
+                </tr>
+                <tr>
+                    <td><p>Resolve</p></td>
+                    <td><p>Baselight</p></td>
+                    <td><p>Unreal Engine</p></td>
+                    <td><p>Nuke</p></td>
+                    <td><p>Houdini</p></td>
+                    <td><p>Shot Grid</p></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/skills/python.svg" alt="py"></td>
+                    <td><img src="/img/skills/cpp.svg" alt="cpp"></td>
+                    <td><img src="/img/skills/qt.svg" alt="qt"></td>
+                    <td><img src="/img/skills/html.svg" alt="html"></td>
+                    <td><img src="/img/skills/pgsql.svg" alt="pgsql"></td>
+                    <td><img src="/img/skills/git.svg" alt="git"></td>
+                </tr>
+                <tr>
+                    <td><p>Python</p></td>
+                    <td><p>C++</p></td>
+                    <td><p>QT/PyQt</p></td>
+                    <td><p>HTML</p></td>
+                    <td><p>SQL</p></td>
+                    <td><p>Git</p></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/skills/cli.svg" alt="cli"></td>
+                    <td><img src="/img/skills/macos.svg" alt="macos"></td>
+                    <td><img src="/img/skills/windows.svg" alt="windows"></td>
+                    <td><img src="/img/skills/centos.svg" alt="centos"></td>
+                    <td><img src="/img/skills/ubuntu.svg" alt="ubuntu"></td>
+                    <td><img src="/img/skills/synology.svg" alt="synology"></td>
+                </tr>
+                <tr>
+                    <td><p>CL</p></td>
+                    <td><p>macOS</p></td>
+                    <td><p>Windows</p></td>
+                    <td><p>CentOS</p></td>
+                    <td><p>Ubuntu</p></td>
+                    <td><p>Synology</p></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    </div>
+
+    <div id="Education">
+        <div class="center">
+        <br>
         <h3>教育 Education</h3>
-	</div>
+        <p> 网页正在更新中... site is updating ... </p>
+    </div>
+        
+        <br>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th style="text-align:left" class="column1"></th>
+                    <th style="text-align:left" class="column2"></th>
+                    <th style="text-align:left" class="column3"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align:left">2017.09 - 2021.06</td>
+                    <td style="text-align:left">北京电影学院 - 影视技术系</td>
+                    <td style="text-align:left">本科</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"></td>
+                    <td style="text-align:left">Beijing Film Academy - Department of Film and Television Technology</td>
+                    <td style="text-align:left">Bachelor</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="text-align:left">2021.09 - 2024.06</td>
+                    <td style="text-align:left">北京电影学院 - 中国电影高新技术研究院</td>
+                    <td style="text-align:left">硕士</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"></td>
+                    <td style="text-align:left">Beijing Film Academy - China Film High-tech Research Institute</td>
+                    <td style="text-align:left">Master</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </div>
+
+    <div id="Experience">
+        <div class="center">
+        <br>
+        <h3>经历 Experience</h3>
+        <p> 网页正在更新中... site is updating ... </p>
+    </div>
+        
+        <br>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th style="text-align:left" class="column1"></th>
+                    <th style="text-align:left" class="column2"></th>
+                    <th style="text-align:left" class="column3"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align:left">2020.06 - present</td>
+                    <td style="text-align:left">北京上添影视 - 张亘DI团队</td>
+                    <td style="text-align:left">流程研发</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"></td>
+                    <td style="text-align:left">Beijing ShangTian Media - Antonio DI Team</td>
+                    <td style="text-align:left">Pipeline TD / Digital Intermediate Engineer</td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"><br></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </div>
+
 </body>
 </html>
 
-<br></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th style="text-align:left"></th>
-<th style="text-align:left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">2017 - 2021</td>
-<td style="text-align:left">北京电影学院 - 影视技术系</td>
-<td style="text-align:left">本科</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Beijing Film Academy - Department of Film and Television Technology</td>
-<td style="text-align:left">Bachelor</td>
-</tr>
-<tr>
-<td style="text-align:left"><br></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">2021 - 2024</td>
-<td style="text-align:left">北京电影学院 - 中国电影高新技术研究院</td>
-<td style="text-align:left">硕士</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Beijing Film Academy - China Film High-tech Research Institute</td>
-<td style="text-align:left">Master</td>
-</tr>
-</tbody>
-</table>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 <hr>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
