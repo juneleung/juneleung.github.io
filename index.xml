@@ -93,12 +93,12 @@ OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVi
     </item>
     
     <item>
-      <title>剪辑和调色的交接物料 Turnover material from editing to DI color grading</title>
+      <title>剪辑和调色的交接物料 Turnover between editing and DI color grading</title>
       <link>http://example.org/archive/pipeline/ed-to-di/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/archive/pipeline/ed-to-di/</guid>
-      <description>&lt;!DOCTYPE html&gt; 当你完成一个片子的剪辑之后，应该如何将你的工作完美的交接给DI呢？ &lt;!DOCTYPE html&gt; How to turn over your work to DI perfectly after you finish editing a film ? * 本文章所述不一定符合所有情况，请根据具体项目酌情进行修改。
+      <description>&lt;!DOCTYPE html&gt; 当你完成一个片子的剪辑之后，应该如何将你的工作完美的交接给DI呢？ &lt;!DOCTYPE html&gt; How to turn over your editing work to DI perfectly after you finish editing a film ? * 本文章所述不一定符合所有情况，请根据具体项目酌情进行修改。
 * The descriptions in this article may not be applicable to all situations, please modify as appropriate according to specific projects.
 &lt;!DOCTYPE html&gt; 1、导出参考小样 Export Reference 一个剪辑完成片的视频，以供调色公司的画面套底参考。
 A video of the edited film, as the DI&amp;rsquo;s conform reference.
