@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Archives on Juneleung Chan</title>
-    <link>http://example.org/archive/</link>
-    <description>Recent content in Archives on Juneleung Chan</description>
+    <title>PPL on Juneleung Chan</title>
+    <link>http://example.org/tags/ppl/</link>
+    <description>Recent content in PPL on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/archive/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/ppl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CG &amp; DI色彩管理 Color Management in CG&amp;DI</title>
       <link>http://example.org/archive/pipeline/color_management_in_cg_di/</link>
@@ -20,19 +20,6 @@
     </item>
     
     <item>
-      <title>Davinci Resolve API</title>
-      <link>http://example.org/archive/api-develop/dr_api/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/archive/api-develop/dr_api/</guid>
-      <description>API Updated as of 17 May 2023
-&lt;!DOCTYPE html&gt; Resolve Fusion() &amp;ndash;&amp;gt; Fusion % Returns the Fusion object. Starting point for Fusion scripts.
-GetMediaStorage() &amp;ndash;&amp;gt; MediaStorage % Returns the media storage object to query and act on media locations.
-GetProjectManager() &amp;ndash;&amp;gt; ProjectManager % Returns the project manager object for currently open database.
-OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVinci Resolve. Input can be one of (&amp;ldquo;media&amp;rdquo;, &amp;ldquo;cut&amp;rdquo;, &amp;ldquo;edit&amp;rdquo;, &amp;ldquo;fusion&amp;rdquo;, &amp;ldquo;color&amp;rdquo;, &amp;ldquo;fairlight&amp;rdquo;, &amp;ldquo;deliver&amp;rdquo;).</description>
-    </item>
-    
-    <item>
       <title>剪辑和调色的交接物料 Turnover material from editing to DI color grading</title>
       <link>http://example.org/archive/pipeline/ed-to-di/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
@@ -43,26 +30,6 @@ OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVi
 &lt;!DOCTYPE html&gt; 1、导出参考小样 Export Reference 一个剪辑完成片的视频，以供调色公司的画面套底参考。
 A video of the edited film, as the DI&amp;rsquo;s conform reference.
 具体文件参数 File Parameters: 苹果平台 mac 格式 (Format) : Quciktime MOV 编码 (Codec) : Apple Prores 类型 (Type) : 422HQ/422/proxy 声音 (Audio) : PCM/AAC 视窗平台 windows 格式 (Format) : MXF 编码 (Codec) : DNxHD / DNxHR 类型 (Type) : 1080p 100/85/80 8bit / DNxHR SQ/LB 声音 (Audio) : PCM/AAC 如e.</description>
-    </item>
-    
-    <item>
-      <title>流浪地球2 DI流程设计 The Wandering Earth II - DI Pipeline</title>
-      <link>http://example.org/archive/behind-the-scene/twe2_di/</link>
-      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/archive/behind-the-scene/twe2_di/</guid>
-      <description> &lt;!DOCTYPE html&gt; News: 《流浪地球2 | 摄影拍摄、监看、现场调色、DIT以及后期DI 全流程回顾》 CN PDF Download: DI workflow &amp;amp; Pipeline PDF EN Version Download: DI Workflow &amp;amp; Pipeline - EN </description>
-    </item>
-    
-    <item>
-      <title>DI常用网站 Useful Sites of DI</title>
-      <link>http://example.org/archive/tips/useful_sites/</link>
-      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/archive/tips/useful_sites/</guid>
-      <description> 参考静帧 Reference
-Film-Grab: https://film-grab.com/ shotdeck: https://shotdeck.com/ 镜头测试 Lens Testing Lib
-sharegrid: https://www.sharegrid.com/learn </description>
     </item>
     
   </channel>

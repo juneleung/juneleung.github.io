@@ -11,13 +11,13 @@
     <loc>http://example.org/archive/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/color_management_in_cg_di/</loc>
-    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/dev/</loc>
+    <loc>http://example.org/archive/pipeline/color_management_in_cg_di/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/ppl/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/</loc>
@@ -32,8 +32,11 @@
     <loc>http://example.org/tags/api/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/dr_api/</loc>
+    <loc>http://example.org/archive/api-develop/dr_api/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/pipeline/ed-to-di/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/contact/</loc>
     <lastmod>2023-03-14T00:00:00+00:00</lastmod>
@@ -41,13 +44,13 @@
     <loc>http://example.org/tags/bts/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/twe2_di/</loc>
+    <loc>http://example.org/archive/behind-the-scene/twe2_di/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/useful_sites/</loc>
+    <loc>http://example.org/archive/tips/useful_sites/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/res/</loc>
+    <loc>http://example.org/tags/tip/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/categories/</loc>
