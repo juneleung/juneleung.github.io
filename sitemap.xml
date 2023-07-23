@@ -35,9 +35,6 @@
     <loc>http://example.org/archive/api-develop/dr_api/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/pipeline/ed-to-di/</loc>
-    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/contact/</loc>
     <lastmod>2023-03-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -52,6 +49,9 @@
   </url><url>
     <loc>http://example.org/tags/tip/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/pipeline/ed-to-di/</loc>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/categories/</loc>
   </url>

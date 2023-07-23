@@ -33,19 +33,6 @@ OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVi
     </item>
     
     <item>
-      <title>剪辑和调色的交接物料 Turnover between editing and DI color grading</title>
-      <link>http://example.org/archive/pipeline/ed-to-di/</link>
-      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/archive/pipeline/ed-to-di/</guid>
-      <description>&lt;!DOCTYPE html&gt; 当你完成一个片子的剪辑之后，应该如何将你的工作完美的交接给DI呢？ &lt;!DOCTYPE html&gt; How to turn over your editing work to DI perfectly after you finish editing a film ? * 本文章所述不一定符合所有情况，请根据具体项目酌情进行修改。
-* The descriptions in this article may not be applicable to all situations, please modify as appropriate according to specific projects.
-&lt;!DOCTYPE html&gt; 1、导出参考小样 Export Reference 一个剪辑完成片的视频，以供调色公司的画面套底参考。
-A video of the edited film, as the DI&amp;rsquo;s conform reference.
-具体文件参数 File Parameters: 苹果平台 mac 格式 (Format) : Quciktime MOV 编码 (Codec) : Apple Prores 类型 (Type) : 422HQ/422/proxy 声音 (Audio) : PCM/AAC 视窗平台 windows 格式 (Format) : MXF 编码 (Codec) : DNxHD / DNxHR 类型 (Type) : 1080p 100/85/80 8bit / DNxHR SQ/LB 声音 (Audio) : PCM/AAC 如e.</description>
-    </item>
-    
-    <item>
       <title>流浪地球2 DI流程设计 The Wandering Earth II - DI Pipeline</title>
       <link>http://example.org/archive/behind-the-scene/twe2_di/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
@@ -63,6 +50,19 @@ A video of the edited film, as the DI&amp;rsquo;s conform reference.
       <description> 参考静帧 Reference
 Film-Grab: https://film-grab.com/ shotdeck: https://shotdeck.com/ 镜头测试 Lens Testing Lib
 sharegrid: https://www.sharegrid.com/learn </description>
+    </item>
+    
+    <item>
+      <title>剪辑和调色的交接物料 Turnover between editing and DI color grading</title>
+      <link>http://example.org/archive/pipeline/ed-to-di/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/pipeline/ed-to-di/</guid>
+      <description>&lt;!DOCTYPE html&gt; 当你完成一个片子的剪辑之后，应该如何将你的工作完美的交接给DI呢？ &lt;!DOCTYPE html&gt; How to turn over your editing work to DI perfectly after you finish editing a film ? * 本文章所述不一定符合所有情况，请根据具体项目酌情进行修改。
+* The descriptions in this article may not be applicable to all situations, please modify as appropriate according to specific projects.
+&lt;!DOCTYPE html&gt; 1、导出参考小样 Export Reference 一个剪辑完成片的视频，以供调色公司的画面套底参考。
+A video of the edited film, as the DI&amp;rsquo;s conform reference.
+具体文件参数 File Parameters: 苹果平台 mac 格式 (Format) : Quciktime MOV 编码 (Codec) : Apple Prores 类型 (Type) : 422HQ/422/proxy 声音 (Audio) : PCM/AAC 视窗平台 windows 格式 (Format) : MXF 编码 (Codec) : DNxHD / DNxHR 类型 (Type) : 1080p 100/85/80 8bit / DNxHR SQ/LB 声音 (Audio) : PCM/AAC 如e.</description>
     </item>
     
   </channel>
