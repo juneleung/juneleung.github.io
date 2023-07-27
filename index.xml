@@ -82,10 +82,10 @@ MORE REELS COMMING SOON &amp;hellip;</description>
     <item>
       <title>Davinci Resolve API</title>
       <link>http://example.org/archive/api-develop/dr_api/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/archive/api-develop/dr_api/</guid>
-      <description>API Updated as of 17 May 2023
+      <description>Updated as of 26 May 2023
 &lt;!DOCTYPE html&gt; Resolve Fusion() &amp;ndash;&amp;gt; Fusion % Returns the Fusion object. Starting point for Fusion scripts.
 GetMediaStorage() &amp;ndash;&amp;gt; MediaStorage % Returns the media storage object to query and act on media locations.
 GetProjectManager() &amp;ndash;&amp;gt; ProjectManager % Returns the project manager object for currently open database.
