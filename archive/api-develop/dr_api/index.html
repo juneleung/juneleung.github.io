@@ -68,49 +68,49 @@
 
 <p>Fusion()                                     <br>
 &ndash;&gt; Fusion          <br>
-%  Returns the Fusion object. Starting point for Fusion scripts.</p>
+% Returns the Fusion object. Starting point for Fusion scripts.</p>
 <p>GetMediaStorage()                            <br>
 &ndash;&gt; MediaStorage    <br>
-%  Returns the media storage object to query and act on media locations.</p>
+% Returns the media storage object to query and act on media locations.</p>
 <p>GetProjectManager()                          <br>
 &ndash;&gt; ProjectManager  <br>
-%  Returns the project manager object for currently open database.</p>
+% Returns the project manager object for currently open database.</p>
 <p>OpenPage(pageName)                           <br>
 &ndash;&gt; Bool            <br>
-%  Switches to indicated page in DaVinci Resolve. Input can be one of (&ldquo;media&rdquo;, &ldquo;cut&rdquo;, &ldquo;edit&rdquo;, &ldquo;fusion&rdquo;, &ldquo;color&rdquo;, &ldquo;fairlight&rdquo;, &ldquo;deliver&rdquo;).</p>
+% Switches to indicated page in DaVinci Resolve. Input can be one of (&ldquo;media&rdquo;, &ldquo;cut&rdquo;, &ldquo;edit&rdquo;, &ldquo;fusion&rdquo;, &ldquo;color&rdquo;, &ldquo;fairlight&rdquo;, &ldquo;deliver&rdquo;).</p>
 <p>GetCurrentPage()                             <br>
 &ndash;&gt; String          <br>
-%  Returns the page currently displayed in the main window. Returned value can be one of (&ldquo;media&rdquo;, &ldquo;cut&rdquo;, &ldquo;edit&rdquo;, &ldquo;fusion&rdquo;, &ldquo;color&rdquo;, &ldquo;fairlight&rdquo;, &ldquo;deliver&rdquo;, None).</p>
+% Returns the page currently displayed in the main window. Returned value can be one of (&ldquo;media&rdquo;, &ldquo;cut&rdquo;, &ldquo;edit&rdquo;, &ldquo;fusion&rdquo;, &ldquo;color&rdquo;, &ldquo;fairlight&rdquo;, &ldquo;deliver&rdquo;, None).</p>
 <p>GetProductName()                             <br>
 &ndash;&gt; string          <br>
-%  Returns product name.</p>
+% Returns product name.</p>
 <p>GetVersion()                                 <br>
 &ndash;&gt; [version fields]<br>
-%  Returns list of product version fields in [major, minor, patch, build, suffix] format.</p>
+% Returns list of product version fields in [major, minor, patch, build, suffix] format.</p>
 <p>GetVersionString()                           <br>
 &ndash;&gt; string          <br>
-%  Returns product version in &ldquo;major.minor.patch[suffix].build&rdquo; format.</p>
+% Returns product version in &ldquo;major.minor.patch[suffix].build&rdquo; format.</p>
 <p>LoadLayoutPreset(presetName)                 <br>
 &ndash;&gt; Bool            <br>
-%  Loads UI layout from saved preset named &lsquo;presetName&rsquo;.</p>
+% Loads UI layout from saved preset named &lsquo;presetName&rsquo;.</p>
 <p>UpdateLayoutPreset(presetName)               <br>
 &ndash;&gt; Bool            <br>
-%  Overwrites preset named &lsquo;presetName&rsquo; with current UI layout.</p>
+% Overwrites preset named &lsquo;presetName&rsquo; with current UI layout.</p>
 <p>ExportLayoutPreset(presetName, presetFilePath)<br>
 &ndash;&gt; Bool            <br>
-%  Exports preset named &lsquo;presetName&rsquo; to path &lsquo;presetFilePath&rsquo;.</p>
+% Exports preset named &lsquo;presetName&rsquo; to path &lsquo;presetFilePath&rsquo;.</p>
 <p>DeleteLayoutPreset(presetName)               <br>
 &ndash;&gt; Bool            <br>
-%  Deletes preset named &lsquo;presetName&rsquo;.</p>
+% Deletes preset named &lsquo;presetName&rsquo;.</p>
 <p>SaveLayoutPreset(presetName)                 <br>
 &ndash;&gt; Bool            <br>
-%  Saves current UI layout as a preset named &lsquo;presetName&rsquo;.</p>
+% Saves current UI layout as a preset named &lsquo;presetName&rsquo;.</p>
 <p>ImportLayoutPreset(presetFilePath, presetName)<br>
 &ndash;&gt; Bool            <br>
-%  Imports preset from path &lsquo;presetFilePath&rsquo;. The optional argument &lsquo;presetName&rsquo; specifies how the preset shall be named. If not specified, the preset is named based on the filename.</p>
+% Imports preset from path &lsquo;presetFilePath&rsquo;. The optional argument &lsquo;presetName&rsquo; specifies how the preset shall be named. If not specified, the preset is named based on the filename.</p>
 <p>Quit()                                       <br>
 &ndash;&gt; None            <br>
-%  Quits the Resolve App.</p>
+% Quits the Resolve App.</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -136,70 +136,70 @@ isArchiveSrcMedia=True,
 isArchiveRenderCache=True,
 isArchiveProxyMedia=False)    <br>
 &ndash;&gt; Bool            <br>
-%  Archives project to provided file path with the configuration as provided by the optional arguments</p>
+% Archives project to provided file path with the configuration as provided by the optional arguments</p>
 <p>CreateProject(projectName)                   <br>
 &ndash;&gt; Project         <br>
-%  Creates and returns a project if projectName (string) is unique, and None if it is not.</p>
+% Creates and returns a project if projectName (string) is unique, and None if it is not.</p>
 <p>DeleteProject(projectName)                   <br>
 &ndash;&gt; Bool            <br>
-%  Delete project in the current folder if not currently loaded</p>
+% Delete project in the current folder if not currently loaded</p>
 <p>LoadProject(projectName)                     <br>
 &ndash;&gt; Project         <br>
-%  Loads and returns the project with name = projectName (string) if there is a match found, and None if there is no matching Project.</p>
+% Loads and returns the project with name = projectName (string) if there is a match found, and None if there is no matching Project.</p>
 <p>GetCurrentProject()                          <br>
 &ndash;&gt; Project         <br>
-%  Returns the currently loaded Resolve project.</p>
+% Returns the currently loaded Resolve project.</p>
 <p>SaveProject()                                <br>
 &ndash;&gt; Bool            <br>
-%  Saves the currently loaded project with its own name. Returns True if successful.</p>
+% Saves the currently loaded project with its own name. Returns True if successful.</p>
 <p>CloseProject(project)                        <br>
 &ndash;&gt; Bool            <br>
-%  Closes the specified project without saving.</p>
+% Closes the specified project without saving.</p>
 <p>CreateFolder(folderName)                     <br>
 &ndash;&gt; Bool            <br>
-%  Creates a folder if folderName (string) is unique.</p>
+% Creates a folder if folderName (string) is unique.</p>
 <p>DeleteFolder(folderName)                     <br>
 &ndash;&gt; Bool            <br>
-%  Deletes the specified folder if it exists. Returns True in case of success.</p>
+% Deletes the specified folder if it exists. Returns True in case of success.</p>
 <p>GetProjectListInCurrentFolder()              <br>
 &ndash;&gt; [project names&hellip;]
-%  Returns a list of project names in current folder.</p>
+% Returns a list of project names in current folder.</p>
 <p>GetFolderListInCurrentFolder()               <br>
 &ndash;&gt; [folder names&hellip;]<br>
-%  Returns a list of folder names in current folder.</p>
+% Returns a list of folder names in current folder.</p>
 <p>GotoRootFolder()                             <br>
 &ndash;&gt; Bool            <br>
-%  Opens root folder in database.</p>
+% Opens root folder in database.</p>
 <p>GotoParentFolder()                           <br>
 &ndash;&gt; Bool            <br>
-%  Opens parent folder of current folder in database if current folder has parent.</p>
+% Opens parent folder of current folder in database if current folder has parent.</p>
 <p>GetCurrentFolder()                           <br>
 &ndash;&gt; string          <br>
-%  Returns the current folder name.</p>
+% Returns the current folder name.</p>
 <p>OpenFolder(folderName)                       <br>
 &ndash;&gt; Bool            <br>
-%  Opens folder under given name.</p>
+% Opens folder under given name.</p>
 <p>ImportProject(filePath, projectName=None)    <br>
 &ndash;&gt; Bool            <br>
-%  Imports a project from the file path provided with given project name, if any. Returns True if successful.</p>
+% Imports a project from the file path provided with given project name, if any. Returns True if successful.</p>
 <p>ExportProject(projectName, filePath, withStillsAndLUTs=True)
 &ndash;&gt; Bool<br>
-%  Exports project to provided file path, including stills and LUTs if withStillsAndLUTs is True (enabled by default). Returns True in case of success.</p>
+% Exports project to provided file path, including stills and LUTs if withStillsAndLUTs is True (enabled by default). Returns True in case of success.</p>
 <p>RestoreProject(filePath, projectName=None)   <br>
 &ndash;&gt; Bool            <br>
-%  Restores a project from the file path provided with given project name, if any. Returns True if successful.</p>
+% Restores a project from the file path provided with given project name, if any. Returns True if successful.</p>
 <p>GetCurrentDatabase()                         <br>
 &ndash;&gt; {dbInfo}        <br>
-%  Returns a dictionary (with keys &lsquo;DbType&rsquo;, &lsquo;DbName&rsquo; and optional &lsquo;IpAddress&rsquo;) corresponding to the current database connection</p>
+% Returns a dictionary (with keys &lsquo;DbType&rsquo;, &lsquo;DbName&rsquo; and optional &lsquo;IpAddress&rsquo;) corresponding to the current database connection</p>
 <p>GetDatabaseList()                            <br>
 &ndash;&gt; [{dbInfo}]      <br>
-%  Returns a list of dictionary items (with keys &lsquo;DbType&rsquo;, &lsquo;DbName&rsquo; and optional &lsquo;IpAddress&rsquo;) corresponding to all the databases added to Resolve</p>
+% Returns a list of dictionary items (with keys &lsquo;DbType&rsquo;, &lsquo;DbName&rsquo; and optional &lsquo;IpAddress&rsquo;) corresponding to all the databases added to Resolve</p>
 <p>SetCurrentDatabase({dbInfo})                 <br>
 &ndash;&gt; Bool            <br>
-%  Switches current database connection to the database specified by the keys below, and closes any open project.</p>
-<p>%  &lsquo;DbType&rsquo;: &lsquo;Disk&rsquo; or &lsquo;PostgreSQL&rsquo; (string)</p>
-<p>%  &lsquo;DbName&rsquo;: database name (string)</p>
-<p>%  &lsquo;IpAddress&rsquo;: IP address of the PostgreSQL server (string, optional key - defaults to &lsquo;127.0.0.1&rsquo;)</p>
+% Switches current database connection to the database specified by the keys below, and closes any open project.
+% &lsquo;DbType&rsquo;: &lsquo;Disk&rsquo; or &lsquo;PostgreSQL&rsquo; (string)
+% &lsquo;DbName&rsquo;: database name (string)
+% &lsquo;IpAddress&rsquo;: IP address of the PostgreSQL server (string, optional key - defaults to &lsquo;127.0.0.1&rsquo;)</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -221,123 +221,123 @@ isArchiveProxyMedia=False)    <br>
 
 <p>GetMediaPool()                               <br>
 &ndash;&gt; MediaPool       <br>
-%  Returns the Media Pool object.</p>
+% Returns the Media Pool object.</p>
 <p>GetTimelineCount()                           <br>
 &ndash;&gt; int             <br>
-%  Returns the number of timelines currently present in the project.</p>
+% Returns the number of timelines currently present in the project.</p>
 <p>GetTimelineByIndex(idx)                      <br>
 &ndash;&gt; Timeline        <br>
-%  Returns timeline at the given index, 1 &lt;= idx &lt;= project.GetTimelineCount()</p>
+% Returns timeline at the given index, 1 &lt;= idx &lt;= project.GetTimelineCount()</p>
 <p>GetCurrentTimeline()                         <br>
 &ndash;&gt; Timeline        <br>
-%  Returns the currently loaded timeline.</p>
+% Returns the currently loaded timeline.</p>
 <p>SetCurrentTimeline(timeline)                 <br>
 &ndash;&gt; Bool            <br>
-%  Sets given timeline as current timeline for the project. Returns True if successful.</p>
+% Sets given timeline as current timeline for the project. Returns True if successful.</p>
 <p>GetGallery()                                 <br>
 &ndash;&gt; Gallery         <br>
-%  Returns the Gallery object.</p>
+% Returns the Gallery object.</p>
 <p>GetName()                                    <br>
 &ndash;&gt; string          <br>
-%  Returns project name.</p>
+% Returns project name.</p>
 <p>SetName(projectName)                         <br>
 &ndash;&gt; Bool            <br>
-%  Sets project name if given projectName (string) is unique.</p>
+% Sets project name if given projectName (string) is unique.</p>
 <p>GetPresetList()                              <br>
 &ndash;&gt; [presets&hellip;]    <br>
-%  Returns a list of presets and their information.</p>
+% Returns a list of presets and their information.</p>
 <p>SetPreset(presetName)                        <br>
 &ndash;&gt; Bool            <br>
-%  Sets preset by given presetName (string) into project.</p>
+% Sets preset by given presetName (string) into project.</p>
 <p>AddRenderJob()                               <br>
 &ndash;&gt; string          <br>
-%  Adds a render job based on current render settings to the render queue. Returns a unique job id (string) for the new render job.</p>
+% Adds a render job based on current render settings to the render queue. Returns a unique job id (string) for the new render job.</p>
 <p>DeleteRenderJob(jobId)                       <br>
 &ndash;&gt; Bool            <br>
-%  Deletes render job for input job id (string).</p>
+% Deletes render job for input job id (string).</p>
 <p>DeleteAllRenderJobs()                        <br>
 &ndash;&gt; Bool            <br>
-%  Deletes all render jobs in the queue.</p>
+% Deletes all render jobs in the queue.</p>
 <p>GetRenderJobList()                           <br>
 &ndash;&gt; [render jobs&hellip;]<br>
-%  Returns a list of render jobs and their information.</p>
+% Returns a list of render jobs and their information.</p>
 <p>GetRenderPresetList()                        <br>
 &ndash;&gt; [presets&hellip;]    <br>
-%  Returns a list of render presets and their information.</p>
+% Returns a list of render presets and their information.</p>
 <p>StartRendering(jobId1, jobId2, &hellip;)          <br>
 &ndash;&gt; Bool            <br>
-%  Starts rendering jobs indicated by the input job ids.</p>
+% Starts rendering jobs indicated by the input job ids.</p>
 <p>StartRendering([jobIds&hellip;], isInteractiveMode=False) <br>
 &ndash;&gt; Bool    <br>
-%  Starts rendering jobs indicated by the input job ids.</p>
-<p>%  The optional &ldquo;isInteractiveMode&rdquo;, when set, enables error feedback in the UI during rendering.</p>
+% Starts rendering jobs indicated by the input job ids.
+% The optional &ldquo;isInteractiveMode&rdquo;, when set, enables error feedback in the UI during rendering.</p>
 <p>StartRendering(isInteractiveMode=False)              <br>
 &ndash;&gt; Bool    <br>
-%  Starts rendering all queued render jobs.</p>
-<p>%  The optional &ldquo;isInteractiveMode&rdquo;, when set, enables error feedback in the UI during rendering.</p>
+% Starts rendering all queued render jobs.
+% The optional &ldquo;isInteractiveMode&rdquo;, when set, enables error feedback in the UI during rendering.</p>
 <p>StopRendering()                              <br>
 &ndash;&gt; None            <br>
-%  Stops any current render processes.</p>
+% Stops any current render processes.</p>
 <p>IsRenderingInProgress()                      <br>
 &ndash;&gt; Bool            <br>
-%  Returns True if rendering is in progress.</p>
+% Returns True if rendering is in progress.</p>
 <p>LoadRenderPreset(presetName)                 <br>
 &ndash;&gt; Bool            <br>
-%  Sets a preset as current preset for rendering if presetName (string) exists.</p>
+% Sets a preset as current preset for rendering if presetName (string) exists.</p>
 <p>SaveAsNewRenderPreset(presetName)            <br>
 &ndash;&gt; Bool            <br>
-%  Creates new render preset by given name if presetName(string) is unique.</p>
+% Creates new render preset by given name if presetName(string) is unique.</p>
 <p>SetRenderSettings({settings})                <br>
 &ndash;&gt; Bool            <br>
-%  Sets given settings for rendering. Settings is a dict, with support for the keys:</p>
-<p>%  Refer to &ldquo;Looking up render settings&rdquo; section for information for supported settings</p>
+% Sets given settings for rendering. Settings is a dict, with support for the keys:
+% Refer to &ldquo;Looking up render settings&rdquo; section for information for supported settings</p>
 <p>GetRenderJobStatus(jobId)                    <br>
 &ndash;&gt; {status info}   <br>
-%  Returns a dict with job status and completion percentage of the job by given jobId (string).</p>
+% Returns a dict with job status and completion percentage of the job by given jobId (string).</p>
 <p>GetSetting(settingName)                      <br>
 &ndash;&gt; string          <br>
-%  Returns value of project setting (indicated by settingName, string). Check the section below for more information.</p>
+% Returns value of project setting (indicated by settingName, string). Check the section below for more information.</p>
 <p>SetSetting(settingName, settingValue)        <br>
 &ndash;&gt; Bool            <br>
-%  Sets the project setting (indicated by settingName, string) to the value (settingValue, string). Check the section below for more information.</p>
+% Sets the project setting (indicated by settingName, string) to the value (settingValue, string). Check the section below for more information.</p>
 <p>GetRenderFormats()                           <br>
 &ndash;&gt; {render formats..}
-%  Returns a dict (format -&gt; file extension) of available render formats.</p>
+% Returns a dict (format -&gt; file extension) of available render formats.</p>
 <p>GetRenderCodecs(renderFormat)                <br>
 &ndash;&gt; {render codecs&hellip;}
-%  Returns a dict (codec description -&gt; codec name) of available codecs for given render format (string).</p>
+% Returns a dict (codec description -&gt; codec name) of available codecs for given render format (string).</p>
 <p>GetCurrentRenderFormatAndCodec()             <br>
 &ndash;&gt; {format, codec} <br>
-%  Returns a dict with currently selected format &lsquo;format&rsquo; and render codec &lsquo;codec&rsquo;.</p>
+% Returns a dict with currently selected format &lsquo;format&rsquo; and render codec &lsquo;codec&rsquo;.</p>
 <p>SetCurrentRenderFormatAndCodec(format, codec)<br>
 &ndash;&gt; Bool            <br>
-%  Sets given render format (string) and render codec (string) as options for rendering.</p>
+% Sets given render format (string) and render codec (string) as options for rendering.</p>
 <p>GetCurrentRenderMode()                       <br>
 &ndash;&gt; int             <br>
-%  Returns the render mode: 0 - Individual clips, 1 - Single clip.</p>
+% Returns the render mode: 0 - Individual clips, 1 - Single clip.</p>
 <p>SetCurrentRenderMode(renderMode)             <br>
 &ndash;&gt; Bool            <br>
-%  Sets the render mode. Specify renderMode = 0 for Individual clips, 1 for Single clip.</p>
+% Sets the render mode. Specify renderMode = 0 for Individual clips, 1 for Single clip.</p>
 <p>GetRenderResolutions(format, codec)          <br>
 &ndash;&gt; [{Resolution}]  <br>
-%  Returns list of resolutions applicable for the given render format (string) and render codec (string). Returns full list of resolutions if no argument is provided. Each element in the list is a dictionary with 2 keys &ldquo;Width&rdquo; and &ldquo;Height&rdquo;.</p>
+% Returns list of resolutions applicable for the given render format (string) and render codec (string). Returns full list of resolutions if no argument is provided. Each element in the list is a dictionary with 2 keys &ldquo;Width&rdquo; and &ldquo;Height&rdquo;.</p>
 <p>RefreshLUTList()                             <br>
 &ndash;&gt; Bool            <br>
-%  Refreshes LUT List</p>
+% Refreshes LUT List</p>
 <p>GetUniqueId()                                <br>
 &ndash;&gt; string          <br>
-%  Returns a unique ID for the project item</p>
+% Returns a unique ID for the project item</p>
 <p>InsertAudioToCurrentTrackAtPlayhead(mediaPath,<br>
 &ndash;&gt; Bool            <br>
-%  Inserts the media specified by mediaPath (string) with startOffsetInSamples (int) and durationInSamples (int) at the playhead on a selected track on the Fairlight page. Returns True if successful, otherwise False.</p>
+% Inserts the media specified by mediaPath (string) with startOffsetInSamples (int) and durationInSamples (int) at the playhead on a selected track on the Fairlight page. Returns True if successful, otherwise False.</p>
 <pre><code>      startOffsetInSamples, durationInSamples)
 </code></pre>
 <p>LoadBurnInPreset(presetName)                 <br>
 &ndash;&gt; Bool            <br>
-%  Loads user defined data burn in preset for project when supplied presetName (string). Returns true if successful.</p>
+% Loads user defined data burn in preset for project when supplied presetName (string). Returns true if successful.</p>
 <p>ExportCurrentFrameAsStill(filePath)          <br>
 &ndash;&gt; Bool            <br>
-%  Exports current frame as still to supplied filePath. filePath must end in valid export file format. Returns True if succssful, False otherwise.</p>
+% Exports current frame as still to supplied filePath. filePath must end in valid export file format. Returns True if succssful, False otherwise.</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -359,31 +359,31 @@ isArchiveProxyMedia=False)    <br>
 
 <p>GetMountedVolumeList()                       <br>
 &ndash;&gt; [paths&hellip;]      <br>
-%  Returns list of folder paths corresponding to mounted volumes displayed in Resolve’s Media Storage.</p>
+% Returns list of folder paths corresponding to mounted volumes displayed in Resolve’s Media Storage.</p>
 <p>GetSubFolderList(folderPath)                 <br>
 &ndash;&gt; [paths&hellip;]      <br>
-%  Returns list of folder paths in the given absolute folder path.</p>
+% Returns list of folder paths in the given absolute folder path.</p>
 <p>GetFileList(folderPath)                      <br>
 &ndash;&gt; [paths&hellip;]      <br>
-%  Returns list of media and file listings in the given absolute folder path. Note that media listings may be logically consolidated entries.</p>
+% Returns list of media and file listings in the given absolute folder path. Note that media listings may be logically consolidated entries.</p>
 <p>RevealInStorage(path)                        <br>
 &ndash;&gt; Bool            <br>
-%  Expands and displays given file/folder path in Resolve’s Media Storage.</p>
+% Expands and displays given file/folder path in Resolve’s Media Storage.</p>
 <p>AddItemListToMediaPool(item1, item2, &hellip;)    <br>
 &ndash;&gt; [clips&hellip;]      <br>
-%  Adds specified file/folder paths from Media Storage into current Media Pool folder. Input is one or more file/folder paths. Returns a list of the MediaPoolItems created.</p>
+% Adds specified file/folder paths from Media Storage into current Media Pool folder. Input is one or more file/folder paths. Returns a list of the MediaPoolItems created.</p>
 <p>AddItemListToMediaPool([items&hellip;])           <br>
 &ndash;&gt; [clips&hellip;]      <br>
-%  Adds specified file/folder paths from Media Storage into current Media Pool folder. Input is an array of file/folder paths. Returns a list of the MediaPoolItems created.</p>
+% Adds specified file/folder paths from Media Storage into current Media Pool folder. Input is an array of file/folder paths. Returns a list of the MediaPoolItems created.</p>
 <p>AddItemListToMediaPool([{itemInfo}, &hellip;])    <br>
 &ndash;&gt; [clips&hellip;]      <br>
-%  Adds list of itemInfos specified as dict of &ldquo;media&rdquo;, &ldquo;startFrame&rdquo; (int), &ldquo;endFrame&rdquo; (int) from Media Storage into current Media Pool folder. Returns a list of the MediaPoolItems created.</p>
+% Adds list of itemInfos specified as dict of &ldquo;media&rdquo;, &ldquo;startFrame&rdquo; (int), &ldquo;endFrame&rdquo; (int) from Media Storage into current Media Pool folder. Returns a list of the MediaPoolItems created.</p>
 <p>AddClipMattesToMediaPool(MediaPoolItem, [paths], stereoEye)
 &ndash;&gt; Bool<br>
-%  Adds specified media files as mattes for the specified MediaPoolItem. StereoEye is an optional argument for specifying which eye to add the matte to for stereo clips (&ldquo;left&rdquo; or &ldquo;right&rdquo;). Returns True if successful.</p>
+% Adds specified media files as mattes for the specified MediaPoolItem. StereoEye is an optional argument for specifying which eye to add the matte to for stereo clips (&ldquo;left&rdquo; or &ldquo;right&rdquo;). Returns True if successful.</p>
 <p>AddTimelineMattesToMediaPool([paths])        <br>
 &ndash;&gt; [MediaPoolItems]<br>
-%  Adds specified media files as timeline mattes in current media pool folder. Returns a list of created MediaPoolItems.</p>
+% Adds specified media files as timeline mattes in current media pool folder. Returns a list of created MediaPoolItems.</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -405,97 +405,97 @@ isArchiveProxyMedia=False)    <br>
 
 <p>GetRootFolder()                              <br>
 &ndash;&gt; Folder          <br>
-%  Returns root Folder of Media Pool</p>
+% Returns root Folder of Media Pool</p>
 <p>AddSubFolder(folder, name)                   <br>
 &ndash;&gt; Folder          <br>
-%  Adds new subfolder under specified Folder object with the given name.</p>
+% Adds new subfolder under specified Folder object with the given name.</p>
 <p>RefreshFolders()                             <br>
 &ndash;&gt; Bool            <br>
-%  Updates the folders in collaboration mode</p>
+% Updates the folders in collaboration mode</p>
 <p>CreateEmptyTimeline(name)                    <br>
 &ndash;&gt; Timeline        <br>
-%  Adds new timeline with given name.</p>
+% Adds new timeline with given name.</p>
 <p>AppendToTimeline(clip1, clip2, &hellip;)          <br>
 &ndash;&gt; [TimelineItem]  <br>
-%  Appends specified MediaPoolItem objects in the current timeline. Returns the list of appended timelineItems.</p>
+% Appends specified MediaPoolItem objects in the current timeline. Returns the list of appended timelineItems.</p>
 <p>AppendToTimeline([clips])                    <br>
 &ndash;&gt; [TimelineItem]  <br>
-%  Appends specified MediaPoolItem objects in the current timeline. Returns the list of appended timelineItems.</p>
+% Appends specified MediaPoolItem objects in the current timeline. Returns the list of appended timelineItems.</p>
 <p>AppendToTimeline([{clipInfo}, &hellip;])          <br>
 &ndash;&gt; [TimelineItem]  <br>
-%  Appends list of clipInfos specified as dict of &ldquo;mediaPoolItem&rdquo;, &ldquo;startFrame&rdquo; (int), &ldquo;endFrame&rdquo; (int), (optional) &ldquo;mediaType&rdquo; (int; 1 - Video only, 2 - Audio only), &ldquo;trackIndex&rdquo; (int) and &ldquo;recordFrame&rdquo; (int). Returns the list of appended timelineItems.</p>
+% Appends list of clipInfos specified as dict of &ldquo;mediaPoolItem&rdquo;, &ldquo;startFrame&rdquo; (int), &ldquo;endFrame&rdquo; (int), (optional) &ldquo;mediaType&rdquo; (int; 1 - Video only, 2 - Audio only), &ldquo;trackIndex&rdquo; (int) and &ldquo;recordFrame&rdquo; (int). Returns the list of appended timelineItems.</p>
 <p>CreateTimelineFromClips(name, clip1, clip2,&hellip;)
 &ndash;&gt; Timeline        <br>
-%  Creates new timeline with specified name, and appends the specified MediaPoolItem objects.</p>
+% Creates new timeline with specified name, and appends the specified MediaPoolItem objects.</p>
 <p>CreateTimelineFromClips(name, [clips])       <br>
 &ndash;&gt; Timeline        <br>
-%  Creates new timeline with specified name, and appends the specified MediaPoolItem objects.</p>
+% Creates new timeline with specified name, and appends the specified MediaPoolItem objects.</p>
 <p>CreateTimelineFromClips(name, [{clipInfo}])  <br>
 &ndash;&gt; Timeline        <br>
-%  Creates new timeline with specified name, appending the list of clipInfos specified as a dict of &ldquo;mediaPoolItem&rdquo;, &ldquo;startFrame&rdquo; (int), &ldquo;endFrame&rdquo; (int), &ldquo;recordFrame&rdquo; (int).</p>
+% Creates new timeline with specified name, appending the list of clipInfos specified as a dict of &ldquo;mediaPoolItem&rdquo;, &ldquo;startFrame&rdquo; (int), &ldquo;endFrame&rdquo; (int), &ldquo;recordFrame&rdquo; (int).</p>
 <p>ImportTimelineFromFile(filePath, {importOptions})
 &ndash;&gt; Timeline      <br>
-%  Creates timeline based on parameters within given file (AAF/EDL/XML/FCPXML/DRT/ADL) and optional importOptions dict, with support for the keys:</p>
-<p>%  &ldquo;timelineName&rdquo;: string, specifies the name of the timeline to be created. Not valid for DRT import</p>
-<p>%  &ldquo;importSourceClips&rdquo;: Bool, specifies whether source clips should be imported, True by default. Not valid for DRT import</p>
-<p>%  &ldquo;sourceClipsPath&rdquo;: string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if &ldquo;importSourceClips&rdquo; is True</p>
-<p>%  &ldquo;sourceClipsFolders&rdquo;: List of Media Pool folder objects to search for source clips if the media is not present in current folder and if &ldquo;importSourceClips&rdquo; is False. Not valid for DRT import</p>
-<p>%  &ldquo;interlaceProcessing&rdquo;: Bool, specifies whether to enable interlace processing on the imported timeline being created. valid only for AAF import</p>
+% Creates timeline based on parameters within given file (AAF/EDL/XML/FCPXML/DRT/ADL) and optional importOptions dict, with support for the keys:
+% &ldquo;timelineName&rdquo;: string, specifies the name of the timeline to be created. Not valid for DRT import
+% &ldquo;importSourceClips&rdquo;: Bool, specifies whether source clips should be imported, True by default. Not valid for DRT import
+% &ldquo;sourceClipsPath&rdquo;: string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if &ldquo;importSourceClips&rdquo; is True
+% &ldquo;sourceClipsFolders&rdquo;: List of Media Pool folder objects to search for source clips if the media is not present in current folder and if &ldquo;importSourceClips&rdquo; is False. Not valid for DRT import
+% &ldquo;interlaceProcessing&rdquo;: Bool, specifies whether to enable interlace processing on the imported timeline being created. valid only for AAF import</p>
 <p>DeleteTimelines([timeline])                  <br>
 &ndash;&gt; Bool            <br>
-%  Deletes specified timelines in the media pool.</p>
+% Deletes specified timelines in the media pool.</p>
 <p>GetCurrentFolder()                           <br>
 &ndash;&gt; Folder          <br>
-%  Returns currently selected Folder.</p>
+% Returns currently selected Folder.</p>
 <p>SetCurrentFolder(Folder)                     <br>
 &ndash;&gt; Bool            <br>
-%  Sets current folder by given Folder.</p>
+% Sets current folder by given Folder.</p>
 <p>DeleteClips([clips])                         <br>
 &ndash;&gt; Bool            <br>
-%  Deletes specified clips or timeline mattes in the media pool</p>
+% Deletes specified clips or timeline mattes in the media pool</p>
 <p>ImportFolderFromFile(filePath, sourceClipsPath=&quot;&quot;)
 &ndash;&gt; Bool         <br>
-%  Returns true if import from given DRB filePath is successful, false otherwise</p>
-<p>%  sourceClipsPath is a string that specifies a filesystem path to search for source clips if the media is inaccessible in their original path, empty by default</p>
+% Returns true if import from given DRB filePath is successful, false otherwise
+% sourceClipsPath is a string that specifies a filesystem path to search for source clips if the media is inaccessible in their original path, empty by default</p>
 <p>DeleteFolders([subfolders])                  <br>
 &ndash;&gt; Bool            <br>
-%  Deletes specified subfolders in the media pool</p>
+% Deletes specified subfolders in the media pool</p>
 <p>MoveClips([clips], targetFolder)             <br>
 &ndash;&gt; Bool            <br>
-%  Moves specified clips to target folder.</p>
+% Moves specified clips to target folder.</p>
 <p>MoveFolders([folders], targetFolder)         <br>
 &ndash;&gt; Bool            <br>
-%  Moves specified folders to target folder.</p>
+% Moves specified folders to target folder.</p>
 <p>GetClipMatteList(MediaPoolItem)              <br>
 &ndash;&gt; [paths]         <br>
-%  Get mattes for specified MediaPoolItem, as a list of paths to the matte files.</p>
+% Get mattes for specified MediaPoolItem, as a list of paths to the matte files.</p>
 <p>GetTimelineMatteList(Folder)                 <br>
 &ndash;&gt; [MediaPoolItems]<br>
-%  Get mattes in specified Folder, as list of MediaPoolItems.</p>
+% Get mattes in specified Folder, as list of MediaPoolItems.</p>
 <p>DeleteClipMattes(MediaPoolItem, [paths])     <br>
 &ndash;&gt; Bool            <br>
-%  Delete mattes based on their file paths, for specified MediaPoolItem. Returns True on success.</p>
+% Delete mattes based on their file paths, for specified MediaPoolItem. Returns True on success.</p>
 <p>RelinkClips([MediaPoolItem], folderPath)     <br>
 &ndash;&gt; Bool            <br>
-%  Update the folder location of specified media pool clips with the specified folder path.</p>
+% Update the folder location of specified media pool clips with the specified folder path.</p>
 <p>UnlinkClips([MediaPoolItem])                 <br>
 &ndash;&gt; Bool            <br>
-%  Unlink specified media pool clips.</p>
+% Unlink specified media pool clips.</p>
 <p>ImportMedia([items&hellip;])                      <br>
 &ndash;&gt; [MediaPoolItems]<br>
-%  Imports specified file/folder paths into current Media Pool folder. Input is an array of file/folder paths. Returns a list of the MediaPoolItems created.</p>
+% Imports specified file/folder paths into current Media Pool folder. Input is an array of file/folder paths. Returns a list of the MediaPoolItems created.</p>
 <p>ImportMedia([{clipInfo}])                    <br>
 &ndash;&gt; [MediaPoolItems]<br>
-%  Imports file path(s) into current Media Pool folder as specified in list of clipInfo dict. Returns a list of the MediaPoolItems created.</p>
-<p>%  Each clipInfo gets imported as one MediaPoolItem unless &lsquo;Show Individual Frames&rsquo; is turned on.</p>
-<p>%  Example: ImportMedia([{&ldquo;FilePath&rdquo;:&ldquo;file_%03d.dpx&rdquo;, &ldquo;StartIndex&rdquo;:1, &ldquo;EndIndex&rdquo;:100}]) would import clip &ldquo;file_[001-100].dpx&rdquo;.</p>
+% Imports file path(s) into current Media Pool folder as specified in list of clipInfo dict. Returns a list of the MediaPoolItems created.
+% Each clipInfo gets imported as one MediaPoolItem unless &lsquo;Show Individual Frames&rsquo; is turned on.
+% Example: ImportMedia([{&ldquo;FilePath&rdquo;:&ldquo;file_%03d.dpx&rdquo;, &ldquo;StartIndex&rdquo;:1, &ldquo;EndIndex&rdquo;:100}]) would import clip &ldquo;file_[001-100].dpx&rdquo;.</p>
 <p>ExportMetadata(fileName, [clips])            <br>
 &ndash;&gt; Bool            <br>
-%  Exports metadata of specified clips to &lsquo;fileName&rsquo; in CSV format.</p>
-<p>%  If no clips are specified, all clips from media pool will be used.</p>
+% Exports metadata of specified clips to &lsquo;fileName&rsquo; in CSV format.
+% If no clips are specified, all clips from media pool will be used.</p>
 <p>GetUniqueId()                                <br>
 &ndash;&gt; string          <br>
-%  Returns a unique ID for the media pool</p>
+% Returns a unique ID for the media pool</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -517,22 +517,22 @@ isArchiveProxyMedia=False)    <br>
 
 <p>GetClipList()                                <br>
 &ndash;&gt; [clips&hellip;]      <br>
-%  Returns a list of clips (items) within the folder.</p>
+% Returns a list of clips (items) within the folder.</p>
 <p>GetName()                                    <br>
 &ndash;&gt; string          <br>
-%  Returns the media folder name.</p>
+% Returns the media folder name.</p>
 <p>GetSubFolderList()                           <br>
 &ndash;&gt; [folders&hellip;]    <br>
-%  Returns a list of subfolders in the folder.</p>
+% Returns a list of subfolders in the folder.</p>
 <p>GetIsFolderStale()                           <br>
 &ndash;&gt; bool            <br>
-%  Returns true if folder is stale in collaboration mode, false otherwise</p>
+% Returns true if folder is stale in collaboration mode, false otherwise</p>
 <p>GetUniqueId()                                <br>
 &ndash;&gt; string          <br>
-%  Returns a unique ID for the media pool folder</p>
+% Returns a unique ID for the media pool folder</p>
 <p>Export(filePath)                             <br>
 &ndash;&gt; bool            <br>
-%  Returns true if export of DRB folder to filePath is successful, false otherwise</p>
+% Returns true if export of DRB folder to filePath is successful, false otherwise</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -554,91 +554,89 @@ isArchiveProxyMedia=False)    <br>
 
 <p>GetName()                                    <br>
 &ndash;&gt; string          <br>
-%  Returns the clip name.</p>
+% Returns the clip name.</p>
 <p>GetMetadata(metadataType=None)               <br>
 &ndash;&gt; string|dict     <br>
-%  Returns the metadata value for the key &lsquo;metadataType&rsquo;.</p>
-<p>%  If no argument is specified, a dict of all set metadata properties is returned.</p>
+% Returns the metadata value for the key &lsquo;metadataType&rsquo;.
+% If no argument is specified, a dict of all set metadata properties is returned.</p>
 <p>SetMetadata(metadataType, metadataValue)     <br>
 &ndash;&gt; Bool            <br>
-%  Sets the given metadata to metadataValue (string). Returns True if successful.</p>
+% Sets the given metadata to metadataValue (string). Returns True if successful.</p>
 <p>SetMetadata({metadata})                      <br>
 &ndash;&gt; Bool            <br>
-%  Sets the item metadata with specified &lsquo;metadata&rsquo; dict. Returns True if successful.</p>
+% Sets the item metadata with specified &lsquo;metadata&rsquo; dict. Returns True if successful.</p>
 <p>GetMediaId()                                 <br>
 &ndash;&gt; string          <br>
-%  Returns the unique ID for the MediaPoolItem.</p>
-<p>AddMarker(frameId, color, name, note, duration,
+% Returns the unique ID for the MediaPoolItem.</p>
+<p>AddMarker(frameId, color, name, note, duration, customData)
 &ndash;&gt; Bool            <br>
-%  Creates a new marker at given frameId position and with given marker information. &lsquo;customData&rsquo; is optional and helps to attach user specific data to the marker.</p>
-<pre><code>        customData)
-</code></pre>
+% Creates a new marker at given frameId position and with given marker information. &lsquo;customData&rsquo; is optional and helps to attach user specific data to the marker.</p>
 <p>GetMarkers()                                 <br>
 &ndash;&gt; {markers&hellip;}    <br>
-%  Returns a dict (frameId -&gt; {information}) of all markers and dicts with their information.</p>
-<p>%  Example of output format: {96.0: {&lsquo;color&rsquo;: &lsquo;Green&rsquo;, &lsquo;duration&rsquo;: 1.0, &rsquo;note&rsquo;: &lsquo;&rsquo;, &rsquo;name&rsquo;: &lsquo;Marker 1&rsquo;, &lsquo;customData&rsquo;: &lsquo;&rsquo;}, &hellip;}</p>
-<p>%  In the above example - there is one &lsquo;Green&rsquo; marker at offset 96 (position of the marker)</p>
+% Returns a dict (frameId -&gt; {information}) of all markers and dicts with their information.
+% Example of output format: {96.0: {&lsquo;color&rsquo;: &lsquo;Green&rsquo;, &lsquo;duration&rsquo;: 1.0, &rsquo;note&rsquo;: &lsquo;&rsquo;, &rsquo;name&rsquo;: &lsquo;Marker 1&rsquo;, &lsquo;customData&rsquo;: &lsquo;&rsquo;}, &hellip;}
+% In the above example - there is one &lsquo;Green&rsquo; marker at offset 96 (position of the marker)</p>
 <p>GetMarkerByCustomData(customData)            <br>
 &ndash;&gt; {markers&hellip;}    <br>
-%  Returns marker {information} for the first matching marker with specified customData.</p>
+% Returns marker {information} for the first matching marker with specified customData.</p>
 <p>UpdateMarkerCustomData(frameId, customData)  <br>
 &ndash;&gt; Bool            <br>
-%  Updates customData (string) for the marker at given frameId position. CustomData is not exposed via UI and is useful for scripting developer to attach any user specific data to markers.</p>
+% Updates customData (string) for the marker at given frameId position. CustomData is not exposed via UI and is useful for scripting developer to attach any user specific data to markers.</p>
 <p>GetMarkerCustomData(frameId)                 <br>
 &ndash;&gt; string          <br>
-%  Returns customData string for the marker at given frameId position.</p>
+% Returns customData string for the marker at given frameId position.</p>
 <p>DeleteMarkersByColor(color)                  <br>
 &ndash;&gt; Bool            <br>
-%  Delete all markers of the specified color from the media pool item. &ldquo;All&rdquo; as argument deletes all color markers.</p>
+% Delete all markers of the specified color from the media pool item. &ldquo;All&rdquo; as argument deletes all color markers.</p>
 <p>DeleteMarkerAtFrame(frameNum)                <br>
 &ndash;&gt; Bool            <br>
-%  Delete marker at frame number from the media pool item.</p>
+% Delete marker at frame number from the media pool item.</p>
 <p>DeleteMarkerByCustomData(customData)         <br>
 &ndash;&gt; Bool            <br>
-%  Delete first matching marker with specified customData.</p>
+% Delete first matching marker with specified customData.</p>
 <p>AddFlag(color)                               <br>
 &ndash;&gt; Bool            <br>
-%  Adds a flag with given color (string).</p>
+% Adds a flag with given color (string).</p>
 <p>GetFlagList()                                <br>
 &ndash;&gt; [colors&hellip;]     <br>
-%  Returns a list of flag colors assigned to the item.</p>
+% Returns a list of flag colors assigned to the item.</p>
 <p>ClearFlags(color)                            <br>
 &ndash;&gt; Bool            <br>
-%  Clears the flag of the given color if one exists. An &ldquo;All&rdquo; argument is supported and clears all flags.</p>
+% Clears the flag of the given color if one exists. An &ldquo;All&rdquo; argument is supported and clears all flags.</p>
 <p>GetClipColor()                               <br>
 &ndash;&gt; string          <br>
-%  Returns the item color as a string.</p>
+% Returns the item color as a string.</p>
 <p>SetClipColor(colorName)                      <br>
 &ndash;&gt; Bool            <br>
-%  Sets the item color based on the colorName (string).</p>
+% Sets the item color based on the colorName (string).</p>
 <p>ClearClipColor()                             <br>
 &ndash;&gt; Bool            <br>
-%  Clears the item color.</p>
+% Clears the item color.</p>
 <p>GetClipProperty(propertyName=None)           <br>
 &ndash;&gt; string|dict     <br>
-%  Returns the property value for the key &lsquo;propertyName&rsquo;.</p>
-<p>%  If no argument is specified, a dict of all clip properties is returned. Check the section below for more information.</p>
+% Returns the property value for the key &lsquo;propertyName&rsquo;.
+% If no argument is specified, a dict of all clip properties is returned. Check the section below for more information.</p>
 <p>SetClipProperty(propertyName, propertyValue) <br>
 &ndash;&gt; Bool            <br>
-%  Sets the given property to propertyValue (string). Check the section below for more information.</p>
+% Sets the given property to propertyValue (string). Check the section below for more information.</p>
 <p>LinkProxyMedia(proxyMediaFilePath)           <br>
 &ndash;&gt; Bool            <br>
-%  Links proxy media located at path specified by arg &lsquo;proxyMediaFilePath&rsquo; with the current clip. &lsquo;proxyMediaFilePath&rsquo; should be absolute clip path.</p>
+% Links proxy media located at path specified by arg &lsquo;proxyMediaFilePath&rsquo; with the current clip. &lsquo;proxyMediaFilePath&rsquo; should be absolute clip path.</p>
 <p>UnlinkProxyMedia()                           <br>
 &ndash;&gt; Bool            <br>
-%  Unlinks any proxy media associated with clip.</p>
+% Unlinks any proxy media associated with clip.</p>
 <p>ReplaceClip(filePath)                        <br>
 &ndash;&gt; Bool            <br>
-%  Replaces the underlying asset and metadata of MediaPoolItem with the specified absolute clip path.</p>
+% Replaces the underlying asset and metadata of MediaPoolItem with the specified absolute clip path.</p>
 <p>GetUniqueId()                                <br>
 &ndash;&gt; string          <br>
-%  Returns a unique ID for the media pool item</p>
+% Returns a unique ID for the media pool item</p>
 <p>TranscribeAudio()                            <br>
 &ndash;&gt; Bool            <br>
-%  Transcribes audio of the MediaPoolItem. Returns True if successful; False otherwise</p>
+% Transcribes audio of the MediaPoolItem. Returns True if successful; False otherwise</p>
 <p>ClearTranscription()                         <br>
 &ndash;&gt; Bool            <br>
-%  Clears audio transcription of the MediaPoolItem. Returns True if successful; False otherwise.</p>
+% Clears audio transcription of the MediaPoolItem. Returns True if successful; False otherwise.</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -660,177 +658,176 @@ isArchiveProxyMedia=False)    <br>
 
 <p>GetName()                                    <br>
 &ndash;&gt; string          <br>
-%  Returns the timeline name.</p>
+% Returns the timeline name.</p>
 <p>SetName(timelineName)                        <br>
 &ndash;&gt; Bool            <br>
-%  Sets the timeline name if timelineName (string) is unique. Returns True if successful.</p>
+% Sets the timeline name if timelineName (string) is unique. Returns True if successful.</p>
 <p>GetStartFrame()                              <br>
 &ndash;&gt; int             <br>
-%  Returns the frame number at the start of timeline.</p>
+% Returns the frame number at the start of timeline.</p>
 <p>GetEndFrame()                                <br>
 &ndash;&gt; int             <br>
-%  Returns the frame number at the end of timeline.</p>
+% Returns the frame number at the end of timeline.</p>
 <p>SetStartTimecode(timecode)                   <br>
 &ndash;&gt; Bool            <br>
-%  Set the start timecode of the timeline to the string &rsquo;timecode&rsquo;. Returns true when the change is successful, false otherwise.</p>
+% Set the start timecode of the timeline to the string &rsquo;timecode&rsquo;. Returns true when the change is successful, false otherwise.</p>
 <p>GetStartTimecode()                           <br>
 &ndash;&gt; string          <br>
-%  Returns the start timecode for the timeline.</p>
+% Returns the start timecode for the timeline.</p>
 <p>GetTrackCount(trackType)                     <br>
 &ndash;&gt; int             <br>
-%  Returns the number of tracks for the given track type (&ldquo;audio&rdquo;, &ldquo;video&rdquo; or &ldquo;subtitle&rdquo;).</p>
+% Returns the number of tracks for the given track type (&ldquo;audio&rdquo;, &ldquo;video&rdquo; or &ldquo;subtitle&rdquo;).</p>
 <p>AddTrack(trackType, optionalSubTrackType)    <br>
 &ndash;&gt; Bool            <br>
-%  Adds track of trackType (&ldquo;video&rdquo;, &ldquo;subtitle&rdquo;, &ldquo;audio&rdquo;). Second argument optionalSubTrackType is required for &ldquo;audio&rdquo;</p>
-<p>%  optionalSubTrackType can be one of {&ldquo;mono&rdquo;, &ldquo;stereo&rdquo;, &ldquo;5.1&rdquo;, &ldquo;5.1film&rdquo;, &ldquo;7.1&rdquo;, &ldquo;7.1film&rdquo;, &ldquo;adaptive1&rdquo;, &hellip; , &ldquo;adaptive24&rdquo;}</p>
+% Adds track of trackType (&ldquo;video&rdquo;, &ldquo;subtitle&rdquo;, &ldquo;audio&rdquo;). Second argument optionalSubTrackType is required for &ldquo;audio&rdquo;
+% optionalSubTrackType can be one of {&ldquo;mono&rdquo;, &ldquo;stereo&rdquo;, &ldquo;5.1&rdquo;, &ldquo;5.1film&rdquo;, &ldquo;7.1&rdquo;, &ldquo;7.1film&rdquo;, &ldquo;adaptive1&rdquo;, &hellip; , &ldquo;adaptive24&rdquo;}</p>
 <p>DeleteTrack(trackType, trackIndex)           <br>
 &ndash;&gt; Bool            <br>
-%  Deletes track of trackType (&ldquo;video&rdquo;, &ldquo;subtitle&rdquo;, &ldquo;audio&rdquo;) and given trackIndex. 1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
+% Deletes track of trackType (&ldquo;video&rdquo;, &ldquo;subtitle&rdquo;, &ldquo;audio&rdquo;) and given trackIndex. 1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
 <p>SetTrackEnable(trackType, trackIndex, Bool)  <br>
 &ndash;&gt; Bool            <br>
-%  Enables/Disables track with given trackType and trackIndex</p>
-<p>%  trackType is one of {&ldquo;audio&rdquo;, &ldquo;video&rdquo;, &ldquo;subtitle&rdquo;}</p>
-<p>%  1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
+% Enables/Disables track with given trackType and trackIndex
+% trackType is one of {&ldquo;audio&rdquo;, &ldquo;video&rdquo;, &ldquo;subtitle&rdquo;}
+% 1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
 <p>GetIsTrackEnabled(trackType, trackIndex)     <br>
 &ndash;&gt; Bool            <br>
-%  Returns True if track with given trackType and trackIndex is enabled and False otherwise.</p>
-<p>%  trackType is one of {&ldquo;audio&rdquo;, &ldquo;video&rdquo;, &ldquo;subtitle&rdquo;}</p>
-<p>%  1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
+% Returns True if track with given trackType and trackIndex is enabled and False otherwise.
+% trackType is one of {&ldquo;audio&rdquo;, &ldquo;video&rdquo;, &ldquo;subtitle&rdquo;}
+% 1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
 <p>SetTrackLock(trackType, trackIndex, Bool)    <br>
 &ndash;&gt; Bool            <br>
-%  Locks/Unlocks track with given trackType and trackIndex</p>
-<p>%  trackType is one of {&ldquo;audio&rdquo;, &ldquo;video&rdquo;, &ldquo;subtitle&rdquo;}</p>
-<p>%  1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
+% Locks/Unlocks track with given trackType and trackIndex
+% trackType is one of {&ldquo;audio&rdquo;, &ldquo;video&rdquo;, &ldquo;subtitle&rdquo;}
+% 1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
 <p>GetIsTrackLocked(trackType, trackIndex)      <br>
 &ndash;&gt; Bool            <br>
-%  Returns True if track with given trackType and trackIndex is locked and False otherwise.</p>
-<p>%  trackType is one of {&ldquo;audio&rdquo;, &ldquo;video&rdquo;, &ldquo;subtitle&rdquo;}</p>
-<p>%  1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
+% Returns True if track with given trackType and trackIndex is locked and False otherwise.
+% trackType is one of {&ldquo;audio&rdquo;, &ldquo;video&rdquo;, &ldquo;subtitle&rdquo;}
+% 1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
 <p>DeleteClips([timelineItems], Bool)           <br>
 &ndash;&gt; Bool            <br>
-%  Deletes specified TimelineItems from the timeline, performing ripple delete if the second argument is True. Second argument is optional (The default for this is False)</p>
+% Deletes specified TimelineItems from the timeline, performing ripple delete if the second argument is True. Second argument is optional (The default for this is False)</p>
 <p>SetClipsLinked([timelineItems], Bool)        <br>
 &ndash;&gt; Bool            <br>
-%  Links or unlinks the specified TimelineItems depending on second argument.</p>
+% Links or unlinks the specified TimelineItems depending on second argument.</p>
 <p>GetItemListInTrack(trackType, index)         <br>
 &ndash;&gt; [items&hellip;]      <br>
-%  Returns a list of timeline items on that track (based on trackType and index). 1 &lt;= index &lt;= GetTrackCount(trackType).</p>
+% Returns a list of timeline items on that track (based on trackType and index). 1 &lt;= index &lt;= GetTrackCount(trackType).</p>
 <p>AddMarker(frameId, color, name, note, duration,
+customData)
 &ndash;&gt; Bool            <br>
-%  Creates a new marker at given frameId position and with given marker information. &lsquo;customData&rsquo; is optional and helps to attach user specific data to the marker.</p>
-<pre><code>        customData)
-</code></pre>
+% Creates a new marker at given frameId position and with given marker information. &lsquo;customData&rsquo; is optional and helps to attach user specific data to the marker.</p>
 <p>GetMarkers()                                 <br>
 &ndash;&gt; {markers&hellip;}    <br>
-%  Returns a dict (frameId -&gt; {information}) of all markers and dicts with their information.</p>
-<p>%  Example: a value of {96.0: {&lsquo;color&rsquo;: &lsquo;Green&rsquo;, &lsquo;duration&rsquo;: 1.0, &rsquo;note&rsquo;: &lsquo;&rsquo;, &rsquo;name&rsquo;: &lsquo;Marker 1&rsquo;, &lsquo;customData&rsquo;: &lsquo;&rsquo;}, &hellip;} indicates a single green marker at timeline offset 96</p>
+% Returns a dict (frameId -&gt; {information}) of all markers and dicts with their information.
+% Example: a value of {96.0: {&lsquo;color&rsquo;: &lsquo;Green&rsquo;, &lsquo;duration&rsquo;: 1.0, &rsquo;note&rsquo;: &lsquo;&rsquo;, &rsquo;name&rsquo;: &lsquo;Marker 1&rsquo;, &lsquo;customData&rsquo;: &lsquo;&rsquo;}, &hellip;} indicates a single green marker at timeline offset 96</p>
 <p>GetMarkerByCustomData(customData)            <br>
 &ndash;&gt; {markers&hellip;}    <br>
-%  Returns marker {information} for the first matching marker with specified customData.</p>
+% Returns marker {information} for the first matching marker with specified customData.</p>
 <p>UpdateMarkerCustomData(frameId, customData)  <br>
 &ndash;&gt; Bool            <br>
-%  Updates customData (string) for the marker at given frameId position. CustomData is not exposed via UI and is useful for scripting developer to attach any user specific data to markers.</p>
+% Updates customData (string) for the marker at given frameId position. CustomData is not exposed via UI and is useful for scripting developer to attach any user specific data to markers.</p>
 <p>GetMarkerCustomData(frameId)                 <br>
 &ndash;&gt; string          <br>
-%  Returns customData string for the marker at given frameId position.</p>
+% Returns customData string for the marker at given frameId position.</p>
 <p>DeleteMarkersByColor(color)                  <br>
 &ndash;&gt; Bool            <br>
-%  Deletes all timeline markers of the specified color. An &ldquo;All&rdquo; argument is supported and deletes all timeline markers.</p>
+% Deletes all timeline markers of the specified color. An &ldquo;All&rdquo; argument is supported and deletes all timeline markers.</p>
 <p>DeleteMarkerAtFrame(frameNum)                <br>
 &ndash;&gt; Bool            <br>
-%  Deletes the timeline marker at the given frame number.</p>
+% Deletes the timeline marker at the given frame number.</p>
 <p>DeleteMarkerByCustomData(customData)         <br>
 &ndash;&gt; Bool            <br>
-%  Delete first matching marker with specified customData.</p>
+% Delete first matching marker with specified customData.</p>
 <p>ApplyGradeFromDRX(path, gradeMode, item1, item2, &hellip;)
 &ndash;&gt; Bool       <br>
-%  Loads a still from given file path (string) and applies grade to Timeline Items with gradeMode (int): 0 - &ldquo;No keyframes&rdquo;, 1 - &ldquo;Source Timecode aligned&rdquo;, 2 - &ldquo;Start Frames aligned&rdquo;.</p>
+% Loads a still from given file path (string) and applies grade to Timeline Items with gradeMode (int): 0 - &ldquo;No keyframes&rdquo;, 1 - &ldquo;Source Timecode aligned&rdquo;, 2 - &ldquo;Start Frames aligned&rdquo;.</p>
 <p>ApplyGradeFromDRX(path, gradeMode, [items])  <br>
 &ndash;&gt; Bool            <br>
-%  Loads a still from given file path (string) and applies grade to Timeline Items with gradeMode (int): 0 - &ldquo;No keyframes&rdquo;, 1 - &ldquo;Source Timecode aligned&rdquo;, 2 - &ldquo;Start Frames aligned&rdquo;.</p>
+% Loads a still from given file path (string) and applies grade to Timeline Items with gradeMode (int): 0 - &ldquo;No keyframes&rdquo;, 1 - &ldquo;Source Timecode aligned&rdquo;, 2 - &ldquo;Start Frames aligned&rdquo;.</p>
 <p>GetCurrentTimecode()                         <br>
 &ndash;&gt; string          <br>
-%  Returns a string timecode representation for the current playhead position, while on Cut, Edit, Color, Fairlight and Deliver pages.</p>
+% Returns a string timecode representation for the current playhead position, while on Cut, Edit, Color, Fairlight and Deliver pages.</p>
 <p>SetCurrentTimecode(timecode)                 <br>
 &ndash;&gt; Bool            <br>
-%  Sets current playhead position from input timecode for Cut, Edit, Color, Fairlight and Deliver pages.</p>
+% Sets current playhead position from input timecode for Cut, Edit, Color, Fairlight and Deliver pages.</p>
 <p>GetCurrentVideoItem()                        <br>
 &ndash;&gt; item            <br>
-%  Returns the current video timeline item.</p>
+% Returns the current video timeline item.</p>
 <p>GetCurrentClipThumbnailImage()               <br>
 &ndash;&gt; {thumbnailData} <br>
-%  Returns a dict (keys &ldquo;width&rdquo;, &ldquo;height&rdquo;, &ldquo;format&rdquo; and &ldquo;data&rdquo;) with data containing raw thumbnail image data (RGB 8-bit image data encoded in base64 format) for current media in the Color Page.</p>
-<p>%  An example of how to retrieve and interpret thumbnails is provided in 6_get_current_media_thumbnail.py in the Examples folder.</p>
+% Returns a dict (keys &ldquo;width&rdquo;, &ldquo;height&rdquo;, &ldquo;format&rdquo; and &ldquo;data&rdquo;) with data containing raw thumbnail image data (RGB 8-bit image data encoded in base64 format) for current media in the Color Page.
+% An example of how to retrieve and interpret thumbnails is provided in 6_get_current_media_thumbnail.py in the Examples folder.</p>
 <p>GetTrackName(trackType, trackIndex)          <br>
 &ndash;&gt; string          <br>
-%  Returns the track name for track indicated by trackType (&ldquo;audio&rdquo;, &ldquo;video&rdquo; or &ldquo;subtitle&rdquo;) and index. 1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
+% Returns the track name for track indicated by trackType (&ldquo;audio&rdquo;, &ldquo;video&rdquo; or &ldquo;subtitle&rdquo;) and index. 1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
 <p>SetTrackName(trackType, trackIndex, name)    <br>
 &ndash;&gt; Bool            <br>
-%  Sets the track name (string) for track indicated by trackType (&ldquo;audio&rdquo;, &ldquo;video&rdquo; or &ldquo;subtitle&rdquo;) and index. 1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
+% Sets the track name (string) for track indicated by trackType (&ldquo;audio&rdquo;, &ldquo;video&rdquo; or &ldquo;subtitle&rdquo;) and index. 1 &lt;= trackIndex &lt;= GetTrackCount(trackType).</p>
 <p>DuplicateTimeline(timelineName)              <br>
 &ndash;&gt; timeline        <br>
-%  Duplicates the timeline and returns the created timeline, with the (optional) timelineName, on success.</p>
+% Duplicates the timeline and returns the created timeline, with the (optional) timelineName, on success.</p>
 <p>CreateCompoundClip([timelineItems], {clipInfo})
 &ndash;&gt; timelineItem    <br>
-%  Creates a compound clip of input timeline items with an optional clipInfo map: {&ldquo;startTimecode&rdquo; : &ldquo;00:00:00:00&rdquo;, &ldquo;name&rdquo; : &ldquo;Compound Clip 1&rdquo;}. It returns the created timeline item.</p>
+% Creates a compound clip of input timeline items with an optional clipInfo map: {&ldquo;startTimecode&rdquo; : &ldquo;00:00:00:00&rdquo;, &ldquo;name&rdquo; : &ldquo;Compound Clip 1&rdquo;}. It returns the created timeline item.</p>
 <p>CreateFusionClip([timelineItems])            <br>
 &ndash;&gt; timelineItem    <br>
-%  Creates a Fusion clip of input timeline items. It returns the created timeline item.</p>
+% Creates a Fusion clip of input timeline items. It returns the created timeline item.</p>
 <p>ImportIntoTimeline(filePath, {importOptions})<br>
 &ndash;&gt; Bool            <br>
-%  Imports timeline items from an AAF file and optional importOptions dict into the timeline, with support for the keys:</p>
-<p>%  &ldquo;autoImportSourceClipsIntoMediaPool&rdquo;: Bool, specifies if source clips should be imported into media pool, True by default</p>
-<p>%  &ldquo;ignoreFileExtensionsWhenMatching&rdquo;: Bool, specifies if file extensions should be ignored when matching, False by default</p>
-<p>%  &ldquo;linkToSourceCameraFiles&rdquo;: Bool, specifies if link to source camera files should be enabled, False by default</p>
-<p>%  &ldquo;useSizingInfo&rdquo;: Bool, specifies if sizing information should be used, False by default</p>
-<p>%  &ldquo;importMultiChannelAudioTracksAsLinkedGroups&rdquo;: Bool, specifies if multi-channel audio tracks should be imported as linked groups, False by default</p>
-<p>%  &ldquo;insertAdditionalTracks&rdquo;: Bool, specifies if additional tracks should be inserted, True by default</p>
-<p>%  &ldquo;insertWithOffset&rdquo;: string, specifies insert with offset value in timecode format - defaults to &ldquo;00:00:00:00&rdquo;, applicable if &ldquo;insertAdditionalTracks&rdquo; is False</p>
-<p>%  &ldquo;sourceClipsPath&rdquo;: string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if &ldquo;ignoreFileExtensionsWhenMatching&rdquo; is True</p>
-<p>%  &ldquo;sourceClipsFolders&rdquo;: string, list of Media Pool folder objects to search for source clips if the media is not present in current folder</p>
+% Imports timeline items from an AAF file and optional importOptions dict into the timeline, with support for the keys:
+% &ldquo;autoImportSourceClipsIntoMediaPool&rdquo;: Bool, specifies if source clips should be imported into media pool, True by default
+% &ldquo;ignoreFileExtensionsWhenMatching&rdquo;: Bool, specifies if file extensions should be ignored when matching, False by default
+% &ldquo;linkToSourceCameraFiles&rdquo;: Bool, specifies if link to source camera files should be enabled, False by default
+% &ldquo;useSizingInfo&rdquo;: Bool, specifies if sizing information should be used, False by default
+% &ldquo;importMultiChannelAudioTracksAsLinkedGroups&rdquo;: Bool, specifies if multi-channel audio tracks should be imported as linked groups, False by default
+% &ldquo;insertAdditionalTracks&rdquo;: Bool, specifies if additional tracks should be inserted, True by default
+% &ldquo;insertWithOffset&rdquo;: string, specifies insert with offset value in timecode format - defaults to &ldquo;00:00:00:00&rdquo;, applicable if &ldquo;insertAdditionalTracks&rdquo; is False
+% &ldquo;sourceClipsPath&rdquo;: string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if &ldquo;ignoreFileExtensionsWhenMatching&rdquo; is True
+% &ldquo;sourceClipsFolders&rdquo;: string, list of Media Pool folder objects to search for source clips if the media is not present in current folder</p>
 <p>Export(fileName, exportType, exportSubtype)  <br>
 &ndash;&gt; Bool            <br>
-%  Exports timeline to &lsquo;fileName&rsquo; as per input exportType &amp; exportSubtype format.</p>
-<p>%  Refer to section &ldquo;Looking up timeline export properties&rdquo; for information on the parameters.</p>
+% Exports timeline to &lsquo;fileName&rsquo; as per input exportType &amp; exportSubtype format.</p>
+<p>% Refer to section &ldquo;Looking up timeline export properties&rdquo; for information on the parameters.</p>
 <p>GetSetting(settingName)                      <br>
 &ndash;&gt; string          <br>
-%  Returns value of timeline setting (indicated by settingName : string). Check the section below for more information.</p>
+% Returns value of timeline setting (indicated by settingName : string). Check the section below for more information.</p>
 <p>SetSetting(settingName, settingValue)        <br>
 &ndash;&gt; Bool            <br>
-%  Sets timeline setting (indicated by settingName : string) to the value (settingValue : string). Check the section below for more information.</p>
+% Sets timeline setting (indicated by settingName : string) to the value (settingValue : string). Check the section below for more information.</p>
 <p>InsertGeneratorIntoTimeline(generatorName)   <br>
 &ndash;&gt; TimelineItem    <br>
-%  Inserts a generator (indicated by generatorName : string) into the timeline.</p>
+% Inserts a generator (indicated by generatorName : string) into the timeline.</p>
 <p>InsertFusionGeneratorIntoTimeline(generatorName)
 &ndash;&gt; TimelineItem   <br>
-%  Inserts a Fusion generator (indicated by generatorName : string) into the timeline.</p>
+% Inserts a Fusion generator (indicated by generatorName : string) into the timeline.</p>
 <p>InsertFusionCompositionIntoTimeline()        <br>
 &ndash;&gt; TimelineItem    <br>
-%  Inserts a Fusion composition into the timeline.</p>
+% Inserts a Fusion composition into the timeline.</p>
 <p>InsertOFXGeneratorIntoTimeline(generatorName)<br>
 &ndash;&gt; TimelineItem    <br>
-%  Inserts an OFX generator (indicated by generatorName : string) into the timeline.</p>
+% Inserts an OFX generator (indicated by generatorName : string) into the timeline.</p>
 <p>InsertTitleIntoTimeline(titleName)           <br>
 &ndash;&gt; TimelineItem    <br>
-%  Inserts a title (indicated by titleName : string) into the timeline.</p>
+% Inserts a title (indicated by titleName : string) into the timeline.</p>
 <p>InsertFusionTitleIntoTimeline(titleName)     <br>
 &ndash;&gt; TimelineItem    <br>
-%  Inserts a Fusion title (indicated by titleName : string) into the timeline.</p>
+% Inserts a Fusion title (indicated by titleName : string) into the timeline.</p>
 <p>GrabStill()                                  <br>
 &ndash;&gt; galleryStill    <br>
-%  Grabs still from the current video clip. Returns a GalleryStill object.</p>
+% Grabs still from the current video clip. Returns a GalleryStill object.</p>
 <p>GrabAllStills(stillFrameSource)              <br>
 &ndash;&gt; [galleryStill]  <br>
-%  Grabs stills from all the clips of the timeline at &lsquo;stillFrameSource&rsquo; (1 - First frame, 2 - Middle frame). Returns the list of GalleryStill objects.</p>
+% Grabs stills from all the clips of the timeline at &lsquo;stillFrameSource&rsquo; (1 - First frame, 2 - Middle frame). Returns the list of GalleryStill objects.</p>
 <p>GetUniqueId()                                <br>
 &ndash;&gt; string          <br>
-%  Returns a unique ID for the timeline</p>
+% Returns a unique ID for the timeline</p>
 <p>CreateSubtitlesFromAudio()                   <br>
 &ndash;&gt; Bool            <br>
-%  Creates subtitles from audio for the timeline. Returns True on success, False otherwise.</p>
+% Creates subtitles from audio for the timeline. Returns True on success, False otherwise.</p>
 <p>DetectSceneCuts()                            <br>
 &ndash;&gt; Bool            <br>
-%  Detects and makes scene cuts along the timeline. Returns True if successful, False otherwise.</p>
+% Detects and makes scene cuts along the timeline. Returns True if successful, False otherwise.</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -852,207 +849,206 @@ isArchiveProxyMedia=False)    <br>
 
 <p>GetName()                                    <br>
 &ndash;&gt; string          <br>
-%  Returns the item name.</p>
+% Returns the item name.</p>
 <p>GetDuration()                                <br>
 &ndash;&gt; int             <br>
-%  Returns the item duration.</p>
+% Returns the item duration.</p>
 <p>GetEnd()                                     <br>
 &ndash;&gt; int             <br>
-%  Returns the end frame position on the timeline.</p>
+% Returns the end frame position on the timeline.</p>
 <p>GetFusionCompCount()                         <br>
 &ndash;&gt; int             <br>
-%  Returns number of Fusion compositions associated with the timeline item.</p>
+% Returns number of Fusion compositions associated with the timeline item.</p>
 <p>GetFusionCompByIndex(compIndex)              <br>
 &ndash;&gt; fusionComp      <br>
-%  Returns the Fusion composition object based on given index. 1 &lt;= compIndex &lt;= timelineItem.GetFusionCompCount()</p>
+% Returns the Fusion composition object based on given index. 1 &lt;= compIndex &lt;= timelineItem.GetFusionCompCount()</p>
 <p>GetFusionCompNameList()                      <br>
 &ndash;&gt; [names&hellip;]      <br>
-%  Returns a list of Fusion composition names associated with the timeline item.</p>
+% Returns a list of Fusion composition names associated with the timeline item.</p>
 <p>GetFusionCompByName(compName)                <br>
 &ndash;&gt; fusionComp      <br>
-%  Returns the Fusion composition object based on given name.</p>
+% Returns the Fusion composition object based on given name.</p>
 <p>GetLeftOffset()                              <br>
 &ndash;&gt; int             <br>
-%  Returns the maximum extension by frame for clip from left side.</p>
+% Returns the maximum extension by frame for clip from left side.</p>
 <p>GetRightOffset()                             <br>
 &ndash;&gt; int             <br>
-%  Returns the maximum extension by frame for clip from right side.</p>
+% Returns the maximum extension by frame for clip from right side.</p>
 <p>GetStart()                                   <br>
 &ndash;&gt; int             <br>
-%  Returns the start frame position on the timeline.</p>
+% Returns the start frame position on the timeline.</p>
 <p>SetProperty(propertyKey, propertyValue)      <br>
 &ndash;&gt; Bool            <br>
-%  Sets the value of property &ldquo;propertyKey&rdquo; to value &ldquo;propertyValue&rdquo;</p>
-<p>%  Refer to &ldquo;Looking up Timeline item properties&rdquo; for more information</p>
+% Sets the value of property &ldquo;propertyKey&rdquo; to value &ldquo;propertyValue&rdquo;
+% Refer to &ldquo;Looking up Timeline item properties&rdquo; for more information</p>
 <p>GetProperty(propertyKey)                     <br>
 &ndash;&gt; int/[key:value] <br>
-%  returns the value of the specified key</p>
-<p>%  if no key is specified, the method returns a dictionary(python) or table(lua) for all supported keys</p>
+% returns the value of the specified key
+% if no key is specified, the method returns a dictionary(python) or table(lua) for all supported keys</p>
 <p>AddMarker(frameId, color, name, note, duration,
+customData)
 &ndash;&gt; Bool            <br>
-%  Creates a new marker at given frameId position and with given marker information. &lsquo;customData&rsquo; is optional and helps to attach user specific data to the marker.</p>
-<pre><code>        customData)
-</code></pre>
+% Creates a new marker at given frameId position and with given marker information. &lsquo;customData&rsquo; is optional and helps to attach user specific data to the marker.</p>
 <p>GetMarkers()                                 <br>
 &ndash;&gt; {markers&hellip;}    <br>
-%  Returns a dict (frameId -&gt; {information}) of all markers and dicts with their information.</p>
-<p>%  Example: a value of {96.0: {&lsquo;color&rsquo;: &lsquo;Green&rsquo;, &lsquo;duration&rsquo;: 1.0, &rsquo;note&rsquo;: &lsquo;&rsquo;, &rsquo;name&rsquo;: &lsquo;Marker 1&rsquo;, &lsquo;customData&rsquo;: &lsquo;&rsquo;}, &hellip;} indicates a single green marker at clip offset 96</p>
+% Returns a dict (frameId -&gt; {information}) of all markers and dicts with their information.
+% Example: a value of {96.0: {&lsquo;color&rsquo;: &lsquo;Green&rsquo;, &lsquo;duration&rsquo;: 1.0, &rsquo;note&rsquo;: &lsquo;&rsquo;, &rsquo;name&rsquo;: &lsquo;Marker 1&rsquo;, &lsquo;customData&rsquo;: &lsquo;&rsquo;}, &hellip;} indicates a single green marker at clip offset 96</p>
 <p>GetMarkerByCustomData(customData)            <br>
 &ndash;&gt; {markers&hellip;}    <br>
-%  Returns marker {information} for the first matching marker with specified customData.</p>
+% Returns marker {information} for the first matching marker with specified customData.</p>
 <p>UpdateMarkerCustomData(frameId, customData)  <br>
 &ndash;&gt; Bool            <br>
-%  Updates customData (string) for the marker at given frameId position. CustomData is not exposed via UI and is useful for scripting developer to attach any user specific data to markers.</p>
+% Updates customData (string) for the marker at given frameId position. CustomData is not exposed via UI and is useful for scripting developer to attach any user specific data to markers.</p>
 <p>GetMarkerCustomData(frameId)                 <br>
 &ndash;&gt; string          <br>
-%  Returns customData string for the marker at given frameId position.</p>
+% Returns customData string for the marker at given frameId position.</p>
 <p>DeleteMarkersByColor(color)                  <br>
 &ndash;&gt; Bool            <br>
-%  Delete all markers of the specified color from the timeline item. &ldquo;All&rdquo; as argument deletes all color markers.</p>
+% Delete all markers of the specified color from the timeline item. &ldquo;All&rdquo; as argument deletes all color markers.</p>
 <p>DeleteMarkerAtFrame(frameNum)                <br>
 &ndash;&gt; Bool            <br>
-%  Delete marker at frame number from the timeline item.</p>
+% Delete marker at frame number from the timeline item.</p>
 <p>DeleteMarkerByCustomData(customData)         <br>
 &ndash;&gt; Bool            <br>
-%  Delete first matching marker with specified customData.</p>
+% Delete first matching marker with specified customData.</p>
 <p>AddFlag(color)                               <br>
 &ndash;&gt; Bool            <br>
-%  Adds a flag with given color (string).</p>
+% Adds a flag with given color (string).</p>
 <p>GetFlagList()                                <br>
 &ndash;&gt; [colors&hellip;]     <br>
-%  Returns a list of flag colors assigned to the item.</p>
+% Returns a list of flag colors assigned to the item.</p>
 <p>ClearFlags(color)                            <br>
 &ndash;&gt; Bool            <br>
-%  Clear flags of the specified color. An &ldquo;All&rdquo; argument is supported to clear all flags.</p>
+% Clear flags of the specified color. An &ldquo;All&rdquo; argument is supported to clear all flags.</p>
 <p>GetClipColor()                               <br>
 &ndash;&gt; string          <br>
-%  Returns the item color as a string.</p>
+% Returns the item color as a string.</p>
 <p>SetClipColor(colorName)                      <br>
 &ndash;&gt; Bool            <br>
-%  Sets the item color based on the colorName (string).</p>
+% Sets the item color based on the colorName (string).</p>
 <p>ClearClipColor()                             <br>
 &ndash;&gt; Bool            <br>
-%  Clears the item color.</p>
+% Clears the item color.</p>
 <p>AddFusionComp()                              <br>
 &ndash;&gt; fusionComp      <br>
-%  Adds a new Fusion composition associated with the timeline item.</p>
+% Adds a new Fusion composition associated with the timeline item.</p>
 <p>ImportFusionComp(path)                       <br>
 &ndash;&gt; fusionComp      <br>
-%  Imports a Fusion composition from given file path by creating and adding a new composition for the item.</p>
+% Imports a Fusion composition from given file path by creating and adding a new composition for the item.</p>
 <p>ExportFusionComp(path, compIndex)            <br>
 &ndash;&gt; Bool            <br>
-%  Exports the Fusion composition based on given index to the path provided.</p>
+% Exports the Fusion composition based on given index to the path provided.</p>
 <p>DeleteFusionCompByName(compName)             <br>
 &ndash;&gt; Bool            <br>
-%  Deletes the named Fusion composition.</p>
+% Deletes the named Fusion composition.</p>
 <p>LoadFusionCompByName(compName)               <br>
 &ndash;&gt; fusionComp      <br>
-%  Loads the named Fusion composition as the active composition.</p>
+% Loads the named Fusion composition as the active composition.</p>
 <p>RenameFusionCompByName(oldName, newName)     <br>
 &ndash;&gt; Bool            <br>
-%  Renames the Fusion composition identified by oldName.</p>
+% Renames the Fusion composition identified by oldName.</p>
 <p>AddVersion(versionName, versionType)         <br>
 &ndash;&gt; Bool            <br>
-%  Adds a new color version for a video clip based on versionType (0 - local, 1 - remote).</p>
+% Adds a new color version for a video clip based on versionType (0 - local, 1 - remote).</p>
 <p>GetCurrentVersion()                          <br>
 &ndash;&gt; {versionName&hellip;}<br>
-%  Returns the current version of the video clip. The returned value will have the keys versionName and versionType(0 - local, 1 - remote).</p>
+% Returns the current version of the video clip. The returned value will have the keys versionName and versionType(0 - local, 1 - remote).</p>
 <p>DeleteVersionByName(versionName, versionType)<br>
 &ndash;&gt; Bool            <br>
-%  Deletes a color version by name and versionType (0 - local, 1 - remote).</p>
+% Deletes a color version by name and versionType (0 - local, 1 - remote).</p>
 <p>LoadVersionByName(versionName, versionType)  <br>
 &ndash;&gt; Bool            <br>
-%  Loads a named color version as the active version. versionType: 0 - local, 1 - remote.</p>
+% Loads a named color version as the active version. versionType: 0 - local, 1 - remote.</p>
 <p>RenameVersionByName(oldName, newName, versionType)
 &ndash;&gt; Bool          <br>
-%  Renames the color version identified by oldName and versionType (0 - local, 1 - remote).</p>
+% Renames the color version identified by oldName and versionType (0 - local, 1 - remote).</p>
 <p>GetVersionNameList(versionType)              <br>
 &ndash;&gt; [names&hellip;]      <br>
-%  Returns a list of all color versions for the given versionType (0 - local, 1 - remote).</p>
+% Returns a list of all color versions for the given versionType (0 - local, 1 - remote).</p>
 <p>GetMediaPoolItem()                           <br>
 &ndash;&gt; MediaPoolItem   <br>
-%  Returns the media pool item corresponding to the timeline item if one exists.</p>
+% Returns the media pool item corresponding to the timeline item if one exists.</p>
 <p>GetStereoConvergenceValues()                 <br>
 &ndash;&gt; {keyframes&hellip;}  <br>
-%  Returns a dict (offset -&gt; value) of keyframe offsets and respective convergence values.</p>
+% Returns a dict (offset -&gt; value) of keyframe offsets and respective convergence values.</p>
 <p>GetStereoLeftFloatingWindowParams()          <br>
 &ndash;&gt; {keyframes&hellip;}  <br>
-%  For the LEFT eye -&gt; returns a dict (offset -&gt; dict) of keyframe offsets and respective floating window params. Value at particular offset includes the left, right, top and bottom floating window values.</p>
+% For the LEFT eye -&gt; returns a dict (offset -&gt; dict) of keyframe offsets and respective floating window params. Value at particular offset includes the left, right, top and bottom floating window values.</p>
 <p>GetStereoRightFloatingWindowParams()         <br>
 &ndash;&gt; {keyframes&hellip;}  <br>
-%  For the RIGHT eye -&gt; returns a dict (offset -&gt; dict) of keyframe offsets and respective floating window params. Value at particular offset includes the left, right, top and bottom floating window values.</p>
+% For the RIGHT eye -&gt; returns a dict (offset -&gt; dict) of keyframe offsets and respective floating window params. Value at particular offset includes the left, right, top and bottom floating window values.</p>
 <p>GetNumNodes()                                <br>
 &ndash;&gt; int             <br>
-%  Returns the number of nodes in the current graph for the timeline item</p>
+% Returns the number of nodes in the current graph for the timeline item</p>
 <p>ApplyArriCdlLut()                            <br>
 &ndash;&gt; Bool            <br>
-%  Applies ARRI CDL and LUT. Returns True if successful, False otherwise.</p>
+% Applies ARRI CDL and LUT. Returns True if successful, False otherwise.</p>
 <p>SetLUT(nodeIndex, lutPath)                   <br>
 &ndash;&gt; Bool            <br>
-%  Sets LUT on the node mapping the node index provided, 1 &lt;= nodeIndex &lt;= total number of nodes.</p>
-<p>%  The lutPath can be an absolute path, or a relative path (based off custom LUT paths or the master LUT path).</p>
-<p>%  The operation is successful for valid lut paths that Resolve has already discovered (see Project.RefreshLUTList).</p>
+% Sets LUT on the node mapping the node index provided, 1 &lt;= nodeIndex &lt;= total number of nodes.
+% The lutPath can be an absolute path, or a relative path (based off custom LUT paths or the master LUT path).
+% The operation is successful for valid lut paths that Resolve has already discovered (see Project.RefreshLUTList).</p>
 <p>GetLUT(nodeIndex)                            <br>
 &ndash;&gt; String          <br>
-%  Gets relative LUT path based on the node index provided, 1 &lt;= nodeIndex &lt;= total number of nodes.</p>
+% Gets relative LUT path based on the node index provided, 1 &lt;= nodeIndex &lt;= total number of nodes.</p>
 <p>SetCDL([CDL map])                            <br>
 &ndash;&gt; Bool            <br>
-%  Keys of map are: &ldquo;NodeIndex&rdquo;, &ldquo;Slope&rdquo;, &ldquo;Offset&rdquo;, &ldquo;Power&rdquo;, &ldquo;Saturation&rdquo;, where 1 &lt;= NodeIndex &lt;= total number of nodes.</p>
-<p>%  Example python code - SetCDL({&ldquo;NodeIndex&rdquo; : &ldquo;1&rdquo;, &ldquo;Slope&rdquo; : &ldquo;0.5 0.4 0.2&rdquo;, &ldquo;Offset&rdquo; : &ldquo;0.4 0.3 0.2&rdquo;, &ldquo;Power&rdquo; : &ldquo;0.6 0.7 0.8&rdquo;, &ldquo;Saturation&rdquo; : &ldquo;0.65&rdquo;})</p>
+% Keys of map are: &ldquo;NodeIndex&rdquo;, &ldquo;Slope&rdquo;, &ldquo;Offset&rdquo;, &ldquo;Power&rdquo;, &ldquo;Saturation&rdquo;, where 1 &lt;= NodeIndex &lt;= total number of nodes.
+% Example python code - SetCDL({&ldquo;NodeIndex&rdquo; : &ldquo;1&rdquo;, &ldquo;Slope&rdquo; : &ldquo;0.5 0.4 0.2&rdquo;, &ldquo;Offset&rdquo; : &ldquo;0.4 0.3 0.2&rdquo;, &ldquo;Power&rdquo; : &ldquo;0.6 0.7 0.8&rdquo;, &ldquo;Saturation&rdquo; : &ldquo;0.65&rdquo;})</p>
 <p>AddTake(mediaPoolItem, startFrame, endFrame) <br>
 &ndash;&gt; Bool            <br>
-%  Adds mediaPoolItem as a new take. Initializes a take selector for the timeline item if needed. By default, the full clip extents is added. startFrame (int) and endFrame (int) are optional arguments used to specify the extents.</p>
+% Adds mediaPoolItem as a new take. Initializes a take selector for the timeline item if needed. By default, the full clip extents is added. startFrame (int) and endFrame (int) are optional arguments used to specify the extents.</p>
 <p>GetSelectedTakeIndex()                       <br>
 &ndash;&gt; int             <br>
-%  Returns the index of the currently selected take, or 0 if the clip is not a take selector.</p>
+% Returns the index of the currently selected take, or 0 if the clip is not a take selector.</p>
 <p>GetTakesCount()                              <br>
 &ndash;&gt; int             <br>
-%  Returns the number of takes in take selector, or 0 if the clip is not a take selector.</p>
+% Returns the number of takes in take selector, or 0 if the clip is not a take selector.</p>
 <p>GetTakeByIndex(idx)                          <br>
 &ndash;&gt; {takeInfo&hellip;}   <br>
-%  Returns a dict (keys &ldquo;startFrame&rdquo;, &ldquo;endFrame&rdquo; and &ldquo;mediaPoolItem&rdquo;) with take info for specified index.</p>
+% Returns a dict (keys &ldquo;startFrame&rdquo;, &ldquo;endFrame&rdquo; and &ldquo;mediaPoolItem&rdquo;) with take info for specified index.</p>
 <p>DeleteTakeByIndex(idx)                       <br>
 &ndash;&gt; Bool            <br>
-%  Deletes a take by index, 1 &lt;= idx &lt;= number of takes.</p>
+% Deletes a take by index, 1 &lt;= idx &lt;= number of takes.</p>
 <p>SelectTakeByIndex(idx)                       <br>
 &ndash;&gt; Bool            <br>
-%  Selects a take by index, 1 &lt;= idx &lt;= number of takes.</p>
+% Selects a take by index, 1 &lt;= idx &lt;= number of takes.</p>
 <p>FinalizeTake()                               <br>
 &ndash;&gt; Bool            <br>
-%  Finalizes take selection.</p>
+% Finalizes take selection.</p>
 <p>CopyGrades([tgtTimelineItems])               <br>
 &ndash;&gt; Bool            <br>
-%  Copies the current grade to all the items in tgtTimelineItems list. Returns True on success and False if any error occurred.</p>
+% Copies the current grade to all the items in tgtTimelineItems list. Returns True on success and False if any error occurred.</p>
 <p>SetClipEnabled(Bool)                         <br>
 &ndash;&gt; Bool            <br>
-%  Sets clip enabled based on argument.</p>
+% Sets clip enabled based on argument.</p>
 <p>GetClipEnabled()                             <br>
 &ndash;&gt; Bool            <br>
-%  Gets clip enabled status.</p>
+% Gets clip enabled status.</p>
 <p>UpdateSidecar()                              <br>
 &ndash;&gt; Bool            <br>
-%  Updates sidecar file for BRAW clips or RMD file for R3D clips.</p>
+% Updates sidecar file for BRAW clips or RMD file for R3D clips.</p>
 <p>GetUniqueId()                                <br>
 &ndash;&gt; string          <br>
-%  Returns a unique ID for the timeline item</p>
+% Returns a unique ID for the timeline item</p>
 <p>LoadBurnInPreset(presetName)                 <br>
 &ndash;&gt; Bool            <br>
-%  Loads user defined data burn in preset for clip when supplied presetName (string). Returns true if successful.</p>
+% Loads user defined data burn in preset for clip when supplied presetName (string). Returns true if successful.</p>
 <p>GetNodeLabel(nodeIndex)                      <br>
 &ndash;&gt; string          <br>
-%  Returns the label of the node at nodeIndex.</p>
+% Returns the label of the node at nodeIndex.</p>
 <p>CreateMagicMask(mode)                        <br>
 &ndash;&gt; Bool            <br>
-%  Returns True if magic mask was created successfully, False otherwise. mode can &ldquo;F&rdquo; (forward), &ldquo;B&rdquo; (backward), or &ldquo;BI&rdquo; (bidirection)</p>
+% Returns True if magic mask was created successfully, False otherwise. mode can &ldquo;F&rdquo; (forward), &ldquo;B&rdquo; (backward), or &ldquo;BI&rdquo; (bidirection)</p>
 <p>RegenerateMagicMask()                        <br>
 &ndash;&gt; Bool            <br>
-%  Returns True if magic mask was regenerated successfully, False otherwise.</p>
+% Returns True if magic mask was regenerated successfully, False otherwise.</p>
 <p>Stabilize()                                  <br>
 &ndash;&gt; Bool            <br>
-%  Returns True if stabilization was successful, False otherwise</p>
+% Returns True if stabilization was successful, False otherwise</p>
 <p>SmartReframe()                               <br>
 &ndash;&gt; Bool            <br>
-%  Performs Smart Reframe. Returns True if successful, False otherwise.</p>
+% Performs Smart Reframe. Returns True if successful, False otherwise.</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -1074,19 +1070,19 @@ isArchiveProxyMedia=False)    <br>
 
 <p>GetAlbumName(galleryStillAlbum)              <br>
 &ndash;&gt; string          <br>
-%  Returns the name of the GalleryStillAlbum object &lsquo;galleryStillAlbum&rsquo;.</p>
+% Returns the name of the GalleryStillAlbum object &lsquo;galleryStillAlbum&rsquo;.</p>
 <p>SetAlbumName(galleryStillAlbum, albumName)   <br>
 &ndash;&gt; Bool            <br>
-%  Sets the name of the GalleryStillAlbum object &lsquo;galleryStillAlbum&rsquo; to &lsquo;albumName&rsquo;.</p>
+% Sets the name of the GalleryStillAlbum object &lsquo;galleryStillAlbum&rsquo; to &lsquo;albumName&rsquo;.</p>
 <p>GetCurrentStillAlbum()                       <br>
 &ndash;&gt; galleryStillAlbum<br>
-%  Returns current album as a GalleryStillAlbum object.</p>
+% Returns current album as a GalleryStillAlbum object.</p>
 <p>SetCurrentStillAlbum(galleryStillAlbum)      <br>
 &ndash;&gt; Bool            <br>
-%  Sets current album to GalleryStillAlbum object &lsquo;galleryStillAlbum&rsquo;.</p>
+% Sets current album to GalleryStillAlbum object &lsquo;galleryStillAlbum&rsquo;.</p>
 <p>GetGalleryStillAlbums()                      <br>
 &ndash;&gt; [galleryStillAlbum]
-%  Returns the gallery albums as a list of GalleryStillAlbum objects.</p>
+% Returns the gallery albums as a list of GalleryStillAlbum objects.</p>
 <hr>
 <!DOCTYPE html>
 <html>
@@ -1108,19 +1104,20 @@ isArchiveProxyMedia=False)    <br>
 
 <p>GetStills()                                  <br>
 &ndash;&gt; [galleryStill]  <br>
-%  Returns the list of GalleryStill objects in the album.</p>
+% Returns the list of GalleryStill objects in the album.</p>
 <p>GetLabel(galleryStill)                       <br>
 &ndash;&gt; string          <br>
-%  Returns the label of the galleryStill.</p>
+% Returns the label of the galleryStill.</p>
 <p>SetLabel(galleryStill, label)                <br>
 &ndash;&gt; Bool            <br>
-%  Sets the new &rsquo;label&rsquo; to GalleryStill object &lsquo;galleryStill&rsquo;.</p>
+% Sets the new &rsquo;label&rsquo; to GalleryStill object &lsquo;galleryStill&rsquo;.</p>
 <p>ExportStills([galleryStill], folderPath, filePrefix, format)
 &ndash;&gt; Bool<br>
-%  Exports list of GalleryStill objects &lsquo;[galleryStill]&rsquo; to directory &lsquo;folderPath&rsquo;, with filename prefix &lsquo;filePrefix&rsquo;, using file format &lsquo;format&rsquo; (supported formats: dpx, cin, tif, jpg, png, ppm, bmp, xpm).</p>
+% Exports list of GalleryStill objects &lsquo;[galleryStill]&rsquo; to directory &lsquo;folderPath&rsquo;, with filename prefix &lsquo;filePrefix&rsquo;, using file format &lsquo;format&rsquo; (supported formats: dpx, cin, tif, jpg, png, ppm, bmp, xpm).</p>
 <p>DeleteStills([galleryStill])                 <br>
 &ndash;&gt; Bool            <br>
-%  Deletes specified list of GalleryStill objects &lsquo;[galleryStill]&rsquo;.</p>
+% Deletes specified list of GalleryStill objects &lsquo;[galleryStill]&rsquo;.</p>
+<hr>
 
 			</div>
 			
