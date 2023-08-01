@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en"  class="h-100"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Your description">
+    <meta name="theme-color" content="#000">
+
+    <link rel="canonical" href="http://example.org/archive/codes/python_doubanimdb/" />
+
+    
+    <link defer href="/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <link defer href="/css/rose.css" rel="stylesheet">
+
+    
+    
+    <link defer rel="stylesheet" href="/font.cc958b841144b5e6348b4723514869a46d121c6cf691e9e0009d86281ad5cc37.css" integrity="">
+
+    
+    <title>
+        
+        [Python] 电影数据库爬虫 Web crawler for Movie Database | Juneleung Chan
+        
+    </title> 
+</head>
+
+<body class="d-flex md h-100 container-sm text-white bg-dark"> 
+<div class="d-flex w-100 h-100 p-3 mx-auto flex-column"><header class="mb-auto">
+    <div>
+      <h1 class="float-md-start justify-content-center "><a class="head-rose" href="/">Juneleung Chan</a></h1>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link text-white" href="/">Home</a>
+        <a class="nav-link text-white" href="/about">About_Me</a>
+        <a class="nav-link text-white" href="/film">Film</a>
+        <a class="nav-link text-white" href="/reel">Reel</a>
+        <a class="nav-link text-white" href="/archive">Archive</a>
+        <a class="nav-link text-white" href="/contact">Contact</a>
+      </nav>
+    </div>
+</header>
+
+<div id="content">
+	<main>
+		<article>
+			<h1>[Python] 电影数据库爬虫 Web crawler for Movie Database</h1>
+			<div class="time">Mar 30, 2023</div>
+			<div>
+				<hr>
+<br>
+<p>* 目标：电影数据库建设</p>
+<p>* Goal: movie database construction</p>
+<p>* 任务：根据电影信息，如电影名，查找对应的豆瓣和IMDB网页</p>
+<p>* Task: find the corresponding Douban and IMDB web pages according to the movie information, such as the movie name</p>
+<p>* 语言：Python</p>
+<p>* Language: Python</p>
+<br>
+<hr>
+<br>
+<p><img src="/img/archive/pythonDoubanIMDB/alitaData.png" alt="alitaData"></p>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.image-container {
+  			flex-wrap: wrap;
+            margin-bottom: 10px;
+		}
+
+		.image-container img {
+			max-height: 30px; 
+			width: auto;
+			object-fit: cover;
+			flex: 1;
+            filter: invert(100%); 
+            vertical-align: bottom;
+            margin: 10px;
+			 
+			 
+		}
+	</style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="/img/icon/github.png" alt="Logo"> Github: 
+        <a href="https://github.com/juneleung/bsDoubIMDB">https://github.com/juneleung/bsDoubIMDB</a>
+    </div>
+</body>
+</html>
+
+<br>
+<hr>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>Code</h3>
+	</div>
+</body>
+</html>
+
+<br>
+<pre tabindex="0"><code>
+# -*- coding: utf-8 -*-
+from __future__ import print_function
+from selenium import webdriver
+import time
+from bs4 import BeautifulSoup
+import requests
+import re
+
+filmlist = [&#34;阿丽塔：战斗天使&#34;,&#34;不可能的事&#34;,&#34;地狱男爵：血皇后崛起&#34;,&#34;复仇者联盟4：终局之战&#34;,&#34;大侦探皮卡丘&#34;,&#34;蝙蝠侠：缄默&#34;,&#34;火箭人&#34;,&#34;哥斯拉2：怪兽之王&#34;,&#34;爱宠大机密2&#34;,&#34;疾速追杀3&#34;,&#34;蝙蝠侠大战忍者神龟&#34;,&#34;阿拉丁&#34;,&#34;魔童&#34;,&#34;黑衣人：全球追缉&#34;,&#34;X战警：黑凤凰&#34;,&#34;优步危机&#34;,&#34;夏福特&#34;,&#34;安娜&#34;,&#34;昨日奇迹&#34;,&#34;狮子王&#34;,&#34;玩具总动员4&#34;]
+
+targetUrls = []
+driver = webdriver.Chrome()
+
+def get_data(url):
+    header = {
+        &#39;User-Agent&#39;: &#39;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) &#39;
+                      &#39;Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363&#39;}
+    resp = requests.get(url=url, headers=header)
+    if resp.status_code == 200:
+        page = BeautifulSoup(resp.text,&#39;html.parser&#39;)
+
+        # title
+        title = page.find_all(id = &#39;content&#39; )
+        set_title = re.compile(&#39;property=&#34;v:itemreviewed&#34;&gt;(.*?)&lt;/span&gt;&#39;)
+        title = re.findall(set_title,str(title))
+
+        # year
+        year = page.find_all(class_ = &#39;year&#39;)
+        year = re.findall(&#34;&gt;(.*?)&lt;/span&gt;&#34;,str(year))
+
+        # imdb
+        rate = page.find_all(class_ = &#39;pl&#39;)
+        imdb = re.findall(&#39;IMDb:&lt;/span&gt; (.*)&lt;br/&gt;&#39;,str(page))
+
+        return title,imdb,year
+        # return resp.text
+    else:
+        print(&#39;status_code: &#39;, resp.status_code)
+        return &#39;&#39;
+
+for filmname in filmlist:
+    url = &#34;https://movie.douban.com/subject_search?search_text=&#34; + filmname
+    driver.get(url)
+    time.sleep(2)
+    html = driver.page_source
+    soup1 = BeautifulSoup(html, &#39;lxml&#39;)
+    if len(soup1.select(&#39;a.title-text&#39;))&gt;0:
+        targetUrl = soup1.select(&#39;a.title-text&#39;)[0].get(&#39;href&#39;)
+        title,imdb,year = get_data(targetUrl)
+        if(len(title)):
+            print(f&#34;{title[0]}\t{year[0]}\t{imdb[0]}\t{targetUrl}&#34;)
+        else:
+            print(f&#34;not found douban page of {filmname}&#34;)
+        targetUrls.append(targetUrl)
+    else:
+        targetUrl = &#34;no result&#34;
+        print(targetUrl)
+        targetUrls.append(targetUrl)
+
+driver.close()
+</code></pre><hr>
+<p>@juneleung</p>
+<p>20230330</p>
+<hr>
+
+			</div>
+			
+			
+			
+		</article>
+	</main>
+
+</div><footer class="mt-auto text-white text-center footfont">
+    
+    <p>2023</a></p>
+    
+
+</footer>
+
+
+</body>
+</html>

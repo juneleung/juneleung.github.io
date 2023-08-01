@@ -21,5 +21,20 @@
 20230801</description>
     </item>
     
+    <item>
+      <title>[Python] 电影数据库爬虫 Web crawler for Movie Database</title>
+      <link>http://example.org/archive/codes/python_doubanimdb/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/codes/python_doubanimdb/</guid>
+      <description>* 目标：电影数据库建设
+* Goal: movie database construction
+* 任务：根据电影信息，如电影名，查找对应的豆瓣和IMDB网页
+* Task: find the corresponding Douban and IMDB web pages according to the movie information, such as the movie name
+* 语言：Python
+* Language: Python
+&lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/bsDoubIMDB &lt;!DOCTYPE html&gt; Code # -*- coding: utf-8 -*- from __future__ import print_function from selenium import webdriver import time from bs4 import BeautifulSoup import requests import re filmlist = [&amp;#34;阿丽塔：战斗天使&amp;#34;,&amp;#34;不可能的事&amp;#34;,&amp;#34;地狱男爵：血皇后崛起&amp;#34;,&amp;#34;复仇者联盟4：终局之战&amp;#34;,&amp;#34;大侦探皮卡丘&amp;#34;,&amp;#34;蝙蝠侠：缄默&amp;#34;,&amp;#34;火箭人&amp;#34;,&amp;#34;哥斯拉2：怪兽之王&amp;#34;,&amp;#34;爱宠大机密2&amp;#34;,&amp;#34;疾速追杀3&amp;#34;,&amp;#34;蝙蝠侠大战忍者神龟&amp;#34;,&amp;#34;阿拉丁&amp;#34;,&amp;#34;魔童&amp;#34;,&amp;#34;黑衣人：全球追缉&amp;#34;,&amp;#34;X战警：黑凤凰&amp;#34;,&amp;#34;优步危机&amp;#34;,&amp;#34;夏福特&amp;#34;,&amp;#34;安娜&amp;#34;,&amp;#34;昨日奇迹&amp;#34;,&amp;#34;狮子王&amp;#34;,&amp;#34;玩具总动员4&amp;#34;] targetUrls = [] driver = webdriver.</description>
+    </item>
+    
   </channel>
 </rss>
