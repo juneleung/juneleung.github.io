@@ -3,10 +3,10 @@ body {
 }
 /*url link markdown*/
 a {
-  color: hsl(184, 21%, 70%);
+  color: rebeccapurple;
 }
 a:hover{
-  color: hsl(184, 21%, 70%);
+  color: rebeccapurple;
 }
 h1 {
   font-size: 1.6em;
@@ -15,20 +15,14 @@ h1 {
 p {
   color: #e1D9D1;
 }
-
-.footfont {
-  font-size: 80%;
-}
-
 /*layout size*/
 .container-sm {
-  max-width: 1300px;
+  max-width: 760px;
 } 
 
 /*backround color*/
 .bg-dark {
-  /* background-color: rgb(44, 87, 114) !important; */
-  background-color: rgb(57, 85, 87) !important;
+  background-color: #000 !important;
 }
 
 /*posts image*/
@@ -38,11 +32,10 @@ img {
 
 /*avatar/profile image*/
 .img-ava {
-  height: 150px;
-  width: 150px;
-  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
   margin-bottom: 30px;
-  object-fit:cover;
 }
 
 /*header/navbar*/
@@ -115,8 +108,4 @@ kbd {
   padding-left: 10px;
  
   font-size: 13px !important;
-}
-
-table{
-  width: 100%;
 }
