@@ -123,19 +123,6 @@ OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVi
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>http://example.org/contact/</link>
-      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/contact/</guid>
-      <description>Mail me: juneleungchan@163.com
-Linkedin: JuneleungChan
-Github: https://github.com/juneleung
-HomePage: https://juneleung.github.io or https://juneleung.gitee.io
-CMDB: 陈俊良</description>
-    </item>
-    
-    <item>
       <title>流浪地球2 DI流程设计 The Wandering Earth II - DI Pipeline</title>
       <link>http://example.org/archive/behind-the-scene/twe2_di/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
