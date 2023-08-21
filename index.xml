@@ -39,7 +39,10 @@
       <guid>http://example.org/about/</guid>
       <description>&lt;!DOCTYPE html&gt; 欢迎来到我的网站，关于我的介绍分为四部分：
 Welcome to my website, there are four parts about my introduction:
-# 技能 Skills # 教育 Education # 经历 Experience # 联系 Contact 技能 Skills Resolve
+# 技能 Skills
+# 教育 Education
+# 经历 Experience
+# 联系 Contact 技能 Skills Resolve
 Baselight
 Unreal Engine
 Nuke
