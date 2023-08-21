@@ -28,9 +28,9 @@
       <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/about/</guid>
-      <description>&lt;!DOCTYPE html&gt; 欢迎来到我的网站，关于我的介绍分为三部分：
-Welcome to my website, there are three parts about my introduction:
-# 技能 Skills # 教育 Education # 经历 Experience 技能 Skills Resolve
+      <description>&lt;!DOCTYPE html&gt; 欢迎来到我的网站，关于我的介绍分为四部分：
+Welcome to my website, there are four parts about my introduction:
+# 技能 Skills # 教育 Education # 经历 Experience # 联系 Contact 技能 Skills Resolve
 Baselight
 Unreal Engine
 Nuke
