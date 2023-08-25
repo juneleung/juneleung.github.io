@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DaVinci on Juneleung Chan</title>
+    <link>http://example.org/tags/davinci/</link>
+    <description>Recent content in DaVinci on Juneleung Chan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/davinci/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>达芬奇定时截图静帧 Grab stills every specified time</title>
+      <link>http://example.org/archive/codes/python_drgrabstills/</link>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/codes/python_drgrabstills/</guid>
+      <description> * 目标：数据集构造
+* Goal: Grab Stills for dataset
+* 任务：从开始时间码到结束时间码之间，每隔指定时间截图静帧到图库
+* Task: From the start timecode to the end timecode, grab still frames to the gallery every specified time
+* 语言：Python
+* Language: Python
+* 软件：达芬奇
+* Software: DaVinci Resolve
+testing clip is the trailer of OPPENHEIMER &lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/DR_GrabStills &lt;!DOCTYPE html&gt; Code &lt;!DOCTYPE html&gt; code @juneleung
+20230821
+&lt;!DOCTYPE html&gt; </description>
+    </item>
+    
+    <item>
+      <title>Davinci Resolve API</title>
+      <link>http://example.org/archive/api-develop/dr_api/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/dr_api/</guid>
+      <description>Updated as of 26 May 2023
+&lt;!DOCTYPE html&gt; Resolve Fusion() &amp;ndash;&amp;gt; Fusion % Returns the Fusion object. Starting point for Fusion scripts.
+GetMediaStorage() &amp;ndash;&amp;gt; MediaStorage % Returns the media storage object to query and act on media locations.
+GetProjectManager() &amp;ndash;&amp;gt; ProjectManager % Returns the project manager object for currently open database.
+OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVinci Resolve. Input can be one of (&amp;ldquo;media&amp;rdquo;, &amp;ldquo;cut&amp;rdquo;, &amp;ldquo;edit&amp;rdquo;, &amp;ldquo;fusion&amp;rdquo;, &amp;ldquo;color&amp;rdquo;, &amp;ldquo;fairlight&amp;rdquo;, &amp;ldquo;deliver&amp;rdquo;).</description>
+    </item>
+    
+  </channel>
+</rss>

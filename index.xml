@@ -8,16 +8,25 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>project</title>
-      <link>http://example.org/project/</link>
+      <title>commercial</title>
+      <link>http://example.org/commercial/</link>
       <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/project/</guid>
+      <guid>http://example.org/commercial/</guid>
       <description>coming soon!</description>
     </item>
     
     <item>
-      <title>Python - DaVinciResolve | 达芬奇定时截图静帧 Grab stills every specified time</title>
+      <title>research</title>
+      <link>http://example.org/research/</link>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/</guid>
+      <description>coming soon!</description>
+    </item>
+    
+    <item>
+      <title>达芬奇定时截图静帧 Grab stills every specified time</title>
       <link>http://example.org/archive/codes/python_drgrabstills/</link>
       <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
       
@@ -36,7 +45,7 @@ testing clip is the trailer of OPPENHEIMER &lt;!DOCTYPE html&gt; Github: https:/
     </item>
     
     <item>
-      <title>LATEX | BFA 本/硕毕业论文|课程论文模版 BFA Thesis Template (latex)</title>
+      <title>BFA 本/硕毕业论文|课程论文模版 BFA Thesis Template (latex)</title>
       <link>http://example.org/archive/codes/latex_thesis_template/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       
@@ -48,6 +57,15 @@ testing clip is the trailer of OPPENHEIMER &lt;!DOCTYPE html&gt; Github: https:/
 &lt;!DOCTYPE html&gt; 本科毕业论文模版 Undergraduate Thesis Template in Latex &lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/BFA_Undergraduate_Thesis_Template &lt;!DOCTYPE html&gt; 硕士毕业论文模版 Master Thesis Template in Latex &lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/BFA_Master_Thesis_Template &lt;!DOCTYPE html&gt; 研究生课程论文模版 Course Paper Template in Latex &lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/BFA_MasterCourse_Paper_Template @juneleung
 20230801
 &lt;!DOCTYPE html&gt; </description>
+    </item>
+    
+    <item>
+      <title>Filmlight API</title>
+      <link>http://example.org/archive/api-develop/fl_api/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/fl_api/</guid>
+      <description>&lt;!DOCTYPE html&gt; FLAPI TBA</description>
     </item>
     
     <item>
@@ -139,7 +157,7 @@ OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVi
     </item>
     
     <item>
-      <title>Python | 电影数据库爬虫 Web crawler for Movie Database</title>
+      <title>电影数据库爬虫 Web crawler for Movie Database</title>
       <link>http://example.org/archive/codes/python_doubanimdb/</link>
       <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
       
@@ -163,6 +181,15 @@ OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVi
       <guid>http://example.org/archive/behind-the-scene/twe2_di/</guid>
       <description> &lt;!DOCTYPE html&gt; News: 《流浪地球2 | 摄影拍摄、监看、现场调色、DIT以及后期DI 全流程回顾》 CN PDF Download: DI workflow &amp;amp; Pipeline PDF EN Version Download: DI Workflow &amp;amp; Pipeline - EN @juneleung
 &lt;!DOCTYPE html&gt; </description>
+    </item>
+    
+    <item>
+      <title>POCO M5 Series Global Launch event</title>
+      <link>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/comm/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/comm/</guid>
+      <description></description>
     </item>
     
     <item>

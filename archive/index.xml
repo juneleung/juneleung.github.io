@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/archive/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python - DaVinciResolve | 达芬奇定时截图静帧 Grab stills every specified time</title>
+      <title>达芬奇定时截图静帧 Grab stills every specified time</title>
       <link>http://example.org/archive/codes/python_drgrabstills/</link>
       <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
       
@@ -27,7 +27,7 @@ testing clip is the trailer of OPPENHEIMER &lt;!DOCTYPE html&gt; Github: https:/
     </item>
     
     <item>
-      <title>LATEX | BFA 本/硕毕业论文|课程论文模版 BFA Thesis Template (latex)</title>
+      <title>BFA 本/硕毕业论文|课程论文模版 BFA Thesis Template (latex)</title>
       <link>http://example.org/archive/codes/latex_thesis_template/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       
@@ -39,6 +39,15 @@ testing clip is the trailer of OPPENHEIMER &lt;!DOCTYPE html&gt; Github: https:/
 &lt;!DOCTYPE html&gt; 本科毕业论文模版 Undergraduate Thesis Template in Latex &lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/BFA_Undergraduate_Thesis_Template &lt;!DOCTYPE html&gt; 硕士毕业论文模版 Master Thesis Template in Latex &lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/BFA_Master_Thesis_Template &lt;!DOCTYPE html&gt; 研究生课程论文模版 Course Paper Template in Latex &lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/BFA_MasterCourse_Paper_Template @juneleung
 20230801
 &lt;!DOCTYPE html&gt; </description>
+    </item>
+    
+    <item>
+      <title>Filmlight API</title>
+      <link>http://example.org/archive/api-develop/fl_api/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/fl_api/</guid>
+      <description>&lt;!DOCTYPE html&gt; FLAPI TBA</description>
     </item>
     
     <item>
@@ -67,7 +76,7 @@ OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVi
     </item>
     
     <item>
-      <title>Python | 电影数据库爬虫 Web crawler for Movie Database</title>
+      <title>电影数据库爬虫 Web crawler for Movie Database</title>
       <link>http://example.org/archive/codes/python_doubanimdb/</link>
       <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
       
