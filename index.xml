@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Film</title>
+      <link>http://example.org/film/</link>
+      <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/film/</guid>
+      <description>2023
+&lt;!DOCTYPE html&gt; 学爸 (2023) Papa @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 长安三万里 (2023) Chang An @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 消失的她 (2023) Lost in the Stars @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 流浪地球2 (2023) The Wandering Earth Ⅱ @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 回廊亭 (2023) Revival @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 保你平安 (2023) Post Truth @流程研发 Pipeline TD / Digital Intermediate Engineer 2022</description>
+    </item>
+    
+    <item>
       <title>commercial</title>
       <link>http://example.org/commercial/</link>
       <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
@@ -101,13 +111,21 @@ Synology
     </item>
     
     <item>
-      <title>Film</title>
-      <link>http://example.org/film/</link>
-      <pubDate>Sat, 15 Jul 2023 01:33:25 +0800</pubDate>
+      <title>人员信息数据库 SQL Demo of Personnel Data</title>
+      <link>http://example.org/archive/codes/python_sqlite3_personaldata/</link>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/film/</guid>
-      <description>2023
-&lt;!DOCTYPE html&gt; 长安三万里 (2023) Chang An @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 消失的她 (2023) Lost in the Stars @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 流浪地球2 (2023) The Wandering Earth Ⅱ @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 回廊亭 (2023) Revival @流程研发 Pipeline TD / Digital Intermediate Engineer &lt;!DOCTYPE html&gt; 保你平安 (2023) Post Truth @流程研发 Pipeline TD / Digital Intermediate Engineer 2022</description>
+      <guid>http://example.org/archive/codes/python_sqlite3_personaldata/</guid>
+      <description>* 目标：数据库构造
+* Goal: SQL building
+* 任务：这是一个个人数据管理数据库。包括添加数据库信息、查询、显示、转换等功能。
+* Task: This is a management database of personal data data. Including functions such as adding to the database, querying, displaying, and converting.
+* 语言：Python, SQLite3
+* Language: Python, SQLite3
+&lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/PersonalDataSQL_Sqlite3_Py_demo &lt;!DOCTYPE html&gt; Introduction Information about each person includes:
+name address phone Supported formats for personal data include:
+json yaml xml csv Display format include:
+txt html Convert format include:</description>
     </item>
     
     <item>
@@ -185,11 +203,12 @@ OpenPage(pageName) &amp;ndash;&amp;gt; Bool % Switches to indicated page in DaVi
     
     <item>
       <title>POCO M5 Series Global Launch event</title>
-      <link>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/comm/</link>
+      <link>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-m5-series-global-launch-event/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/comm/</guid>
-      <description></description>
+      <guid>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-m5-series-global-launch-event/</guid>
+      <description>&lt;!DOCTYPE html&gt; POCO M5 系列国际发布会 &lt;!DOCTYPE html&gt; POCO M5 Series Global Launch event &lt;!DOCTYPE html&gt; Global Launch Open on Youtube: https://www.youtube.com/embed/VcfGAfIR7p8?si=3cR_ozpXGln3sr-q
+&lt;!DOCTYPE html&gt; Recap in 8 Mins Open on Youtube: https://www.youtube.com/embed/SIUoeOOJgeU?si=-Qf0E34TTlxvBihF</description>
     </item>
     
     <item>
@@ -205,6 +224,28 @@ sharegrid: https://www.sharegrid.com/learn @juneleung
     </item>
     
     <item>
+      <title>POCO F4 GT Global Launch Event</title>
+      <link>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-f4-gt-global-launch-event/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-f4-gt-global-launch-event/</guid>
+      <description>&lt;!DOCTYPE html&gt; POCO F4 GT 系列国际发布会 &lt;!DOCTYPE html&gt; POCO F4 GT Global Launch Event &lt;!DOCTYPE html&gt; Global Launch Open on Youtube: https://www.youtube.com/embed/1r7mTInG_bU?si=933ecmlMOJTVEDp3
+&lt;!DOCTYPE html&gt; Recap in 8 Mins Open on Youtube: https://www.youtube.com/embed/fst6kYGbcgk?si=pOdLMVM_Indb-kbZ
+&lt;!DOCTYPE html&gt; Recap in 45 Secs Open on Youtube: https://www.youtube.com/embed/f0q1D2U357E?si=Qx6b-tbqrEnCNMkB</description>
+    </item>
+    
+    <item>
+      <title>POCO X4 Pro 5G &amp; M4 Pro Global Launch Event</title>
+      <link>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-x4-pro-5g-m4-pro-global-launch-event/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-x4-pro-5g-m4-pro-global-launch-event/</guid>
+      <description>&lt;!DOCTYPE html&gt; POCO X4 Pro 5G &amp;amp; M4 Pro 系列国际发布会 &lt;!DOCTYPE html&gt; POCO X4 Pro 5G &amp;amp; M4 Pro Global Launch Event &lt;!DOCTYPE html&gt; Global Launch Open on Youtube: https://www.youtube.com/embed/PDpvnCai-8Y?si=uf_WHznFFq4c1ZTW
+&lt;!DOCTYPE html&gt; Recap in 8 Mins Open on Youtube: https://www.youtube.com/embed/vnUSyYGapqk?si=eOe0PZuc5MZE-lm1
+&lt;!DOCTYPE html&gt; Recap in 45 Secs Open on Youtube: https://www.youtube.com/embed/VIwT3bdoygA?si=jgnJqMj2MipUAjVD</description>
+    </item>
+    
+    <item>
       <title>剪辑和调色的交接物料 Turnover between editing and DI color grading</title>
       <link>http://example.org/archive/pipeline/ed-to-di/</link>
       <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
@@ -215,6 +256,26 @@ sharegrid: https://www.sharegrid.com/learn @juneleung
 &lt;!DOCTYPE html&gt; 1、导出参考小样 Export Reference 一个剪辑完成片的视频，以供调色公司的画面套底参考。
 A video of the edited film, as the DI&amp;rsquo;s conform reference.
 具体文件参数 File Parameters: 苹果平台 mac 格式 (Format) : Quciktime MOV 编码 (Codec) : Apple Prores 类型 (Type) : 422HQ/422/proxy 声音 (Audio) : PCM/AAC 视窗平台 windows 格式 (Format) : MXF 编码 (Codec) : DNxHD / DNxHR 类型 (Type) : 1080p 100/85/80 8bit / DNxHR SQ/LB 声音 (Audio) : PCM/AAC 如e.</description>
+    </item>
+    
+    <item>
+      <title>POCO F3 Global Launch Event</title>
+      <link>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-f3-gt-global-launch-event/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-f3-gt-global-launch-event/</guid>
+      <description>&lt;!DOCTYPE html&gt; POCO F3 系列国际发布会 &lt;!DOCTYPE html&gt; POCO F3 Global Launch Event &lt;!DOCTYPE html&gt; Global Launch Open on Youtube: https://www.youtube.com/embed/PDpvnCai-8Y?si=uf_WHznFFq4c1ZTW</description>
+    </item>
+    
+    <item>
+      <title>POCO X3 NFC Global Launch Event</title>
+      <link>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-x3-nfc-global-launch-event/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-x3-nfc-global-launch-event/</guid>
+      <description>&lt;!DOCTYPE html&gt; POCO X3 NFC 系列国际发布会 &lt;!DOCTYPE html&gt; POCO X3 NFC Global Launch Event &lt;!DOCTYPE html&gt; Global Launch Open on Youtube: https://www.youtube.com/embed/K_pll3rzF3E?si=UUY4Pl05UlWyX-IM
+&lt;!DOCTYPE html&gt; Recap in 10 Mins Open on Youtube: https://www.youtube.com/embed/N2Msbnkk5k0?si=qUMsoiqXc9lCg1Wc
+&lt;!DOCTYPE html&gt; Recap in 45 Secs Open on Youtube: https://www.youtube.com/embed/b01l07quMIU?si=YkUTihlAKp_6bV_D</description>
     </item>
     
   </channel>
