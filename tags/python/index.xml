@@ -27,6 +27,25 @@ testing clip is the trailer of OPPENHEIMER &lt;!DOCTYPE html&gt; Github: https:/
     </item>
     
     <item>
+      <title>UE远程渲染 UE Remote Rendering</title>
+      <link>http://example.org/archive/codes/python_unreal_remoterendering/</link>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/codes/python_unreal_remoterendering/</guid>
+      <description> * 目标：UE远程渲染
+* Goal: UE remote rendering
+* 任务：UE工程在局域网远程多台渲染子节点渲染
+* Task: The UE project is rendered by multiple rendering sub-nodes remotely in the LAN
+* 语言：Python
+* Language: Python
+* 软件：Unreal 5.1
+* Language: Unreal 5.1
+&lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/UERemoteRendering &lt;!DOCTYPE html&gt; Introduction &lt;!DOCTYPE html&gt; code For more operating instructions, please see the github repository. @juneleung
+20230629
+&lt;!DOCTYPE html&gt; </description>
+    </item>
+    
+    <item>
       <title>人员信息数据库 SQL Demo of Personnel Data</title>
       <link>http://example.org/archive/codes/python_sqlite3_personaldata/</link>
       <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
