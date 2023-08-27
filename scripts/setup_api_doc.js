@@ -41,10 +41,19 @@ function work() {
             return {
               ...desc,
               apis: desc.apis.filter(function (api) {
+
+                const lowerCaseFilterText = filterText.toLowerCase();
+                const lowerCaseFunctionDecl = api.functionDecl.toLowerCase();
+                const lowerCaseReturnType = api.returnType.toLowerCase();
+                const lowerCaseDescription = api.description.toLowerCase();
+
                 return (
-                  api.functionDecl.includes(filterText) ||
-                  api.returnType.includes(filterText) ||
-                  api.description.includes(filterText)
+                  lowerCaseFunctionDecl.includes(lowerCaseFilterText) ||
+                  lowerCaseReturnType.includes(lowerCaseFilterText) ||
+                  lowerCaseDescription.includes(lowerCaseFilterText)
+                  // api.functionDecl.includes(filterText) ||
+                  // api.returnType.includes(filterText) ||
+                  // api.description.includes(filterText)
                 );
               }),
             };

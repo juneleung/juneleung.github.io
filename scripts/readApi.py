@@ -17,6 +17,7 @@ with open('Book1.csv', 'r') as file:
         apiType.append(type)
         apiComment.append(comm)
 
+outstring = ""
 firsttime = 1
 with open('dr_api_list.js', 'w') as file:
     file.write("window._apis = {\n")
@@ -30,9 +31,9 @@ with open('dr_api_list.js', 'w') as file:
             if firsttime:
                 firsttime = 0
             else:
-                file.write("\t\t\t],\n\t\t},\n")
-            file.write("\t\t{\n\t\t\tsection: \""+apiName[0].replace("﻿","")+"\",\n")
-            file.write("\t\t\tapis: [\n")
+                outstring += ("\t\t\t],\n\t\t},\n")
+            outstring += ("\t\t{\n\t\t\tsection: \""+apiName[0].replace("﻿","")+"\",\n")
+            outstring += ("\t\t\tapis: [\n")
             print("class\t",apiName[0])
             apiName.pop(0)
             apiType.pop(0)
@@ -45,6 +46,7 @@ with open('dr_api_list.js', 'w') as file:
             apiType[0] = type + apiType[0]
             comm = apiComment.pop(0)
             apiComment[0] = comm + apiComment[0]
+            outstring = outstring[:-10] + comm.replace("\"","\\\"") + "\",\n" + "\t\t\t\t},\n"
         elif "(" in apiName[0] and ")" not in apiName[0]: # more line name
             print("eat line")
             name = apiName.pop(0)
@@ -54,12 +56,16 @@ with open('dr_api_list.js', 'w') as file:
             comm = apiComment.pop(0)
             apiComment[0] = comm + apiComment[0]
         elif "(" in apiName[0] and ")" in apiName[0]:
+            # finalName.append(apiName[0])
+            # finalType.append(apiType[0])    
+            # finalComment.append(apiComment[0])  
+            
             print("API\t",apiName[0],apiType[0],apiComment[0])
-            file.write("\t\t\t\t{\n")
-            file.write("\t\t\t\t\tfunctionDecl:\""+apiName[0].replace(" ","").replace("\"","\\\"")+"\",\n")
-            file.write("\t\t\t\t\treturnType:\""+apiType[0].replace("  ","").replace("\"","\\\"")+"\",\n")
-            file.write("\t\t\t\t\tdescription:\""+apiComment[0].replace("\"","\\\"")+"\",\n")
-            file.write("\t\t\t\t},\n")
+            outstring += ("\t\t\t\t{\n")
+            outstring += ("\t\t\t\t\tfunctionDecl:\""+apiName[0].replace(" ","").replace("\"","\\\"")+"\",\n")
+            outstring += ("\t\t\t\t\treturnType:\""+apiType[0].replace("  ","").replace("\"","\\\"")+"\",\n")
+            outstring += ("\t\t\t\t\tdescription:\""+apiComment[0].replace("\"","\\\"")+"\",\n")
+            outstring += ("\t\t\t\t},\n")
             
             apiName.pop(0)
             apiType.pop(0)
@@ -70,6 +76,7 @@ with open('dr_api_list.js', 'w') as file:
             print(len(apiName[0]), len(apiType[0]), len(apiComment[0]))
             break
 
+    file.write(outstring)
     file.write("\t\t\t],\n\t\t},\n")
     file.write("\t],\n")
     file.write("};\n")
