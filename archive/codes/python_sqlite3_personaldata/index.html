@@ -1,5 +1,37 @@
 <!doctype html>
-<html lang="en"  class="h-100"><head>
+<html lang="en"  class="h-100">
+<style>
+  #back-to-top {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    display: none;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    background-image:url('/img/about/backtotop.png');
+    background-size: cover; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+    opacity: 1;
+    transition: opacity 2s; 
+  }
+
+  .sticky {
+    position: sticky;
+    top: 3%;
+    z-index: 999; 
+    
+    opacity: 1;
+    transition: opacity 1s; 
+  }
+
+</style><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Your description">
@@ -26,23 +58,28 @@
 </head>
 
 <body class="d-flex md h-100 container-sm text-white bg-dark"> 
-<div class="d-flex w-100 h-100 p-3 mx-auto flex-column"><header class="mb-auto">
-    <div>
-      <h1 class="float-md-start justify-content-center "><a class="head-rose" href="/">Juneleung Chan</a></h1>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link text-white" href="/">Home</a>
-        <a class="nav-link text-white" href="/film">Film</a>
-        <a class="nav-link text-white" href="/commercial">Commercial</a>
-        <a class="nav-link text-white" href="/research">Research</a>
-        <a class="nav-link text-white" href="/reel">Reel</a>
-        <a class="nav-link text-white" href="/archive">Archive</a>
-        <a class="nav-link text-white" href="/about">About</a>
-        
-      </nav>
-    </div>
-</header>
+  <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+    
+    <header class="sticky">
 
-<div id="content">
+<header class="mb-auto">
+  <h1 class="float-md-start justify-content-center">
+    <a class="head-rose" href="/">Juneleung Chan</a>
+  </h1>
+  <nav class="nav nav-masthead justify-content-center float-md-end">
+    <a class="nav-link text-white" href="/">Home</a>
+    <a class="nav-link text-white" href="/film">Film</a>
+    <a class="nav-link text-white" href="/commercial">Commercial</a>
+    <a class="nav-link text-white" href="/research">Research</a>
+    <a class="nav-link text-white" href="/reel">Reel</a>
+    <a class="nav-link text-white" href="/archive">Archive</a>
+    <a class="nav-link text-white" href="/about">About</a>
+    
+  </nav>
+</header>
+    </header>
+  
+    <div id="content" >
 	<main>
 		<article>
 			<h1>人员信息数据库 SQL Demo of Personnel Data</h1>
@@ -191,12 +228,39 @@ This is a management database of personal data data. Including functions such as
 		</article>
 	</main>
 
-  </div><footer class="mt-auto text-white text-center">
+    </div><footer class="mt-auto text-white text-center">
     <p>2023</p>
     
     
 </footer>
 
 
+  </div>
+
+  <a href="#" id="back-to-top"></a>
+
+<script>
+  window.onscroll = function() {
+    if (document.documentElement.scrollTop > 100) {
+      
+      document.getElementById("back-to-top").style.opacity = 1;
+    } else {
+      
+      document.getElementById("back-to-top").style.opacity = 0;
+    }
+
+    if(window.scrollY > 40) {
+    document.querySelector('.sticky').style.opacity = 0;
+  } else {
+    document.querySelector('.sticky').style.opacity = 1; 
+  }
+  }
+
+  document.getElementById("back-to-top").addEventListener("click", function() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  })
+
+</script>
 </body>
 </html>
+
