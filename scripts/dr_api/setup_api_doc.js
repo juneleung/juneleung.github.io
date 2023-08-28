@@ -83,6 +83,8 @@ function work() {
       // each api
       for (const api of desc.apis) {
         const functionDeclEl = document.createElement("span");
+        functionDeclEl.style.color = "white";
+        functionDeclEl.style.fontWeight = "bold";
         functionDeclEl.innerText = api.functionDecl;
         const returnTypeEl = document.createElement("span");
         returnTypeEl.innerText = " --> " + api.returnType;
