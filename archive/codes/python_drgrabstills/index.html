@@ -18,7 +18,7 @@
     justify-content: center;
     flex-direction: column; 
 
-    opacity: 1;
+    opacity: 0;
     transition: opacity 2s; 
   }
 
@@ -60,9 +60,8 @@
 <body class="d-flex md h-100 container-sm text-white bg-dark"> 
   <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
     
-    <header class="sticky">
-
-<header class="mb-auto">
+    
+<header class="mb-auto sticky">
   <h1 class="float-md-start justify-content-center">
     <a class="head-rose" href="/">Juneleung Chan</a>
   </h1>
@@ -77,9 +76,9 @@
     
   </nav>
 </header>
-    </header>
+    
   
-    <div id="content" >
+    <div id="content">
 	<main>
 		<article>
 			<h1>达芬奇定时截图静帧 Grab stills every specified time</h1>
@@ -246,6 +245,7 @@
 
 <script>
   window.onscroll = function() {
+
     if (document.documentElement.scrollTop > 100) {
       
       document.getElementById("back-to-top").style.opacity = 1;
@@ -255,10 +255,10 @@
     }
 
     if(window.scrollY > 40) {
-    document.querySelector('.sticky').style.opacity = 0;
-  } else {
-    document.querySelector('.sticky').style.opacity = 1; 
-  }
+      document.querySelector('.sticky').style.opacity = 0;
+    } else {
+      document.querySelector('.sticky').style.opacity = 1; 
+    }
   }
 
   document.getElementById("back-to-top").addEventListener("click", function() {
