@@ -1,38 +1,113 @@
+
+
 <!doctype html>
 <html lang="en"  class="h-100">
-<style>
-  #back-to-top {
-    position: fixed;
-    bottom: 3%;
-    right: 3%;
-    display: none;
-
-    width: 60px;
-    height: 60px;
-    border-radius: 50%; 
-    background-image:url('/img/about/backtotop.png');
-    background-size: cover; 
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
-
-    opacity: 0;
-    transition: opacity 2s; 
-  }
-
-  .sticky {
-    position: sticky;
-    top: 3%;
-    z-index: 999; 
-    
-    opacity: 1;
-    transition: opacity 1s; 
-  }
-
-</style><head>
+<head>
 	<meta name="generator" content="Hugo 0.113.0">
+  <script src="/scripts/theme/baseof.js" defer></script>
+  <link href="/css/baseof.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+    body{
+        background-image: url(/img/about/bg.png);
+        background-repeat: repeat;
+        background-size: auto 65vw;
+        background-position: center;
+    }
+
+    .block1{
+        height: 80vh;
+         
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .block2{
+        height: 100vh;
+        background-color: #00000046;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content {
+        position: relative;
+        text-align: center;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+       
+      background-color: hsla(184, 21%, 28%, 0.95);
+    }
+
+    .layblock2 {
+        width: 85%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+         
+         
+    }
+
+
+    .subnav{
+         
+         
+        margin-top: 15px;
+        box-sizing: border-box;
+        flex: 1 0 100%;
+        text-align: left;
+        position: relative;
+        height: auto;
+        background-color: hsla(184, 21%, 28%, 0.543);
+         
+         
+         
+    }
+
+    .arrow-text {
+         
+        top: 10px;
+        left: 10px;
+        font-size: 20px;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
+    .navdes {
+         
+        bottom: 10%;
+        width: 80%;
+        left: 2%;
+        text-align: left;
+        padding-left: 5%;
+         
+    }
+
+    @media (min-width: 600px) {
+        .subnav {
+            flex: 1 0 calc(50% - 30px);
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .navdes {
+             
+            width: 100%;
+        }
+        .layblock2 {
+            height: 60%;
+        }
+        .arrow-text{
+            padding-bottom: 5%;
+        }
+    }
+    
+</style><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Your description">
@@ -58,10 +133,10 @@
     </title> 
 </head>
 
-<body class="d-flex md h-100 container-sm text-white bg-dark"> 
-  <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
-    
-    
+<body class="md text-white bg-dark">
+    <div class="overlay">
+        <div class="d-flex container-sm" style="height: 15vh;">
+            <div class="d-flex w-100 p-3 mx-auto flex-column">
 <header class="mb-auto sticky">
   <h1 class="float-md-start justify-content-center">
     <a class="head-rose" href="/">Juneleung Chan</a>
@@ -70,71 +145,46 @@
     <a class="nav-link text-white" href="/">Home</a>
     <a class="nav-link text-white" href="/film">Film</a>
     <a class="nav-link text-white" href="/commercial">Commercial</a>
-    <a class="nav-link text-white" href="/research">Research</a>
     <a class="nav-link text-white" href="/reel">Reel</a>
+    <a class="nav-link text-white" href="/research">Research</a>
     <a class="nav-link text-white" href="/archive">Archive</a>
     <a class="nav-link text-white" href="/about">About</a>
     
   </nav>
 </header>
-    
-  
-    <div id="content"><div class="div1">
-    <div class="avatar text-center">
-        <img src="/img/about/juneleung.jpeg" alt="juneleung" class="img-ava" />
-    </div>
-    <div class="scrollable">
-        <div class="px-3 text-center">
-            <h3>陈俊良</h3>
-            <h3>Juneleung Chan / Jun-Liang Chen</h3>
-            <br>
-            <p>TD / R&D / DI</p>
-            <p>Welcome to my site!</p>
-            <a href="/about">关于我 About me</a>
+            </div>
         </div>
+
+        <div  class="block1">
+            <div id="content"><div class="avatar text-center">
+    <img src="/img/about/juneleung.jpeg" alt="juneleung" class="img-ava" />
+</div>
+<div class="scrollable">
+    <div class="px-3 text-center">
+        <h3>陈俊良</h3>
+        <h3>Juneleung Chan / Jun-Liang Chen</h3>
+        <br>
+        <p>TD / R&D / DI</p>
+        <p>Welcome to my site!</p>
+        <a href="/about">关于我 About me</a>
     </div>
 </div>
 
-<div class="div2">
-
-    
+            </div>
+        </div>
         
-</div>
-
-    </div><footer class="mt-auto text-white text-center">
+        <div style="height: 5vh;"><footer class="mt-auto text-white text-center">
     <p>2023</p>
     
     
 </footer>
 
+        </div>
 
-  </div>
+        
 
-  <a href="#" id="back-to-top"></a>
-
-<script>
-  window.onscroll = function() {
-
-    if (document.documentElement.scrollTop > 100) {
-      
-      document.getElementById("back-to-top").style.opacity = 1;
-    } else {
-      
-      document.getElementById("back-to-top").style.opacity = 0;
-    }
-
-    if(window.scrollY > 40) {
-      document.querySelector('.sticky').style.opacity = 0;
-    } else {
-      document.querySelector('.sticky').style.opacity = 1; 
-    }
-  }
-
-  document.getElementById("back-to-top").addEventListener("click", function() {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  })
-
-</script>
+        <a href="#" id="back-to-top"></a>
+    </div>
 </body>
 </html>
 
