@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New</title>
+      <link>http://example.org/tags/new/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>论文 Paper</title>
+      <link>http://example.org/tags/%E8%AE%BA%E6%96%87-paper/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E8%AE%BA%E6%96%87-paper/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>DaVinci</title>
       <link>http://example.org/tags/davinci/</link>
@@ -35,6 +53,15 @@
     </item>
     
     <item>
+      <title>软著 Software copyright</title>
+      <link>http://example.org/tags/%E8%BD%AF%E8%91%97-software-copyright/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E8%BD%AF%E8%91%97-software-copyright/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Baselight</title>
       <link>http://example.org/tags/baselight/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
@@ -58,6 +85,51 @@
       <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DI</title>
+      <link>http://example.org/tags/di/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/di/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VFX</title>
+      <link>http://example.org/tags/vfx/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/vfx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>专利 Patent</title>
+      <link>http://example.org/tags/%E4%B8%93%E5%88%A9-patent/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E4%B8%93%E5%88%A9-patent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>奖项 Award</title>
+      <link>http://example.org/tags/%E5%A5%96%E9%A1%B9-award/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E5%A5%96%E9%A1%B9-award/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EDIT</title>
+      <link>http://example.org/tags/edit/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/edit/</guid>
       <description></description>
     </item>
     

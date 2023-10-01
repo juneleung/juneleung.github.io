@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DI on Juneleung Chan</title>
+    <link>http://example.org/tags/di/</link>
+    <description>Recent content in DI on Juneleung Chan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/di/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CG &amp; DI色彩管理 Color Management in CG&amp;DI</title>
+      <link>http://example.org/archive/pipeline/color_management_in_cg_di/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/pipeline/color_management_in_cg_di/</guid>
+      <description>&lt;!DOCTYPE html&gt; 目标: 不同软件内监看颜色一致 &lt;!DOCTYPE html&gt; Goal: To keep colors’ exactness across software * 本测试所有文件和工程: @juneleung: Color-Management-in-CG-DI * All files and projects can be downloaded from: @juneleung: Color-Management-in-CG-DI * 本测试使用 OCIO 和 ACES 1.2 进行色彩管理
+* This test uses OCIO and ACES 1.2 for color management
+&lt;!DOCTYPE html&gt; 色卡 ColorChecker * 本测试使用的色卡为 ITU-R_BT.709_ColorChecker2014.exr , 其他色卡可以从 @colour-science: colour-nuke 下载
+* The ColorChecker used in this test is ITU-R_BT.709_ColorChecker2014.exr , other ColorCheckers can be downloaded from @colour-science: colour-nuke &lt;!</description>
+    </item>
+    
+    <item>
+      <title>镜头测试数据库 Lens Test Database</title>
+      <link>http://example.org/archive/tips/%E9%95%9C%E5%A4%B4%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/tips/%E9%95%9C%E5%A4%B4%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description>
+&lt;!DOCTYPE html&gt; 镜头测试数据库 Lens Test Database sharegrid: https://www.sharegrid.com/learn michaelliu - In House Testing ​内部测试: https://www.michaelliu.online/in-house-testing-%E5%86%85%E9%83%A8%E6%B5%8B%E8%AF%95 @juneleung
+&lt;!DOCTYPE html&gt; </description>
+    </item>
+    
+    <item>
+      <title>参考静帧网站 Reference Stills Sites</title>
+      <link>http://example.org/archive/tips/%E5%8F%82%E8%80%83%E9%9D%99%E5%B8%A7%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/tips/%E5%8F%82%E8%80%83%E9%9D%99%E5%B8%A7%E7%BD%91%E7%AB%99/</guid>
+      <description>
+&lt;!DOCTYPE html&gt; 参考静帧网站 Reference Stills Sites Film-Grab: https://film-grab.com/ Shotdeck: https://shotdeck.com/ SHOT.CAFE: https://www.shot.cafe FRAMESET: https://www.frameset.app FLIM.AI: https://beta.flim.ai REFSEE: https://www.refsee.com TAGI: https://www.tagi.tv moviestillsdb: https://www.moviestillsdb.com screenmusings: https://screenmusings.org/ @juneleung
+&lt;!DOCTYPE html&gt; </description>
+    </item>
+    
+    <item>
+      <title>剪辑和调色的交接物料 Turnover between editing and DI color grading</title>
+      <link>http://example.org/archive/pipeline/ed-to-di/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/pipeline/ed-to-di/</guid>
+      <description>&lt;!DOCTYPE html&gt; 当你完成一个片子的剪辑之后，应该如何将你的工作完美的交接给DI呢？ &lt;!DOCTYPE html&gt; How to turn over your editing work to DI perfectly after you finish editing a film ? * 本文章所述不一定符合所有情况，请根据具体项目酌情进行修改。
+* The descriptions in this article may not be applicable to all situations, please modify as appropriate according to specific projects.
+&lt;!DOCTYPE html&gt; 1、导出参考小样 Export Reference 一个剪辑完成片的视频，以供调色公司的画面套底参考。
+A video of the edited film, as the DI&amp;rsquo;s conform reference.
+具体文件参数 File Parameters: 苹果平台 mac 格式 (Format) : Quciktime MOV 编码 (Codec) : Apple Prores 类型 (Type) : 422HQ/422/proxy 声音 (Audio) : PCM/AAC 视窗平台 windows 格式 (Format) : MXF 编码 (Codec) : DNxHD / DNxHR 类型 (Type) : 1080p 100/85/80 8bit / DNxHR SQ/LB 声音 (Audio) : PCM/AAC 如e.</description>
+    </item>
+    
+  </channel>
+</rss>

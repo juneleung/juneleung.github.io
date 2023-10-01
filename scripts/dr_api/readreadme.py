@@ -1,21 +1,42 @@
 #coding=utf-8
-import csv
+import re
 import json
+
+Readmetxt = "README.txt"
 
 apiName = []
 apiType = []
 apiComment = []
 
-with open('Book1.csv', 'r') as file:
-    csv_reader = csv.reader(file)
-    for row in csv_reader:
-        name = row[0]
-        type = row[1]
-        comm = row[2]
+started = False
+with open(Readmetxt) as f:
+    for line in f:
+        if 'API functions are described below' in line:
+            started = True
+            print('Starting output')
+        
+        elif '# This class does not provide any API functio' in line:
+            print('Ending output')
+            break
+        
+        elif started:
+            # print(line)
+            line = line.replace("\n","")
+            if "-->" in line and "#" in line:  
+                parts = re.split('-->|#', line)
+                apiName.append(parts[0])
+                apiType.append(parts[1])
+                apiComment.append(parts[2])
+            elif "#" in line:    
+                parts = re.split('#', line)
+                apiName.append(parts[0])
+                apiType.append("")
+                apiComment.append(parts[1])
+            else:
+                apiName.append(line)
+                apiType.append("")
+                apiComment.append("")
 
-        apiName.append(name)   
-        apiType.append(type)
-        apiComment.append(comm)
 
 outstring = ""
 firsttime = 1
