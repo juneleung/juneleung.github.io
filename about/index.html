@@ -95,11 +95,11 @@
 			margin-bottom: 5px;
 		}
 		
-		img {
+		.imgsw {
 			 
 			height: 20%;
             max-width: 70px;
-			 
+             
 		}
 		a {
 			text-decoration: none;
@@ -113,7 +113,7 @@
   			flex-wrap: wrap;
 		}
 
-		.image-container img {
+		.image-container .imgsw {
 			max-height: 20px; 
 			width: auto;
 			object-fit: cover;
@@ -129,10 +129,11 @@
         }
         
         .column1 {
-            width: 18%;
+            width: 20%;
+
         }
         .column2 {
-            width: 50%;
+            width: 60%;
         }
         .column3 {
             width: auto;
@@ -144,7 +145,12 @@
             padding: 10px;
         }
         
-        img {
+        .imgcontainer {
+            width: 90%;
+            position: relative;
+        }
+        
+        .imgsw {
             display: block;
             margin: 0 auto;
         }
@@ -161,14 +167,16 @@
 </head>
 <body>
 
+
     <div>
         <ul>
-            欢迎来到我的网站，关于我的介绍分为四部分：<br>
-            Welcome to my website, there are four parts about my introduction:<br><br>
+            欢迎来到我的网站，关于我的介绍分为五部分：<br>
+            Welcome to my website, there are five parts about my introduction:<br><br>
 
             <a href="#Skills"><h5># 技能 Skills</h5></a><br>
             <a href="#Experience"><h5># 工作 Work</h5></a><br>
             <a href="#Education"><h5># 教育 Education</h5></a><br>
+            <a href="#Volunteer"><h5># 志愿者 Volunteer</h5></a><br>
             <a href="#Contact"><h5># 联系 Contact</h5></a>
 
         </ul>
@@ -185,12 +193,12 @@
         <div class="container" id="logoID">
             <table>
                 <tr>
-                <td><img src="/img/skills/resolve.svg" alt="DR"></td>
-                <td><img src="/img/skills/baselight.png" alt="BL"></td>
-                <td><img src="/img/skills/unreal_w.svg" alt="UE"></td>
-                <td><img src="/img/skills/nuke.svg" alt="NK"></td>
-                <td><img src="/img/skills/houdini.svg" alt="HDN"></td>
-                <td><img src="/img/skills/shotgrid.svg" alt="SG"></td>
+                <td><img src="/img/skills/resolve.svg" class="imgsw" alt="DR"></td>
+                <td><img src="/img/skills/baselight.png" class="imgsw" alt="BL"></td>
+                <td><img src="/img/skills/unreal_w.svg" class="imgsw" alt="UE"></td>
+                <td><img src="/img/skills/nuke.svg" class="imgsw" alt="NK"></td>
+                <td><img src="/img/skills/houdini.svg" class="imgsw" alt="HDN"></td>
+                <td><img src="/img/skills/shotgrid.svg" class="imgsw" alt="SG"></td>
                 </tr>
                 <tr>
                     <td><p>Resolve</p></td>
@@ -201,12 +209,12 @@
                     <td><p>Shot Grid</p></td>
                 </tr>
                 <tr>
-                    <td><img src="/img/skills/python.svg" alt="py"></td>
-                    <td><img src="/img/skills/cpp.svg" alt="cpp"></td>
-                    <td><img src="/img/skills/qt.svg" alt="qt"></td>
-                    <td><img src="/img/skills/html.svg" alt="html"></td>
-                    <td><img src="/img/skills/pgsql.svg" alt="pgsql"></td>
-                    <td><img src="/img/skills/git.svg" alt="git"></td>
+                    <td><img src="/img/skills/python.svg" class="imgsw" alt="py"></td>
+                    <td><img src="/img/skills/cpp.svg" class="imgsw" alt="cpp"></td>
+                    <td><img src="/img/skills/qt.svg" class="imgsw" alt="qt"></td>
+                    <td><img src="/img/skills/html.svg" class="imgsw" alt="html"></td>
+                    <td><img src="/img/skills/pgsql.svg" class="imgsw" alt="pgsql"></td>
+                    <td><img src="/img/skills/git.svg" class="imgsw" alt="git"></td>
                 </tr>
                 <tr>
                     <td><p>Python</p></td>
@@ -216,27 +224,12 @@
                     <td><p>SQL</p></td>
                     <td><p>Git</p></td>
                 </tr>
-                <tr>
-                    <td><img src="/img/skills/cli.svg" alt="cli"></td>
-                    <td><img src="/img/skills/macos.svg" alt="macos"></td>
-                    <td><img src="/img/skills/windows.svg" alt="windows"></td>
-                    <td><img src="/img/skills/centos.svg" alt="centos"></td>
-                    <td><img src="/img/skills/ubuntu.svg" alt="ubuntu"></td>
-                    <td><img src="/img/skills/synology.svg" alt="synology"></td>
-                </tr>
-                <tr>
-                    <td><p>CL</p></td>
-                    <td><p>macOS</p></td>
-                    <td><p>Windows</p></td>
-                    <td><p>CentOS</p></td>
-                    <td><p>Ubuntu</p></td>
-                    <td><p>Synology</p></td>
-                </tr>
+                
             </table>
         </div>
         <hr>
     </div>
-
+  
     <div id="Experience">
         <div class="center">
         <br>
@@ -247,6 +240,7 @@
         
         <br>
         
+
         <table>
             <thead>
                 <tr>
@@ -257,9 +251,23 @@
             </thead>
             <tbody>
                 <tr>
+                    <td style="text-align:left"><div class="imgcontainer"><img src="/img/icon/zgteam.png"></div></td>
+                    <td style="text-align:left">
+                        北京上添影视 - 张亘DI团队<br>
+                        Beijing ShangTian Media - Antonio DI Team
+                            <br>流程研发
+                            <br>Pipeline TD / Digital Intermediate Engineer
+                            <p style="text-align:left">
+                                <br>· Pipeline development and automated production tool development (C++, Python, SQL, AI)
+                                <br>· 流程开发和自动化生产工具开发（C++、Python、SQL、AI）
+                                <br>
+                                <br>· Advanced technology standard testing
+                                <br>· 高新技术标准测试
+                                <br>
+                                <br>· Color science research
+                                <br>· 色彩科学研究
+                            </p></td>
                     <td style="text-align:left">2020.06 - present</td>
-                    <td style="text-align:left">北京上添影视 - 张亘DI团队<br>Beijing ShangTian Media - Antonio DI Team</td>
-                    <td style="text-align:left">流程研发<br>Pipeline TD / Digital Intermediate Engineer</td>
                 </tr>
 
                 <tr>
@@ -269,9 +277,17 @@
                 </tr>
 
                 <tr>
+                    <td style="text-align:left"><div class="imgcontainer" style="background-color: white"><img src="/img/icon/ictcas.png"></div></td>
+                    <td style="text-align:left">
+                        中国科学院 - 计算技术研究所<br>
+                        Institute of Computing Technology, Chinese Academy of Sciences
+                            <br>实习
+                            <br>R&D Intern
+                            <p style="text-align:left">
+                                AI人脸生成研究 <br>
+                                Face Generation Research
+                            </p></td>
                     <td style="text-align:left">2020.09 - 2021.09</td>
-                    <td style="text-align:left">中国科学院 - 计算技术研究所<br>Institute of Computing Technology, Chinese Academy of Sciences</td>
-                    <td style="text-align:left">AI人脸生成研究<br>AIFace Generation Research</td>
                 </tr>
         
                 <tr>
@@ -310,23 +326,34 @@
             <tbody>
 
                 <tr>
+                    <td style="text-align:left"><div class="imgcontainer"><img src="/img/icon/bfa-w.png"></div></td>
+                    <td style="text-align:left">北京电影学院 - 中国电影高新技术研究院<br>Beijing Film Academy - China Film High-tech Research Institute
+                    
+                        <br>硕士
+                        <br>Master
+                    
+                    </td>
                     <td style="text-align:left">2021.09 - 2024.06</td>
-                    <td style="text-align:left">北京电影学院 - 中国电影高新技术研究院<br>Beijing Film Academy - China Film High-tech Research Institute</td>
-                    <td style="text-align:left">硕士<br>Master</td>
+                    
                 </tr>
                 <tr>
-                    <td style="text-align:right"><p style="text-align:right" >研究方向:<br>Research Interests:<br></p></td>
+                    <td style="text-align:right"><p style="text-align:right" >主要课程:<br>Main Courses:<br></p></td>
+                    <td style="text-align:left" colspan="2"><p style="text-align:left" >视觉效果和虚拟制作、视频技术和数字图像处理、电影数字后期制作技术、数字电影技术<br>Visual Effects And Virtual Production, Video Technology And Digital Image Processing, Film Digital Post-Production Technology, Digital Cinema Technology.</p></td>
+                    <td style="text-align:left"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right"><p style="text-align:right" >实验室:<br>Research Labs:<br></p></td>
                     <td style="text-align:left" colspan="2"><p style="text-align:left">电影智能制作实验室，<br>Film Intelligent Production Laboratory, <br>色彩科学研究实验室<br>Color Science Research Laboratory</p></td>
                     <td style="text-align:left"></td>
                 </tr>
                 <tr>
                     <td style="text-align:right"><p style="text-align:right" >奖项:<br>Awards:<br></p></td>
-                    <td style="text-align:left" colspan="2"><p style="text-align:left" >2021、2022 学业奖学金 一等奖<br>Academic Scholarship - First Prize<br><br>……</p></td>
+                    <td style="text-align:left" colspan="2"><p style="text-align:left" >2023 教育部 国家奖学金<br>Ministry of Education National Scholarship<br><br>2021、2022、2023 学业奖学金 一等奖<br>Academic Scholarship - First Prize<br></p></td>
                     <td style="text-align:left"></td>
                 </tr>
                 <tr>
-                    <td style="text-align:right"><p style="text-align:right" >课程:<br>Courses:<br></p></td>
-                    <td style="text-align:left" colspan="2"><p style="text-align:left" >2021 - 2022 , 2022 - 2023 计算机图形学 - 助教<br>Computer Graphics - Teaching Assistant<br></p></td>
+                    <td style="text-align:right"><p style="text-align:right" >助教:<br>Teaching Assistant:<br></p></td>
+                    <td style="text-align:left" colspan="2"><p style="text-align:left" >计算机图形学 2021 - 2022 , 2022 - 2023 <br>Computer Graphics<br></p></td>
                     <td style="text-align:left"></td>
                 </tr>
 
@@ -337,9 +364,10 @@
                 </tr>
 
                 <tr>
-                    <td style="text-align:left">2017.09 - 2021.06</td>
-                    <td style="text-align:left">北京电影学院 - 影视技术系<br>Beijing Film Academy - Department of Film and Television Technology</td>
-                    <td style="text-align:left">本科<br>Bachelor</td></b>
+                    <td style="text-align:left"><div class="imgcontainer"><img src="/img/icon/bfa-w.png"></div></td>
+                    <td style="text-align:left">北京电影学院 - 影视技术系<br>Beijing Film Academy - Department of Film and Television Technology<br>
+                        本科<br>Bachelor</td>
+                    <td style="text-align:left">2017.09 - 2021.06</td></b>
                 </tr>
                 <tr>
                     <td style="text-align:right"><p style="text-align:right" >主要课程:<br>Main Courses:<br></p></td>
@@ -348,8 +376,13 @@
                     <td style="text-align:left"></td>
                 </tr>
                 <tr>
+                    <td style="text-align:right"><p style="text-align:right" >研究兴趣:<br>Research Interests:<br></p></td>
+                    <td style="text-align:left" colspan="2"><p style="text-align:left">电影虚拟化制作、角色动画、动作捕捉<br>Film Virtual Production, Character Animation, Motion Capture</p></td>
+                    <td style="text-align:left"></td>
+                </tr>
+                <tr>
                     <td style="text-align:right"><p style="text-align:right" >奖项:<br>Awards:<br></p></td>
-                    <td style="text-align:left" colspan="2"><p style="text-align:left" >2021 教育部 国家奖学金<br>Ministry of Education National Scholarship<br><br>2021 北京市优秀毕业生<br>Outstanding Graduates of Beijing<br><br>2021 北京电影学院 优秀毕业生<br>Outstanding Graduate of Beijing Film Academy<br><br>2018、2019、2020、2021 学业奖学金 一等奖<br>Academic Scholarship - First Prize<br><br>……</p></td>
+                    <td style="text-align:left" colspan="2"><p style="text-align:left" >2021 教育部 国家奖学金<br>Ministry of Education National Scholarship<br><br>2021 北京市优秀毕业生<br>Outstanding Graduates of Beijing<br><br>2021 北京电影学院 优秀毕业生<br>Outstanding Graduate of Beijing Film Academy<br><br>2018、2019、2020、2021 学业奖学金 一等奖<br>Academic Scholarship - First Prize<br></p></td>
                     <td style="text-align:left"></td>
                 </tr>
 
@@ -360,9 +393,9 @@
                 </tr>
 
                 <tr>
+                    <td style="text-align:left"><div class="imgcontainer"><img src="/img/icon/sdu.png"></div></td>
+                    <td style="text-align:left">山东大学 - 交叉研究中心<br>Shandong University - Interdisciplinary Research Center (IRC)<br>暑期学校<br>Summer School</td>
                     <td style="text-align:left">2019.07 / 2018.08</td>
-                    <td style="text-align:left">山东大学 - 交叉研究中心<br>Shandong University - Interdisciplinary Research Center (IRC)</td>
-                    <td style="text-align:left">暑期学校<br>Summer School</td>
                 </tr>
                 <tr>
                     <td style="text-align:right"><p style="text-align:right" >项目Project:<br> <br> <br> <br>等级 Level: </p></td>
@@ -378,10 +411,12 @@
                 </tr>
 
                 <tr>
-                    <td style="text-align:left">2018.07 - 2018.08</td>
+                    <td style="text-align:left"><div class="imgcontainer"><img src="/img/icon/pku.png"></div></td>
                     <td style="text-align:left">北京大学 - 信息科学技术学院<br>Peking University -
-                        School of Electronics Engineering and Computer Science</td>
-                    <td style="text-align:left">暑期学校<br>Summer School</td>
+                        School of Electronics Engineering and Computer Science
+                        <br>暑期学校<br>Summer School
+                    </td>
+                    <td style="text-align:left">2018.07 - 2018.08</td>
                 </tr>
                 <tr>
                     <td style="text-align:right"><p style="text-align:right" >项目Project:<br>分数 Score: <br>等级 Level: </p></td>
@@ -395,6 +430,47 @@
                     <td style="text-align:right"></td>
                     <td style="text-align:left"></td>
                     <td style="text-align:left"></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </div>
+
+    <div id="Volunteer">
+        <div class="center">
+        <br>
+        <h3>志愿者 Volunteer</h3>
+        
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th style="text-align:left" class="column1"></th>
+                    <th style="text-align:left" class="column2"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align:left"><div class="imgcontainer"><img src="/img/icon/isfvf-w.png"></div></td>
+                    <td style="text-align:left">ISFVF (International Student Film and Video Festival)
+                        <p style="text-align:left" >- 2017 16th - Ticketing Group</p>
+                        <p style="text-align:left" >- 2018 17th - Opening and closing ceremonies Group</p>
+                        <p style="text-align:left" >- 2019 18th - Opening and closing ceremonies Group (Team Leader)</p>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"><div class="imgcontainer"><img src="/img/icon/siggraph-w.svg"></div></td>
+                    <td style="text-align:left">SIGGRAPH
+                        <p style="text-align:left" >- 2019 Los Angeles, The United States</p>
+                        <p style="text-align:left" >- 2020 Virtual</p>
+                        <p style="text-align:left" >- 2021 Virtual</p>
+                        <p style="text-align:left" >- 2022 Virtual</p>
+                        <br>SIGGRAPH ASIA
+                        <p style="text-align:left" >- 2019 Brisbane, Australia</p>
+                        <p style="text-align:left" >- 2021 Virtual</p>
+                        <p style="text-align:left" >- 2023 Brisbane, Australia</p>
+                    </td>
                 </tr>
             </tbody>
         </table>
@@ -418,19 +494,34 @@
             </thead>
             <tbody>
                 <tr>
-                    <td style="text-align:left">Mail</td>
+                    <td style="text-align:left;display:flex;align-items: center;"><div class="imgcontainer" style="width: 50%; max-width: 30px;">
+                        <img src="/img/icon/mail.png"></div>
+                        <div style="margin-left: 5%;">Mail</div>
+                    </td>
+                    
                     <td style="text-align:left"><a href="mailto:juneleungchan@163.com">juneleungchan@163.com</a></td>
                 </tr>
                 <tr>
-                    <td style="text-align:left">Linkedin</td>
+                    <td style="text-align:left;display:flex;align-items: center;"><div class="imgcontainer" style="width: 50%; max-width: 30px;">
+                        <img src="/img/icon/linkedin.png"></div>
+                        <div style="margin-left: 5%;">Linkedin</div>
+                    </td>
+                    
                     <td style="text-align:left"><a href="https://www.linkedin.com/in/juneleung-chan-495207193/">JuneleungChan</a></td>
                 </tr>
                 <tr>
-                    <td style="text-align:left">Github</td>
+                    <td style="text-align:left;display:flex;align-items: center;"><div class="imgcontainer" style="width: 50%; max-width: 30px;">
+                        <img src="/img/icon/github.png" style="filter: invert(100%); "></div>
+                        <div style="margin-left: 5%;">Github</div>
+                    </td>
+                    
                     <td style="text-align:left"><a href="https://github.com/juneleung">https://github.com/juneleung</a></td>
                 </tr>
                 <tr>
-                    <td style="text-align:left">Homepage</td>
+                    <td style="text-align:left;display:flex;align-items: center;"><div class="imgcontainer" style="width: 50%; max-width: 30px;">
+                        <img src="/img/icon/personal.png" style="filter: invert(100%); "></div>
+                        <div style="margin-left: 5%;">Homepage</div>
+                    
                     <td style="text-align:left"><a href="https://juneleung.github.io">https://juneleung.github.io</a></td>
                 </tr>
                 <tr>
@@ -438,13 +529,17 @@
                     <td style="text-align:left"><a href="https://juneleung.gitee.io">https://juneleung.gitee.io</a></td>
                 </tr>
                 <tr>
-                    <td style="text-align:left">CMDB</td>
+                    <td style="text-align:left;display:flex;align-items: center;"><div class="imgcontainer" style="width: 50%; max-width: 30px;">
+                        <img src="/img/icon/cmdb.png"></div>
+                        <div style="margin-left: 5%;">CMDB</div>
+                    </td>
                     <td style="text-align:left"><a href="http://resume.icmdb.com.cn/1a29cabb6b9fecc9851e1fbfd5e02ec5.html">陈俊良</a></td>
                 </tr>
             </tbody>
         </table>
         <hr>
     </div>
+
 
 
 

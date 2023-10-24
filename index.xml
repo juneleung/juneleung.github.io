@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>(*TBA)</title>
-      <link>http://example.org/research/2021-2024@dmi-bfa@digital-media-institute-china-film-high-technology-institute-beijing-film-academy@%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2-%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2/tba/</link>
+      <title>Footstep Detection for Film Sound Production</title>
+      <link>http://example.org/research/2021-2024@dmi-bfa@digital-media-institute-china-film-high-technology-institute-beijing-film-academy@%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2-%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2/footstep-detection-for-film-sound-production/</link>
       <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/research/2021-2024@dmi-bfa@digital-media-institute-china-film-high-technology-institute-beijing-film-academy@%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2-%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2/tba/</guid>
+      <guid>http://example.org/research/2021-2024@dmi-bfa@digital-media-institute-china-film-high-technology-institute-beijing-film-academy@%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2-%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2/footstep-detection-for-film-sound-production/</guid>
       <description></description>
     </item>
     
@@ -111,11 +111,12 @@ testing clip is the trailer of OPPENHEIMER &lt;!DOCTYPE html&gt; Github: https:/
       <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/about/</guid>
-      <description>&lt;!DOCTYPE html&gt; 欢迎来到我的网站，关于我的介绍分为四部分：
-Welcome to my website, there are four parts about my introduction:
+      <description>&lt;!DOCTYPE html&gt; 欢迎来到我的网站，关于我的介绍分为五部分：
+Welcome to my website, there are five parts about my introduction:
 # 技能 Skills
 # 工作 Work
 # 教育 Education
+# 志愿者 Volunteer
 # 联系 Contact 技能 Skills Resolve
 Baselight
 Unreal Engine
@@ -128,15 +129,8 @@ QT/PyQt
 HTML
 SQL
 Git
-CL
-macOS
-Windows
-CentOS
-Ubuntu
-Synology
-工作 Work 2020.06 - present 北京上添影视 - 张亘DI团队
-Beijing ShangTian Media - Antonio DI Team 流程研发
-Pipeline TD / Digital Intermediate Engineer 2020.</description>
+工作 Work 北京上添影视 - 张亘DI团队
+Beijing ShangTian Media - Antonio DI Team 流程研发 Pipeline TD / Digital Intermediate Engineer · Pipeline development and automated production tool development (C++, Python, SQL, AI) · 流程开发和自动化生产工具开发（C++、Python、SQL、AI） · Advanced technology standard testing · 高新技术标准测试 · Color science research · 色彩科学研究 2020.</description>
     </item>
     
     <item>
@@ -252,6 +246,43 @@ MORE REELS COMMING SOON &amp;hellip;</description>
       <guid>http://example.org/archive/behind-the-scene/twe2_di/</guid>
       <description> &lt;!DOCTYPE html&gt; News: 《流浪地球2 | 摄影拍摄、监看、现场调色、DIT以及后期DI 全流程回顾》 CN PDF Download: DI workflow &amp;amp; Pipeline PDF EN Version Download: DI Workflow &amp;amp; Pipeline - EN @juneleung
 &lt;!DOCTYPE html&gt; </description>
+    </item>
+    
+    <item>
+      <title>Houdini API</title>
+      <link>http://example.org/archive/api-develop/hou_api/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/hou_api/</guid>
+      <description> &lt;!DOCTYPE html&gt; Houdini Houdini-python Hscript-expressions Hscript-commands VEX HDK </description>
+    </item>
+    
+    <item>
+      <title>Maya API</title>
+      <link>http://example.org/archive/api-develop/maya_api/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/maya_api/</guid>
+      <description> &lt;!DOCTYPE html&gt; Maya Maya-python </description>
+    </item>
+    
+    <item>
+      <title>Nuke API</title>
+      <link>http://example.org/archive/api-develop/nuke_api/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/nuke_api/</guid>
+      <description> &lt;!DOCTYPE html&gt; Nuke Nuke-python Some others gizmo:
+BenMcEwan&amp;#39;s_Gizmo </description>
+    </item>
+    
+    <item>
+      <title>Shotgun API</title>
+      <link>http://example.org/archive/api-develop/shotgun_api/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/shotgun_api/</guid>
+      <description> &lt;!DOCTYPE html&gt; Shotgun Shotgrid-python </description>
     </item>
     
     <item>

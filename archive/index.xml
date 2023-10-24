@@ -136,6 +136,43 @@ txt html Convert format include:</description>
     </item>
     
     <item>
+      <title>Houdini API</title>
+      <link>http://example.org/archive/api-develop/hou_api/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/hou_api/</guid>
+      <description> &lt;!DOCTYPE html&gt; Houdini Houdini-python Hscript-expressions Hscript-commands VEX HDK </description>
+    </item>
+    
+    <item>
+      <title>Maya API</title>
+      <link>http://example.org/archive/api-develop/maya_api/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/maya_api/</guid>
+      <description> &lt;!DOCTYPE html&gt; Maya Maya-python </description>
+    </item>
+    
+    <item>
+      <title>Nuke API</title>
+      <link>http://example.org/archive/api-develop/nuke_api/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/nuke_api/</guid>
+      <description> &lt;!DOCTYPE html&gt; Nuke Nuke-python Some others gizmo:
+BenMcEwan&amp;#39;s_Gizmo </description>
+    </item>
+    
+    <item>
+      <title>Shotgun API</title>
+      <link>http://example.org/archive/api-develop/shotgun_api/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/api-develop/shotgun_api/</guid>
+      <description> &lt;!DOCTYPE html&gt; Shotgun Shotgrid-python </description>
+    </item>
+    
+    <item>
       <title>镜头测试数据库 Lens Test Database</title>
       <link>http://example.org/archive/tips/%E9%95%9C%E5%A4%B4%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
