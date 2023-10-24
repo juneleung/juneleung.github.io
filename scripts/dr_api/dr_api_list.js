@@ -206,12 +206,17 @@ window._apis = {
 				{
 					functionDecl:"SetCurrentDatabase({dbInfo})",
 					returnType:" Bool ",
-					description:" Switches current database connection to the database specified by the keys below, and closes any open project. 'DbType': 'Disk' or 'PostgreSQL' (string) 'DbType': 'Disk' or 'PostgreSQL' (string) 'DbName': database name (string) 'DbType': 'Disk' or 'PostgreSQL' (string) 'DbName': database name (string) 'IpAddress': IP address of the PostgreSQL server (string, optional key - defaults to '127.0.0.1') 'DbType': 'Disk' or 'PostgreSQL' (string) 'DbName': database name (string) 'IpAddress': IP address of the PostgreSQL server (string, optional key - defaults to '127.0.0.1') 'DbType': 'Disk' or 'PostgreSQL' (string) 'DbName': database name (string) 'IpAddress': IP address of the PostgreSQL server (string, optional key - defaults to '127.0.0.1')",
+					description:" Switches current database connection to the database specified by the keys below, and closes any open project. 'DbType': 'Disk' or 'PostgreSQL' (string) 'DbName': database name (string) 'IpAddress': IP address of the PostgreSQL server (string, optional key - defaults to '127.0.0.1')",
 				},
+			],
+		},
+		{
+			section: "Project",
+			apis: [
 				{
-					functionDecl:"ProjectGetMediaPool()",
+					functionDecl:"GetMediaPool()",
 					returnType:" MediaPool",
-					description:" 'DbType': 'Disk' or 'PostgreSQL' (string) 'DbName': database name (string) 'IpAddress': IP address of the PostgreSQL server (string, optional key - defaults to '127.0.0.1') Returns the Media Pool object.",
+					description:" Returns the Media Pool object.",
 				},
 				{
 					functionDecl:"GetTimelineCount()",
@@ -296,12 +301,12 @@ window._apis = {
 				{
 					functionDecl:"StartRendering(isInteractiveMode=False)",
 					returnType:" Bool ",
-					description:" The optional \"isInteractiveMode\", when set, enables error feedback in the UI during rendering. Starts rendering all queued render jobs. The optional \"isInteractiveMode\", when set, enables error feedback in the UI during rendering.",
+					description:" Starts rendering all queued render jobs. The optional \"isInteractiveMode\", when set, enables error feedback in the UI during rendering.",
 				},
 				{
 					functionDecl:"StopRendering()",
 					returnType:" None ",
-					description:" The optional \"isInteractiveMode\", when set, enables error feedback in the UI during rendering. Stops any current render processes.",
+					description:" Stops any current render processes.",
 				},
 				{
 					functionDecl:"IsRenderingInProgress()",
@@ -326,7 +331,7 @@ window._apis = {
 				{
 					functionDecl:"GetRenderJobStatus(jobId)",
 					returnType:" {status info}",
-					description:" Refer to \"Looking up render settings\" section for information for supported settings Returns a dict with job status and completion percentage of the job by given jobId (string).",
+					description:" Returns a dict with job status and completion percentage of the job by given jobId (string).",
 				},
 				{
 					functionDecl:"GetSetting(settingName)",
@@ -506,12 +511,12 @@ window._apis = {
 				{
 					functionDecl:"ImportTimelineFromFile(filePath,{importOptions})",
 					returnType:" Timeline ",
-					description:" Creates timeline based on parameters within given file (AAF/EDL/XML/FCPXML/DRT/ADL) and optional importOptions dict, with support for the keys: \"timelineName\": string, specifies the name of the timeline to be created. Not valid for DRT import \"timelineName\": string, specifies the name of the timeline to be created. Not valid for DRT import \"importSourceClips\": Bool, specifies whether source clips should be imported, True by default. Not valid for DRT import \"timelineName\": string, specifies the name of the timeline to be created. Not valid for DRT import \"importSourceClips\": Bool, specifies whether source clips should be imported, True by default. Not valid for DRT import \"sourceClipsPath\": string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if \"importSourceClips\" is True \"timelineName\": string, specifies the name of the timeline to be created. Not valid for DRT import \"importSourceClips\": Bool, specifies whether source clips should be imported, True by default. Not valid for DRT import \"sourceClipsPath\": string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if \"importSourceClips\" is True \"sourceClipsFolders\": List of Media Pool folder objects to search for source clips if the media is not present in current folder and if \"importSourceClips\" is False. Not valid for DRT import \"timelineName\": string, specifies the name of the timeline to be created. Not valid for DRT import \"importSourceClips\": Bool, specifies whether source clips should be imported, True by default. Not valid for DRT import \"sourceClipsPath\": string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if \"importSourceClips\" is True \"sourceClipsFolders\": List of Media Pool folder objects to search for source clips if the media is not present in current folder and if \"importSourceClips\" is False. Not valid for DRT import \"interlaceProcessing\": Bool, specifies whether to enable interlace processing on the imported timeline being created. valid only for AAF import",
+					description:" Creates timeline based on parameters within given file (AAF/EDL/XML/FCPXML/DRT/ADL) and optional importOptions dict, with support for the keys: \"timelineName\": string, specifies the name of the timeline to be created. Not valid for DRT import \"importSourceClips\": Bool, specifies whether source clips should be imported, True by default. Not valid for DRT import \"sourceClipsPath\": string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if \"importSourceClips\" is True \"sourceClipsFolders\": List of Media Pool folder objects to search for source clips if the media is not present in current folder and if \"importSourceClips\" is False. Not valid for DRT import \"interlaceProcessing\": Bool, specifies whether to enable interlace processing on the imported timeline being created. valid only for AAF import",
 				},
 				{
 					functionDecl:"DeleteTimelines([timeline])",
 					returnType:" Bool ",
-					description:" \"timelineName\": string, specifies the name of the timeline to be created. Not valid for DRT import \"importSourceClips\": Bool, specifies whether source clips should be imported, True by default. Not valid for DRT import \"sourceClipsPath\": string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if \"importSourceClips\" is True \"sourceClipsFolders\": List of Media Pool folder objects to search for source clips if the media is not present in current folder and if \"importSourceClips\" is False. Not valid for DRT import \"interlaceProcessing\": Bool, specifies whether to enable interlace processing on the imported timeline being created. valid only for AAF import Deletes specified timelines in the media pool.",
+					description:" Deletes specified timelines in the media pool.",
 				},
 				{
 					functionDecl:"GetCurrentFolder()",
@@ -536,7 +541,7 @@ window._apis = {
 				{
 					functionDecl:"DeleteFolders([subfolders])",
 					returnType:" Bool ",
-					description:" sourceClipsPath is a string that specifies a filesystem path to search for source clips if the media is inaccessible in their original path, empty by default Deletes specified subfolders in the media pool",
+					description:" Deletes specified subfolders in the media pool",
 				},
 				{
 					functionDecl:"MoveClips([clips],targetFolder)",
@@ -581,17 +586,17 @@ window._apis = {
 				{
 					functionDecl:"ImportMedia([{clipInfo}])",
 					returnType:" [MediaPoolItems] ",
-					description:" Imports file path(s) into current Media Pool folder as specified in list of clipInfo dict. Returns a list of the MediaPoolItems created. Each clipInfo gets imported as one MediaPoolItem unless 'Show Individual Frames' is turned on. Each clipInfo gets imported as one MediaPoolItem unless 'Show Individual Frames' is turned on. Example: ImportMedia([{\"FilePath\":\"file_%03d.dpx\", \"StartIndex\":1, \"EndIndex\":100}]) would import clip \"file_[001-100].dpx\".",
+					description:" Imports file path(s) into current Media Pool folder as specified in list of clipInfo dict. Returns a list of the MediaPoolItems created. Each clipInfo gets imported as one MediaPoolItem unless 'Show Individual Frames' is turned on. Example: ImportMedia([{\"FilePath\":\"file_%03d.dpx\", \"StartIndex\":1, \"EndIndex\":100}]) would import clip \"file_[001-100].dpx\".",
 				},
 				{
 					functionDecl:"ExportMetadata(fileName,[clips])",
 					returnType:" Bool ",
-					description:" Each clipInfo gets imported as one MediaPoolItem unless 'Show Individual Frames' is turned on. Example: ImportMedia([{\"FilePath\":\"file_%03d.dpx\", \"StartIndex\":1, \"EndIndex\":100}]) would import clip \"file_[001-100].dpx\". Exports metadata of specified clips to 'fileName' in CSV format. If no clips are specified, all clips from media pool will be used.",
+					description:" Exports metadata of specified clips to 'fileName' in CSV format. If no clips are specified, all clips from media pool will be used.",
 				},
 				{
 					functionDecl:"GetUniqueId()",
 					returnType:" string ",
-					description:" If no clips are specified, all clips from media pool will be used. Returns a unique ID for the media pool",
+					description:" Returns a unique ID for the media pool",
 				},
 			],
 		},
@@ -646,7 +651,7 @@ window._apis = {
 				{
 					functionDecl:"SetMetadata(metadataType,metadataValue)",
 					returnType:" Bool ",
-					description:" If no argument is specified, a dict of all set metadata properties is returned. Sets the given metadata to metadataValue (string). Returns True if successful.",
+					description:" Sets the given metadata to metadataValue (string). Returns True if successful.",
 				},
 				{
 					functionDecl:"SetMetadata({metadata})",
@@ -666,12 +671,12 @@ window._apis = {
 				{
 					functionDecl:"GetMarkers()",
 					returnType:" {markers...} ",
-					description:" Returns a dict (frameId -> {information}) of all markers and dicts with their information. Example of output format: {96.0: {'color': 'Green', 'duration': 1.0, 'note': '', 'name': 'Marker 1', 'customData': ''}, ...} Example of output format: {96.0: {'color': 'Green', 'duration': 1.0, 'note': '', 'name': 'Marker 1', 'customData': ''}, ...} In the above example - there is one 'Green' marker at offset 96 (position of the marker)",
+					description:" Returns a dict (frameId -> {information}) of all markers and dicts with their information. Example of output format: {96.0: {'color': 'Green', 'duration': 1.0, 'note': '', 'name': 'Marker 1', 'customData': ''}, ...} In the above example - there is one 'Green' marker at offset 96 (position of the marker)",
 				},
 				{
 					functionDecl:"GetMarkerByCustomData(customData)",
 					returnType:" {markers...} ",
-					description:" Example of output format: {96.0: {'color': 'Green', 'duration': 1.0, 'note': '', 'name': 'Marker 1', 'customData': ''}, ...} In the above example - there is one 'Green' marker at offset 96 (position of the marker) Returns marker {information} for the first matching marker with specified customData.",
+					description:" Returns marker {information} for the first matching marker with specified customData.",
 				},
 				{
 					functionDecl:"UpdateMarkerCustomData(frameId,customData)",
@@ -736,7 +741,7 @@ window._apis = {
 				{
 					functionDecl:"SetClipProperty(propertyName,propertyValue)",
 					returnType:" Bool ",
-					description:" If no argument is specified, a dict of all clip properties is returned. Check the section below for more information. Sets the given property to propertyValue (string). Check the section below for more information.",
+					description:" Sets the given property to propertyValue (string). Check the section below for more information.",
 				},
 				{
 					functionDecl:"LinkProxyMedia(proxyMediaFilePath)",
@@ -816,32 +821,32 @@ window._apis = {
 				{
 					functionDecl:"DeleteTrack(trackType,trackIndex)",
 					returnType:" Bool ",
-					description:" optionalSubTrackType can be one of {\"mono\", \"stereo\", \"5.1\", \"5.1film\", \"7.1\", \"7.1film\", \"adaptive1\", ... , \"adaptive24\"} Deletes track of trackType (\"video\", \"subtitle\", \"audio\") and given trackIndex. 1 <= trackIndex <= GetTrackCount(trackType).",
+					description:" Deletes track of trackType (\"video\", \"subtitle\", \"audio\") and given trackIndex. 1 <= trackIndex <= GetTrackCount(trackType).",
 				},
 				{
 					functionDecl:"SetTrackEnable(trackType,trackIndex,Bool)",
 					returnType:" Bool ",
-					description:" Enables/Disables track with given trackType and trackIndex trackType is one of {\"audio\", \"video\", \"subtitle\"} trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType).",
+					description:" Enables/Disables track with given trackType and trackIndex trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType).",
 				},
 				{
 					functionDecl:"GetIsTrackEnabled(trackType,trackIndex)",
 					returnType:" Bool ",
-					description:" trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType). Returns True if track with given trackType and trackIndex is enabled and False otherwise. trackType is one of {\"audio\", \"video\", \"subtitle\"} trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType).",
+					description:" Returns True if track with given trackType and trackIndex is enabled and False otherwise. trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType).",
 				},
 				{
 					functionDecl:"SetTrackLock(trackType,trackIndex,Bool)",
 					returnType:" Bool ",
-					description:" trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType). Locks/Unlocks track with given trackType and trackIndex trackType is one of {\"audio\", \"video\", \"subtitle\"} trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType).",
+					description:" Locks/Unlocks track with given trackType and trackIndex trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType).",
 				},
 				{
 					functionDecl:"GetIsTrackLocked(trackType,trackIndex)",
 					returnType:" Bool ",
-					description:" trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType). Returns True if track with given trackType and trackIndex is locked and False otherwise. trackType is one of {\"audio\", \"video\", \"subtitle\"} trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType).",
+					description:" Returns True if track with given trackType and trackIndex is locked and False otherwise. trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType).",
 				},
 				{
 					functionDecl:"DeleteClips([timelineItems],Bool)",
 					returnType:" Bool ",
-					description:" trackType is one of {\"audio\", \"video\", \"subtitle\"} 1 <= trackIndex <= GetTrackCount(trackType). Deletes specified TimelineItems from the timeline, performing ripple delete if the second argument is True. Second argument is optional (The default for this is False)",
+					description:" Deletes specified TimelineItems from the timeline, performing ripple delete if the second argument is True. Second argument is optional (The default for this is False)",
 				},
 				{
 					functionDecl:"SetClipsLinked([timelineItems],Bool)",
@@ -866,7 +871,7 @@ window._apis = {
 				{
 					functionDecl:"GetMarkerByCustomData(customData)",
 					returnType:" {markers...} ",
-					description:" Example: a value of {96.0: {'color': 'Green', 'duration': 1.0, 'note': '', 'name': 'Marker 1', 'customData': ''}, ...} indicates a single green marker at timeline offset 96 Returns marker {information} for the first matching marker with specified customData.",
+					description:" Returns marker {information} for the first matching marker with specified customData.",
 				},
 				{
 					functionDecl:"UpdateMarkerCustomData(frameId,customData)",
@@ -926,7 +931,7 @@ window._apis = {
 				{
 					functionDecl:"GetTrackName(trackType,trackIndex)",
 					returnType:" string ",
-					description:" An example of how to retrieve and interpret thumbnails is provided in 6_get_current_media_thumbnail.py in the Examples folder. Returns the track name for track indicated by trackType (\"audio\", \"video\" or \"subtitle\") and index. 1 <= trackIndex <= GetTrackCount(trackType).",
+					description:" Returns the track name for track indicated by trackType (\"audio\", \"video\" or \"subtitle\") and index. 1 <= trackIndex <= GetTrackCount(trackType).",
 				},
 				{
 					functionDecl:"SetTrackName(trackType,trackIndex,name)",
@@ -951,17 +956,17 @@ window._apis = {
 				{
 					functionDecl:"ImportIntoTimeline(filePath,{importOptions})",
 					returnType:" Bool ",
-					description:" Imports timeline items from an AAF file and optional importOptions dict into the timeline, with support for the keys: \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"linkToSourceCameraFiles\": Bool, specifies if link to source camera files should be enabled, False by default \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"linkToSourceCameraFiles\": Bool, specifies if link to source camera files should be enabled, False by default \"useSizingInfo\": Bool, specifies if sizing information should be used, False by default \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"linkToSourceCameraFiles\": Bool, specifies if link to source camera files should be enabled, False by default \"useSizingInfo\": Bool, specifies if sizing information should be used, False by default \"importMultiChannelAudioTracksAsLinkedGroups\": Bool, specifies if multi-channel audio tracks should be imported as linked groups, False by default \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"linkToSourceCameraFiles\": Bool, specifies if link to source camera files should be enabled, False by default \"useSizingInfo\": Bool, specifies if sizing information should be used, False by default \"importMultiChannelAudioTracksAsLinkedGroups\": Bool, specifies if multi-channel audio tracks should be imported as linked groups, False by default \"insertAdditionalTracks\": Bool, specifies if additional tracks should be inserted, True by default \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"linkToSourceCameraFiles\": Bool, specifies if link to source camera files should be enabled, False by default \"useSizingInfo\": Bool, specifies if sizing information should be used, False by default \"importMultiChannelAudioTracksAsLinkedGroups\": Bool, specifies if multi-channel audio tracks should be imported as linked groups, False by default \"insertAdditionalTracks\": Bool, specifies if additional tracks should be inserted, True by default \"insertWithOffset\": string, specifies insert with offset value in timecode format - defaults to \"00:00:00:00\", applicable if \"insertAdditionalTracks\" is False \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"linkToSourceCameraFiles\": Bool, specifies if link to source camera files should be enabled, False by default \"useSizingInfo\": Bool, specifies if sizing information should be used, False by default \"importMultiChannelAudioTracksAsLinkedGroups\": Bool, specifies if multi-channel audio tracks should be imported as linked groups, False by default \"insertAdditionalTracks\": Bool, specifies if additional tracks should be inserted, True by default \"insertWithOffset\": string, specifies insert with offset value in timecode format - defaults to \"00:00:00:00\", applicable if \"insertAdditionalTracks\" is False \"sourceClipsPath\": string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if \"ignoreFileExtensionsWhenMatching\" is True \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"linkToSourceCameraFiles\": Bool, specifies if link to source camera files should be enabled, False by default \"useSizingInfo\": Bool, specifies if sizing information should be used, False by default \"importMultiChannelAudioTracksAsLinkedGroups\": Bool, specifies if multi-channel audio tracks should be imported as linked groups, False by default \"insertAdditionalTracks\": Bool, specifies if additional tracks should be inserted, True by default \"insertWithOffset\": string, specifies insert with offset value in timecode format - defaults to \"00:00:00:00\", applicable if \"insertAdditionalTracks\" is False \"sourceClipsPath\": string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if \"ignoreFileExtensionsWhenMatching\" is True \"sourceClipsFolders\": string, list of Media Pool folder objects to search for source clips if the media is not present in current folder \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"linkToSourceCameraFiles\": Bool, specifies if link to source camera files should be enabled, False by default \"useSizingInfo\": Bool, specifies if sizing information should be used, False by default \"importMultiChannelAudioTracksAsLinkedGroups\": Bool, specifies if multi-channel audio tracks should be imported as linked groups, False by default \"insertAdditionalTracks\": Bool, specifies if additional tracks should be inserted, True by default \"insertWithOffset\": string, specifies insert with offset value in timecode format - defaults to \"00:00:00:00\", applicable if \"insertAdditionalTracks\" is False \"sourceClipsPath\": string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if \"ignoreFileExtensionsWhenMatching\" is True \"sourceClipsFolders\": string, list of Media Pool folder objects to search for source clips if the media is not present in current folder",
+					description:" Imports timeline items from an AAF file and optional importOptions dict into the timeline, with support for the keys: \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"linkToSourceCameraFiles\": Bool, specifies if link to source camera files should be enabled, False by default \"useSizingInfo\": Bool, specifies if sizing information should be used, False by default \"importMultiChannelAudioTracksAsLinkedGroups\": Bool, specifies if multi-channel audio tracks should be imported as linked groups, False by default \"insertAdditionalTracks\": Bool, specifies if additional tracks should be inserted, True by default \"insertWithOffset\": string, specifies insert with offset value in timecode format - defaults to \"00:00:00:00\", applicable if \"insertAdditionalTracks\" is False \"sourceClipsPath\": string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if \"ignoreFileExtensionsWhenMatching\" is True \"sourceClipsFolders\": string, list of Media Pool folder objects to search for source clips if the media is not present in current folder",
 				},
 				{
 					functionDecl:"Export(fileName,exportType,exportSubtype)",
 					returnType:" Bool ",
-					description:" \"autoImportSourceClipsIntoMediaPool\": Bool, specifies if source clips should be imported into media pool, True by default \"ignoreFileExtensionsWhenMatching\": Bool, specifies if file extensions should be ignored when matching, False by default \"linkToSourceCameraFiles\": Bool, specifies if link to source camera files should be enabled, False by default \"useSizingInfo\": Bool, specifies if sizing information should be used, False by default \"importMultiChannelAudioTracksAsLinkedGroups\": Bool, specifies if multi-channel audio tracks should be imported as linked groups, False by default \"insertAdditionalTracks\": Bool, specifies if additional tracks should be inserted, True by default \"insertWithOffset\": string, specifies insert with offset value in timecode format - defaults to \"00:00:00:00\", applicable if \"insertAdditionalTracks\" is False \"sourceClipsPath\": string, specifies a filesystem path to search for source clips if the media is inaccessible in their original path and if \"ignoreFileExtensionsWhenMatching\" is True \"sourceClipsFolders\": string, list of Media Pool folder objects to search for source clips if the media is not present in current folder Exports timeline to 'fileName' as per input exportType & exportSubtype format. Refer to section \"Looking up timeline export properties\" for information on the parameters.",
+					description:" Exports timeline to 'fileName' as per input exportType & exportSubtype format. Refer to section \"Looking up timeline export properties\" for information on the parameters.",
 				},
 				{
 					functionDecl:"GetSetting(settingName)",
 					returnType:" string ",
-					description:" Refer to section \"Looking up timeline export properties\" for information on the parameters. Returns value of timeline setting (indicated by settingName : string). Check the section below for more information.",
+					description:" Returns value of timeline setting (indicated by settingName : string). Check the section below for more information.",
 				},
 				{
 					functionDecl:"SetSetting(settingName,settingValue)",
@@ -1086,12 +1091,12 @@ window._apis = {
 				{
 					functionDecl:"GetProperty(propertyKey)",
 					returnType:" int/[key:value]",
-					description:" Refer to \"Looking up Timeline item properties\" for more information returns the value of the specified key if no key is specified, the method returns a dictionary(python) or table(lua) for all supported keys",
+					description:" returns the value of the specified key if no key is specified, the method returns a dictionary(python) or table(lua) for all supported keys",
 				},
 				{
 					functionDecl:"AddMarker(frameId,color,name,note,duration,customData)",
 					returnType:" Bool ",
-					description:" if no key is specified, the method returns a dictionary(python) or table(lua) for all supported keys Creates a new marker at given frameId position and with given marker information. 'customData' is optional and helps to attach user specific data to the marker.",
+					description:" Creates a new marker at given frameId position and with given marker information. 'customData' is optional and helps to attach user specific data to the marker.",
 				},
 				{
 					functionDecl:"GetMarkers()",
@@ -1101,7 +1106,7 @@ window._apis = {
 				{
 					functionDecl:"GetMarkerByCustomData(customData)",
 					returnType:" {markers...} ",
-					description:" Example: a value of {96.0: {'color': 'Green', 'duration': 1.0, 'note': '', 'name': 'Marker 1', 'customData': ''}, ...} indicates a single green marker at clip offset 96 Returns marker {information} for the first matching marker with specified customData.",
+					description:" Returns marker {information} for the first matching marker with specified customData.",
 				},
 				{
 					functionDecl:"UpdateMarkerCustomData(frameId,customData)",
@@ -1251,12 +1256,12 @@ window._apis = {
 				{
 					functionDecl:"SetLUT(nodeIndex,lutPath)",
 					returnType:" Bool ",
-					description:" Sets LUT on the node mapping the node index provided, 1 <= nodeIndex <= total number of nodes. The lutPath can be an absolute path, or a relative path (based off custom LUT paths or the master LUT path). The lutPath can be an absolute path, or a relative path (based off custom LUT paths or the master LUT path). The operation is successful for valid lut paths that Resolve has already discovered (see Project.RefreshLUTList).",
+					description:" Sets LUT on the node mapping the node index provided, 1 <= nodeIndex <= total number of nodes. The lutPath can be an absolute path, or a relative path (based off custom LUT paths or the master LUT path). The operation is successful for valid lut paths that Resolve has already discovered (see Project.RefreshLUTList).",
 				},
 				{
 					functionDecl:"GetLUT(nodeIndex)",
 					returnType:" String ",
-					description:" The lutPath can be an absolute path, or a relative path (based off custom LUT paths or the master LUT path). The operation is successful for valid lut paths that Resolve has already discovered (see Project.RefreshLUTList). Gets relative LUT path based on the node index provided, 1 <= nodeIndex <= total number of nodes.",
+					description:" Gets relative LUT path based on the node index provided, 1 <= nodeIndex <= total number of nodes.",
 				},
 				{
 					functionDecl:"SetCDL([CDLmap])",
@@ -1266,7 +1271,7 @@ window._apis = {
 				{
 					functionDecl:"AddTake(mediaPoolItem,startFrame,endFrame)",
 					returnType:" Bool ",
-					description:" Example python code - SetCDL({\"NodeIndex\" : \"1\", \"Slope\" : \"0.5 0.4 0.2\", \"Offset\" : \"0.4 0.3 0.2\", \"Power\" : \"0.6 0.7 0.8\", \"Saturation\" : \"0.65\"}) Adds mediaPoolItem as a new take. Initializes a take selector for the timeline item if needed. By default, the full clip extents is added. startFrame (int) and endFrame (int) are optional arguments used to specify the extents.",
+					description:" Adds mediaPoolItem as a new take. Initializes a take selector for the timeline item if needed. By default, the full clip extents is added. startFrame (int) and endFrame (int) are optional arguments used to specify the extents.",
 				},
 				{
 					functionDecl:"GetSelectedTakeIndex()",

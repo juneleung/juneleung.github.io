@@ -2,7 +2,8 @@
 import re
 import json
 
-Readmetxt = "README.txt"
+Readmetxt = "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting/README.txt"
+output = "./static/scripts/dr_api/"
 
 apiName = []
 apiType = []
@@ -29,18 +30,22 @@ with open(Readmetxt) as f:
                 apiComment.append(parts[2])
             elif "#" in line:    
                 parts = re.split('#', line)
-                apiName.append(parts[0])
-                apiType.append("")
-                apiComment.append(parts[1])
+                # apiName.append(parts[0])
+                apiName[-1] = apiName[-1] + parts[0]
+                # apiType.append("")
+                # apiComment.append(parts[1])
+                apiComment[-1] = apiComment[-1] + parts[1]
             else:
+                # apiName[-1] = apiName[-1] + parts[0]
                 apiName.append(line)
                 apiType.append("")
                 apiComment.append("")
 
 
+
 outstring = ""
 firsttime = 1
-with open('dr_api_list.js', 'w') as file:
+with open(output+'dr_api_list.js', 'w') as file:
     file.write("window._apis = {\n")
     file.write("\tdescriptions: [\n")
     while apiName != [] and apiType != [] and apiComment != []:
