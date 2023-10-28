@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/research/2021-2024@dmi-bfa@digital-media-institute-china-film-high-technology-institute-beijing-film-academy@%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2-%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2/footstep-detection-for-film-sound-production/</loc>
-    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
+    <loc>http://example.org/archive/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/di/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/tips-collection/fotokem/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/research/2021-2024@dmi-bfa@digital-media-institute-china-film-high-technology-institute-beijing-film-academy@%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2-%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2/footstep-detection-for-film-sound-production/</loc>
     <lastmod>2023-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/new/</loc>
@@ -14,17 +26,11 @@
     <loc>http://example.org/research/</loc>
     <lastmod>2023-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
-    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/tags/%E8%AE%BA%E6%96%87-paper/</loc>
     <lastmod>2023-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/film/</loc>
     <lastmod>2023-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/archive/</loc>
-    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/commercial/</loc>
     <lastmod>2023-08-21T00:00:00+00:00</lastmod>
@@ -83,9 +89,6 @@
     <loc>http://example.org/archive/pipeline/color_management_in_cg_di/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/di/</loc>
-    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/tags/vfx/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -128,7 +131,7 @@
     <loc>http://example.org/archive/api-develop/shotgun_api/</loc>
     <lastmod>2023-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/tips/%E9%95%9C%E5%A4%B4%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>http://example.org/archive/tips-collection/%E9%95%9C%E5%A4%B4%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/research/2021-2024@dmi-bfa@digital-media-institute-china-film-high-technology-institute-beijing-film-academy@%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2-%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E6%AD%A5%E6%80%81%E8%AF%86%E5%88%AB%E5%A3%B0%E9%9F%B3%E5%88%B6%E4%BD%9C%E6%96%B9%E6%B3%95/</loc>
@@ -149,10 +152,10 @@
     <loc>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-m5-series-global-launch-event/</loc>
     <lastmod>2022-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/tips/%E5%8F%82%E8%80%83%E9%9D%99%E5%B8%A7%E7%BD%91%E7%AB%99/</loc>
+    <loc>http://example.org/archive/tips-collection/%E5%8F%82%E8%80%83%E9%9D%99%E5%B8%A7%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archive/tips/%E6%91%84%E5%BD%B1%E6%9C%BA%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>http://example.org/archive/tips-collection/%E6%91%84%E5%BD%B1%E6%9C%BA%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2022-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-f4-gt-global-launch-event/</loc>

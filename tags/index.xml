@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Juneleung Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DI</title>
+      <link>http://example.org/tags/di/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/di/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>New</title>
       <link>http://example.org/tags/new/</link>
@@ -85,15 +94,6 @@
       <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/tags/sql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DI</title>
-      <link>http://example.org/tags/di/</link>
-      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/di/</guid>
       <description></description>
     </item>
     
