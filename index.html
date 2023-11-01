@@ -21,7 +21,7 @@
     }
 
     .block1{
-        height: 80vh;
+         
          
         display: flex;
         justify-content: center;
@@ -37,7 +37,10 @@
     }
 
     #content {
+        width: auto;
         position: relative;
+        flex: 1;
+        margin: 0 auto; 
         text-align: center;
     }
 
@@ -95,7 +98,15 @@
          
     }
 
-    @media (min-width: 600px) {
+    .introtext {
+        flex: 1;
+        width: 80%;
+        margin: 0 auto; 
+        text-align: left;
+    }
+
+
+    @media (min-width: 800px) {
         .subnav {
             flex: 1 0 calc(50% - 30px);
             margin-left: 15px;
@@ -111,8 +122,19 @@
         .arrow-text{
             padding-bottom: 5%;
         }
+        .introtext {
+            width: 50%;
+            margin: 5% 5% 5% 0% ; 
+        }
+        .block1{
+            height: 80vh;
+        }
     }
-    
+    @media (max-width: 800px){
+        .block1{
+            flex-direction: column;
+        }
+    }
 </style><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -165,6 +187,7 @@
             <div id="content"><div class="avatar text-center">
     <img src="/img/about/juneleung.jpeg" alt="juneleung" class="img-ava" />
 </div>
+
 <div class="scrollable">
     <div class="px-3 text-center">
         <h3>陈俊良</h3>
@@ -172,10 +195,29 @@
         <br>
         <p>TD / R&D / DI</p>
         <p>Welcome to my site!</p>
-        <a href="/about">关于我 About me</a>
+        
     </div>
 </div>
+            </div>
 
+            <div class="introtext"> 
+                
+                
+                
+                <br>
+                <br>I am completing an M.A degree at the Beijing Film Academy's China Film High-Tech Research Institute. I received my B.F.A. degree from the Film and Television Technology Department of Beijing Film Academy.
+                My research interests are in intelligent film production, character movement and color science.
+                <br>
+                <br>I am now the technical director of Beijing Shangtian Media, responsible for the construction of color production pipelines, software development, and technical standard construction and testing. During my working life, I was fortunate enough to be an R&D intern at the Institute of Computing Technology, Chinese Academy of Sciences.
+                <br>
+                <br>I also work as a freelance colorist and editor on commercials and short film projects.
+                <br>
+                <br>Films I participated in ---> <a href="/film">[Film]</a>
+                <br>My DI and TD Showreel ---> <a href="/reel">[Reel]</a>
+                <br>My research publications ---> <a href="/research">[Research]</a>
+                <br>My blog and collection ---> <a href="/archive">[Archive]</a>
+                <br>Information about me ---> <a href="/about">[About Me]</a>
+                <br><br>
             </div>
         </div>
         
