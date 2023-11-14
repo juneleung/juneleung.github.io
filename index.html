@@ -48,8 +48,8 @@
       position: absolute;
       top: 0;
       left: 0;
-       
-       
+      width: 100%;
+      height: auto 100%;
        
       background-color: hsla(184, 21%, 28%, 0.95);
     }
@@ -138,7 +138,36 @@
             padding-bottom: 10vh;
         }
     }
-</style><head>
+</style>
+
+<script>
+    function getInfo() {
+        var curWwwPath = window.document.location.href;
+        
+    
+        if (curWwwPath.includes('gitee')) {
+          document.write('haha');  
+        } else {
+            var intro = `
+                I am currently working as a Technical Director of Beijing Shangtian Media, responsible for the development of color production pipelines, software development, and technical standard development and testing. During my career, I was fortunate enough to be an R&D intern at the Institute of Computing Technology, Chinese Academy of Sciences in 2020. 
+                <br>
+                <br>I will complete my M.A degree from the China Film High-tech Research Institute at Beijing Film Academy in June 2024.
+                I received my B.F.A. degree from the Film and Television Technology Department at Beijing Film Academy. I was the TA of the Computer Graphics course in 2021 and 2022.
+                My research interests are in intelligent film production, character motion and color science.
+                <br>
+                <br>In addition, I work as freelance colorist and editor on commercials and short film projects.
+                <br>
+                <br>Films & Credits ---> <a href="/film">[Film]</a>
+                <br>DI and TD Showreels ---> <a href="/reel">[Reel]</a>
+                <br>Research & Publications ---> <a href="/research">[Research]</a>
+                <br>Blogs & Collections ---> <a href="/archive">[Archive]</a>
+                <br>Information about me ---> <a href="/about">[About Me]</a>
+                <br><br>
+            `;
+            document.write(intro);
+        }
+    }
+</script><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Your description">
@@ -204,23 +233,9 @@
             </div>
 
             <div class="introtext" style="text-align:justify;"> 
-                
-                
-                
-                I am currently working as a Technical Director of Beijing Shangtian Media, responsible for the development of color production pipelines, software development, and technical standard development and testing. During my career, I was fortunate enough to be an R&D intern at the Institute of Computing Technology, Chinese Academy of Sciences in 2020.
-                <br>
-                <br>I will complete my M.A degree from the China Film High-tech Research Institute at Beijing Film Academy in June 2024.
-                I received my B.F.A. degree from the Film and Television Technology Department at Beijing Film Academy. I was the TA of the Computer Graphics course in 2021 and 2022.
-                My research interests are in intelligent film production, character motion and color science.
-                <br>
-                <br>In addition, I work as freelance colorist and editor on commercials and short film projects.
-                <br>
-                <br>Films & Credits ---> <a href="/film">[Film]</a>
-                <br>DI and TD Showreels ---> <a href="/reel">[Reel]</a>
-                <br>Research & Publications ---> <a href="/research">[Research]</a>
-                <br>Blogs & Collections ---> <a href="/archive">[Archive]</a>
-                <br>Information about me ---> <a href="/about">[About Me]</a>
-                <br><br>
+                <script>
+                    getInfo();
+                </script>
             </div>
         </div>
         
