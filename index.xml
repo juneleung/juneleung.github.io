@@ -8,6 +8,34 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>&lt;!DOCTYPE html&gt; 欢迎来到我的网站，关于我的介绍分为五部分：
+Welcome to my website, there are five parts about my introduction:
+# 技能 Skills
+# 工作 Work
+# 教育 Education
+# 志愿者 Volunteer
+# 联系 Contact 技能 Skills Resolve
+Baselight
+Unreal Engine
+Nuke
+Houdini
+Shot Grid
+Python
+C++
+QT/PyQt
+HTML
+SQL
+Git
+工作 Work 北京上添影视 - 张亘DI团队
+Beijing ShangTian Media - Antonio DI Team 流程研发 Pipeline TD / Digital Intermediate Engineer · Pipeline development and automated production tool development (C++, Python, SQL, AI) · 流程开发和自动化生产工具开发（C++、Python、SQL、AI） · Advanced technology standard testing · 高新技术标准测试 · Color science research · 色彩科学研究 · Projects(Part): · 项目(部分): &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;流浪地球2 (2023) (The Wandering Earth Ⅱ), &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;长安三万里 (2023) (Chang An), &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;独行月球 (2022) (Moon Man), &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;刺杀小说家 (2021) (A Writer&#39;s Odyssey / Assassin in Red) &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.</description>
+    </item>
+    
+    <item>
       <title>Fotokem</title>
       <link>http://example.org/archive/tips-collection/fotokem/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
@@ -115,34 +143,6 @@ testing clip is the trailer of OPPENHEIMER &lt;!DOCTYPE html&gt; Github: https:/
       
       <guid>http://example.org/archive/api-develop/fl_api/</guid>
       <description> &lt;!DOCTYPE html&gt; FLAPI FL-API-python </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://example.org/about/</link>
-      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/about/</guid>
-      <description>&lt;!DOCTYPE html&gt; 欢迎来到我的网站，关于我的介绍分为五部分：
-Welcome to my website, there are five parts about my introduction:
-# 技能 Skills
-# 工作 Work
-# 教育 Education
-# 志愿者 Volunteer
-# 联系 Contact 技能 Skills Resolve
-Baselight
-Unreal Engine
-Nuke
-Houdini
-Shot Grid
-Python
-C++
-QT/PyQt
-HTML
-SQL
-Git
-工作 Work 北京上添影视 - 张亘DI团队
-Beijing ShangTian Media - Antonio DI Team 流程研发 Pipeline TD / Digital Intermediate Engineer · Pipeline development and automated production tool development (C++, Python, SQL, AI) · 流程开发和自动化生产工具开发（C++、Python、SQL、AI） · Advanced technology standard testing · 高新技术标准测试 · Color science research · 色彩科学研究 · Projects(Part): · 项目(部分): &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;流浪地球2 (2023) (The Wandering Earth Ⅱ), &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;长安三万里 (2023) (Chang An), &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;独行月球 (2022) (Moon Man), &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;刺杀小说家 (2021) (A Writer&#39;s Odyssey / Assassin in Red) &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.</description>
     </item>
     
     <item>
