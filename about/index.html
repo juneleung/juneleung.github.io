@@ -365,33 +365,39 @@ a {
   color: inherit;
 }
 
-body {
+ 
    
    
    
    
-}
+ 
 
  
 
  
 .chart-wrapper .chart-titlevalues {
   position: relative;
-  display: flex;
-  margin-bottom: 20px;
+   
+   
    
    
 }
 
 .chart-wrapper .chart-titlevalues li {
   flex: 1;
-  min-width: 80px;
+  min-width: 180px;
   text-align: center;
+  position: relative;
+  color: var(--white);
+  margin-bottom: 15px;
+   
+  border-radius: 20px;
+  padding: 5px 20px;
+  width: 0;
+  opacity: 0;
+  transition: all 0.65s linear 0.2s;
 }
 
-.chart-wrapper .chart-titlevalues li:not(:last-child) {
-  position: relative;
-}
 
 
  
@@ -437,11 +443,16 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .chart-wrapper .chart-bars .chart-titlevalues li {
+  .chart-wrapper .chart-bars  li {
     padding: 10px;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .chart-wrapper .chart-titlevalues  li {
+    padding: 10px;
+  }
+}
 
 
 </style>  
@@ -503,7 +514,7 @@ body {
     </ul>
     
     <ul class="chart-titlevalues">
-        <li data-duration="2017-2021½" data-color="#394057" >Bachelor - Department of Film and Television Technology</li>
+        <li data-duration="2017½-2021½" data-color="#394057" style="position: absolute;" >Bachelor - Department of Film and Television Technology</li>
         <li data-duration="2021½-2024½" data-color="#283c3d" >Master - China Film High Technology Institute</li>
     </ul>
     
