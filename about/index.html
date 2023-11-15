@@ -58,7 +58,6 @@
 			<div>
 				<hr>
 <br>
-<!-- raw HTML omitted -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,12 +74,12 @@
         }
 
         #logopic {
-        filter: grayscale(100%);
-        transition: filter 0.3s;
+            filter: grayscale(100%);
+            transition: filter 0.3s;
         } 
 
         #logoID:hover #logopic {
-        filter: grayscale(0%);
+            filter: grayscale(0%);
         }
 
 		.text {
@@ -148,7 +147,7 @@
         }
         
         .imgcontainer {
-            width: 90%;
+            width: 80%;
             position: relative;
         }
         
@@ -185,12 +184,23 @@
         <hr>
     </div>
 
-    <div id="Skills">
-        <br>
+
+
+
+
+<p>    <div id="Skills">
         <div class="center">
-            <h3>技能 Skills</h3>
-        </div>
         <br>
+        <h3>技能 Skills</h3>
+        <p>  </p>
+        
+    </div>
+    <br>
+    
+
+
+    
+
         <div class="container" id="logoID">
             <table>
                 <tr>
@@ -231,16 +241,20 @@
         <hr>
     </div>
   
-    <div id="Experience">
+
+</p>
+<p>    <div id="Experience">
         <div class="center">
         <br>
         <h3>工作 Work</h3>
         <p>  </p>
         
     </div>
-        
-        <br>
-        
+    <br>
+    
+
+
+    
 
         <table>
             <thead>
@@ -317,16 +331,196 @@
         </table>
         <hr>
     </div>
-
-    <div id="Education">
+</p>
+<p>    <div id="Education">
         <div class="center">
         <br>
         <h3>教育 Education</h3>
         <p>  </p>
         
     </div>
+    <br>
+    
+
+
+    
+<html>
+<head>
+<style>
+ 
+:root {
+  --white: #fff;
+  --divider: lightgrey;
+  --body: #f5f7f8;
+}
+
+ 
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+   
+   
+   
+   
+}
+
+ 
+
+ 
+.chart-wrapper .chart-titlevalues {
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+   
+   
+}
+
+.chart-wrapper .chart-titlevalues li {
+  flex: 1;
+  min-width: 80px;
+  text-align: center;
+}
+
+.chart-wrapper .chart-titlevalues li:not(:last-child) {
+  position: relative;
+}
+
+ 
+.chart-wrapper .chart-values {
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+  font-weight: bold;
+   
+}
+
+.chart-wrapper .chart-values li {
+  flex: 1;
+  min-width: 80px;
+  text-align: center;
+}
+
+.chart-wrapper .chart-values li:not(:last-child) {
+  position: relative;
+}
+
+.chart-wrapper .chart-values li:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  right: 0;
+   
+  border-right: 1px solid var(--divider);
+}
+
+
+
+ 
+.chart-wrapper .chart-bars li {
+  position: relative;
+  color: var(--white);
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 5px 20px;
+  width: 0;
+  opacity: 0;
+  transition: all 0.65s linear 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+  .chart-wrapper .chart-bars li {
+    padding: 10px;
+  }
+}
+
+
+
+</style>  
+</head>
+<script>
+    function createChart(e) {
+        const days = document.querySelectorAll(".chart-values li");
+        const tasks = document.querySelectorAll(".chart-bars li, .chart-titlevalues li");
+        const daysArray = [...days];
+
+        tasks.forEach(el => {
+            const duration = el.dataset.duration.split("-");
+            const startDay = duration[0];
+            const endDay = duration[1];
+            let left = 0,
+            width = 0;
+
+            if (startDay.endsWith("½")) {
+            const filteredArray = daysArray.filter(day => day.textContent == startDay.slice(0, -1));
+            left = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth / 2;
+            } else {
+            const filteredArray = daysArray.filter(day => day.textContent == startDay);
+            left = filteredArray[0].offsetLeft;
+            }
+
+            if (endDay.endsWith("½")) {
+            const filteredArray = daysArray.filter(day => day.textContent == endDay.slice(0, -1));
+            width = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth / 2 - left;
+            } else {
+            const filteredArray = daysArray.filter(day => day.textContent == endDay);
+            width = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth - left;
+            }
+
+            
+            el.style.left = `${left}px`;
+            el.style.width = `${width}px`;
+            if (e.type == "load") {
+            el.style.backgroundColor = el.dataset.color;
+            el.style.opacity = 1;
+            }
+        });
+        }
+
+        window.addEventListener("load", createChart);
+        window.addEventListener("resize", createChart);
+</script>
+<body>
+    <hr>
+    <div class="chart-wrapper">
+    <ul class="chart-values">
+        <li>2017</li>
+        <li>2018</li>
+        <li>2019</li>
+        <li>2020</li>
+        <li>2021</li>
+        <li>2022</li>
+        <li>2023</li>
+        <li>2024</li>
+    </ul>
+    
+    <ul class="chart-titlevalues">
+        <li data-duration="2017-2021½" data-color="#394057" >Bachelor - Department of Film and Television Technology</li>
+        <li data-duration="2021½-2024½" data-color="#283c3d" >Master - China Film High Technology Institute</li>
+    </ul>
+    
+    <ul class="chart-bars">
+        <li data-duration="2017½-2024½" data-color="#33a8a5">Film Virtual Production Lab</li>
+        <li data-duration="2018½-2023½" data-color="#30997a">Character Motion Lab</li>
         
-        <br>
+        <li data-duration="2020½-2024½" data-color="#367c93">Film Intelligent Production Laboratory</li>
+        <li data-duration="2021½-2024½" data-color="#09bc92">Color Science Research Laboratory</li>
+        <li data-duration="2021½-2023½" data-color="#af4623">TA: Computer Graphics</li>
+        
+    </ul>
+    <hr>
+  </div>
+</body>
+</html>
+<br>
+
         
         <table>
             <thead>
@@ -448,13 +642,21 @@
         </table>
         <hr>
     </div>
-
-    <div id="Volunteer">
+</p>
+<p>    <div id="Volunteer">
         <div class="center">
         <br>
         <h3>志愿者 Volunteer</h3>
+        <p>  </p>
         
-        <br>
+    </div>
+    <br>
+    
+
+
+    
+
+        
         <table>
             <thead>
                 <tr>
@@ -488,15 +690,20 @@
             </tbody>
         </table>
         <hr>
-    </div>
-
-    <div id="Contact">
+</p>
+<p>    <div id="Contact">
         <div class="center">
         <br>
         <h3>联系 Contact</h3>
-    </div>
+        <p>  </p>
         
-        <br>
+    </div>
+    <br>
+    
+
+
+    
+
         
         <table>
             <thead>
@@ -552,10 +759,7 @@
         </table>
         <hr>
     </div>
-
-
-
-
+</p>
 </body>
 </html>
 
