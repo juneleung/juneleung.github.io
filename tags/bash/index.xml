@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bash on Juneleung Chan</title>
+    <link>http://example.org/tags/bash/</link>
+    <description>Recent content in bash on Juneleung Chan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>动态图片转换Convert mvimg2mp4</title>
+      <link>http://example.org/archive/codes/bash_mvimg_to_mp4/</link>
+      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/codes/bash_mvimg_to_mp4/</guid>
+      <description> &lt;!DOCTYPE html&gt; mvimg2mp4 * convert google mvimg to mp4
+* mac cmd
+for i in MVIMG*.jpg; do \ perl -0777 -ne &amp;#39;s/^.*(....ftypmp4.*)$/$1/s &amp;amp;&amp;amp; print&amp;#39; &amp;#34;$i&amp;#34; &amp;gt;&amp;#34;${i%.jpg}.mp4&amp;#34;; \ done </description>
+    </item>
+    
+  </channel>
+</rss>
