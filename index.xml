@@ -25,13 +25,7 @@ for i in MVIMG*.jpg; do \ perl -0777 -ne &amp;#39;s/^.*(....ftypmp4.*)$/$1/s &am
       
       <guid>http://example.org/about/</guid>
       <description>&lt;!DOCTYPE html&gt; From my best friend: 530 @2019
-欢迎来到我的网站，关于我的介绍分为五部分：
-Welcome to my website, there are five parts about my introduction:
-# 技能 Skills
-# 工作 Work
-# 教育 Education
-# 志愿者 Volunteer
-# 联系 Contact 技能 Skills Resolve
+技能 Skills Resolve
 Baselight
 Unreal Engine
 Nuke
@@ -44,7 +38,8 @@ HTML
 SQL
 Git
 工作 Work 北京上添影视 - 张亘DI团队
-Beijing ShangTian Media - Antonio DI Team 流程研发 Pipeline TD / Digital Intermediate Engineer · Pipeline development and automated production tool development (C++, Python, SQL, AI) · 流程开发和自动化生产工具开发（C++、Python、SQL、AI） · Advanced technology standard testing · 高新技术标准测试 · Color science research · 色彩科学研究 · Projects(Part): · 项目(部分): &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;流浪地球2 (2023) (The Wandering Earth Ⅱ), &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;长安三万里 (2023) (Chang An), &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;独行月球 (2022) (Moon Man), &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;刺杀小说家 (2021) (A Writer&#39;s Odyssey / Assassin in Red) &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.</description>
+Beijing ShangTian Media - Antonio DI Team 流程研发 Pipeline TD / Digital Intermediate Engineer 2020.06 - present 中国科学院 - 计算技术研究所
+Institute of Computing Technology, Chinese Academy of Sciences AI研究实习 AI R&amp;D Intern 2020.09 - 2021.09 教育 Education 北京电影学院 - 中国电影高新技术研究院</description>
     </item>
     
     <item>

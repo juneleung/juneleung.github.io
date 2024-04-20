@@ -26,15 +26,6 @@
     </item>
     
     <item>
-      <title>New</title>
-      <link>http://example.org/tags/new/</link>
-      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/new/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>论文 Paper</title>
       <link>http://example.org/tags/%E8%AE%BA%E6%96%87-paper/</link>
       <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
