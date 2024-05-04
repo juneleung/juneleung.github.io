@@ -13,12 +13,12 @@ window.onscroll = function() {
   } else {
     document.querySelector('.sticky').style.opacity = 1; 
   }
-}
+};
 
 
 document.getElementById("back-to-top").addEventListener("click", function() {
   window.scrollTo({top: 0, behavior: 'smooth'});
-})
+});
 
 
 
