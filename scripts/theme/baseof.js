@@ -20,3 +20,27 @@ document.getElementById("back-to-top").addEventListener("click", function() {
   window.scrollTo({top: 0, behavior: 'smooth'});
 })
 
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var cnLink = document.getElementById('cn-link');
+  var enLink = document.getElementById('en-link');
+  var cnContent = document.getElementById('cn-content');
+  var enContent = document.getElementById('en-content');
+
+  cnLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      cnContent.style.display = 'block';
+      enContent.style.display = 'none';
+      cnLink.classList.add('active');
+      enLink.classList.remove('active');
+  });
+
+  enLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      cnContent.style.display = 'none';
+      enContent.style.display = 'block';
+      cnLink.classList.remove('active');
+      enLink.classList.add('active');
+  });
+});
