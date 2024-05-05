@@ -21,7 +21,6 @@ document.getElementById("back-to-top").addEventListener("click", function() {
 });
 
 
-
 document.addEventListener('DOMContentLoaded', function() {
   var cnLink = document.getElementById('cn-link');
   var enLink = document.getElementById('en-link');

@@ -74,11 +74,12 @@ Film
     
     <item>
       <title>research</title>
-      <link>http://example.org/research/</link>
+      <link>http://example.org/publication/</link>
       <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/research/</guid>
-      <description>coming soon!</description>
+      <guid>http://example.org/publication/</guid>
+      <description>MORE RESEARCHES COMMING SOON &amp;hellip;
+[English] [1] Footstep Detection for Film Sound Production Xiaojuan Gu*†, Junliang Chen*, Bo Li, Jun Chen. (∗: Equal contributions. †: Corresponding author.) SIGGRAPH ASIA 2023 [2] Text2Face: Text-based Face Generation with Geometry and Appearance Control Zhaoyang Zhang, Junliang Chen, Hongbo Fu, Jianjun Zhao, Shu-Yu Chen, Lin Gao International Conference on Computational Visual Media 2023, Recommended to IEEE Transactions on Visualization and Computer Graphics (IEEE TVCG) 2024 [3] 基于色彩迁移辅助的数字调色方法研究 陈俊良, 顾晓娟, 现代电影技术,2023(05):35-40.</description>
     </item>
     
     <item>
