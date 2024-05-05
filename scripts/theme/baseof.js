@@ -20,26 +20,31 @@ document.getElementById("back-to-top").addEventListener("click", function() {
   window.scrollTo({top: 0, behavior: 'smooth'});
 });
 
-
 document.addEventListener('DOMContentLoaded', function() {
-  var cnLink = document.getElementById('cn-link');
-  var enLink = document.getElementById('en-link');
-  var cnContent = document.getElementById('cn-content');
-  var enContent = document.getElementById('en-content');
+  var cnLinks = document.querySelectorAll('.cn-link');
+  var enLinks = document.querySelectorAll('.en-link');
+  var cnContents = document.querySelectorAll('.cn-content');
+  var enContents = document.querySelectorAll('.en-content');
 
-  cnLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      cnContent.style.display = 'block';
-      enContent.style.display = 'none';
-      cnLink.classList.add('active');
-      enLink.classList.remove('active');
+  cnLinks.forEach(function(cnLink, index) {
+      cnLink.addEventListener('click', function(e) {
+          e.preventDefault();
+          enContents.forEach(function(enContent) {enContent.style.display = 'none';});
+          cnContents.forEach(function(cnContent) {cnContent.style.display = 'block';});
+          cnLinks.forEach(function(link) {link.classList.remove('active');});
+          enLinks.forEach(function(link) {link.classList.remove('active');});
+          cnLink.classList.add('active');
+      });
   });
 
-  enLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      cnContent.style.display = 'none';
-      enContent.style.display = 'block';
-      cnLink.classList.remove('active');
-      enLink.classList.add('active');
+  enLinks.forEach(function(enLink, index) {
+      enLink.addEventListener('click', function(e) {
+          e.preventDefault();
+          cnContents.forEach(function(cnContent) {cnContent.style.display = 'none';});
+          enContents.forEach(function(enContent) {enContent.style.display = 'block';});
+          cnLinks.forEach(function(link) {link.classList.remove('active');});
+          enLinks.forEach(function(link) {link.classList.remove('active');});
+          enLink.classList.add('active');
+      });
   });
 });
