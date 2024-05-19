@@ -1,11 +1,11 @@
-# name: Sync and Build
+name: Sync and Build
 
-# on: [ page_build ]
+on: [ page_build ]
 
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-#     steps:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # steps:
 #       - name: Sync to Gitee
 #         uses: wearerequired/git-mirror-action@master
 #         env:
