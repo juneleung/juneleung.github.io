@@ -3,12 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://example.org/archive/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/bash/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/</loc>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/reading/the-worlds-i-see/</loc>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/bash/</loc>
     <lastmod>2024-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/</loc>
@@ -166,6 +169,9 @@
   </url><url>
     <loc>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-f4-gt-global-launch-event/</loc>
     <lastmod>2022-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/reading/%E9%95%BF%E5%A4%A7%E7%9A%84%E6%88%91%E4%BB%AC%E6%B6%88%E5%A4%B1%E7%9A%84%E5%A5%BD%E5%A5%87%E5%BF%83/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/commercial/%E5%B9%BF%E5%91%8A-commercial/poco-x4-pro-5g-m4-pro-global-launch-event/</loc>
     <lastmod>2022-02-28T00:00:00+00:00</lastmod>
