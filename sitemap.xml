@@ -3,18 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://example.org/archive/</loc>
-    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/di/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/</loc>
-    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/artists/miulinglam/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/tips-collection/film-emulation/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/reading/the-worlds-i-see/</loc>
     <lastmod>2024-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/bash/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
     <lastmod>2024-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/codes/bash_mvimg_to_mp4/</loc>
@@ -25,9 +34,6 @@
   </url><url>
     <loc>http://example.org/about/</loc>
     <lastmod>2023-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/di/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/tips-collection/fotokem/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
