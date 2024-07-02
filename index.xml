@@ -18,6 +18,16 @@ miulinglam: http://miulinglam.com/ </description>
     </item>
     
     <item>
+      <title>Steve Yedlin</title>
+      <link>http://example.org/archive/artists/steve-yedlin/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/archive/artists/steve-yedlin/</guid>
+      <description>
+Steve Yedlin: https://www.yedlin.net/ </description>
+    </item>
+    
+    <item>
       <title>胶片模拟Film Emulation</title>
       <link>http://example.org/archive/tips-collection/film-emulation/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
