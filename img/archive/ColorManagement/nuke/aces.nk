@@ -1,0 +1,86 @@
+#! C:/Program Files/Nuke14.0v3/nuke-14.0.3.dll -nx
+#write_info Write1 file:"C:/Users/Juneleung/Desktop/nuke_ACEScg_output.exr" format:"3583 2525 1" chans:":rgba.red:rgba.green:rgba.blue:" framerange:"1 249397" fps:"0" colorspace:"ACES - ACEScg" datatype:"16 bit half" transfer:"unknown" views:"main" colorManagement:"OCIO"
+version 14.0 v3
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="0" y="0" w="899" h="549" screen="0">
+        <splitter orientation="1">
+            <split size="40"/>
+            <dock id="" hideTitles="1" activePageId="Toolbar.1">
+                <page id="Toolbar.1"/>
+            </dock>
+            <split size="236" stretch="1"/>
+            <splitter orientation="2">
+                <split size="298"/>
+                <dock id="" activePageId="Viewer.1">
+                    <page id="Viewer.1"/>
+                </dock>
+                <split size="209"/>
+                <dock id="" activePageId="DAG.1">
+                    <page id="DAG.1"/>
+                    <page id="Curve Editor.1"/>
+                    <page id="DopeSheet.1"/>
+                </dock>
+            </splitter>
+            <split size="615"/>
+            <dock id="" activePageId="Properties.1">
+                <page id="Properties.1"/>
+                <page id="uk.co.thefoundry.backgroundrenderview.1"/>
+                <page id="Scenegraph.1"/>
+            </dock>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name C:/Users/Juneleung/Desktop/aces.nk
+ frame 10643
+ last_frame 249397
+ lock_range true
+ format "2048 1556 0 0 2048 1556 1 2K_Super_35(full-ap)"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ colorManagement OCIO
+ OCIO_config aces_1.2
+ defaultViewerLUT "OCIO LUTs"
+ workingSpaceLUT scene_linear
+ monitorLut "sRGB (ACES)"
+ monitorOutLUT "sRGB (ACES)"
+ int8Lut "Utility - Linear - sRGB"
+ int16Lut texture_paint
+ logLut compositing_log
+ floatLut scene_linear
+}
+Read {
+ inputs 0
+ file_type exr
+ file C:/Users/Juneleung/Desktop/ITU-R_BT.709_ColorChecker2014.exr
+ format "3583 2525 0 0 3583 2525 1 "
+ origset true
+ colorspace "Utility - Linear - sRGB"
+ name Read7
+ xpos -198
+ ypos -126
+}
+set N35880000 [stack 0]
+Viewer {
+ frame_range 1-249397
+ full_frame_processing true
+ viewerProcess "sRGB (ACES)"
+ name Viewer1
+ xpos -198
+ ypos 125
+}
+push $N35880000
+Write {
+ file C:/Users/Juneleung/Desktop/nuke_ACEScg_output.exr
+ colorspace "ACES - ACEScg"
+ file_type exr
+ first_part rgba
+ version 5
+ name Write1
+ selected true
+ xpos -320
+ ypos 5
+}

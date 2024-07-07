@@ -1,0 +1,30 @@
+#back-to-top {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    display: none;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    background-image:url('/img/about/backtotop.png');
+    background-size: cover; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+    opacity: 0;
+    transition: opacity 2s; 
+}
+
+.sticky {
+    position: sticky;
+    top: 3%;
+    z-index: 999; 
+
+    opacity: 1;
+    transition: opacity 1s; 
+}
+

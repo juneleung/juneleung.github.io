@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LATEX on Juneleung Chan</title>
+    <link>http://example.org/tags/latex/</link>
+    <description>Recent content in LATEX on Juneleung Chan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://example.org/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BFA 本/硕毕业论文|课程论文模版 BFA Thesis Template (latex)</title>
+      <link>http://example.org/archive/codes/latex_thesis_template/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/codes/latex_thesis_template/</guid>
+      <description> * 反馈请提issue 或 邮件juneleungchan@163.com&#xA;* 仅作参考，随时更新&#xA;* 支持平台：windows, mac&#xA;* 主文档入口：MainPaper.tex&#xA;&lt;!DOCTYPE html&gt; 本科毕业论文模版 Undergraduate Thesis Template in Latex &lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/BFA_Undergraduate_Thesis_Template &lt;!DOCTYPE html&gt; 硕士毕业论文模版 Master Thesis Template in Latex &lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/BFA_Master_Thesis_Template &lt;!DOCTYPE html&gt; 研究生课程论文模版 Course Paper Template in Latex &lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/BFA_MasterCourse_Paper_Template @juneleung&#xA;20230801&#xA;&lt;!DOCTYPE html&gt; </description>
+    </item>
+  </channel>
+</rss>

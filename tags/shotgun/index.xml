@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shotgun on Juneleung Chan</title>
+    <link>http://example.org/tags/shotgun/</link>
+    <description>Recent content in Shotgun on Juneleung Chan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://example.org/tags/shotgun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shotgun API</title>
+      <link>http://example.org/archive/api-develop/shotgun_api/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/api-develop/shotgun_api/</guid>
+      <description> &lt;!DOCTYPE html&gt; Shotgun Shotgrid-python </description>
+    </item>
+  </channel>
+</rss>

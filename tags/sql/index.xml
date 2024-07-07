@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Juneleung Chan</title>
+    <link>http://example.org/tags/sql/</link>
+    <description>Recent content in SQL on Juneleung Chan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://example.org/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人员信息数据库 SQL Demo of Personnel Data</title>
+      <link>http://example.org/archive/codes/python_sqlite3_personaldata/</link>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/codes/python_sqlite3_personaldata/</guid>
+      <description>* 目标：数据库构造&#xA;* Goal: SQL building&#xA;* 任务：这是一个个人数据管理数据库。包括添加数据库信息、查询、显示、转换等功能。&#xA;* Task: This is a management database of personal data data. Including functions such as adding to the database, querying, displaying, and converting.&#xA;* 语言：Python, SQLite3&#xA;* Language: Python, SQLite3&#xA;&lt;!DOCTYPE html&gt; Github: https://github.com/juneleung/PersonalDataSQL_Sqlite3_Py_demo &lt;!DOCTYPE html&gt; Introduction Information about each person includes:&#xA;name address phone Supported formats for personal data include:&#xA;json yaml xml csv Display format include:&#xA;txt html Convert format include:</description>
+    </item>
+  </channel>
+</rss>
