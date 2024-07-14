@@ -17,9 +17,9 @@
     </item>
     <item>
       <title>Davinci Resolve API</title>
-      <link>http://example.org/archive/api-develop/dr_api/</link>
+      <link>http://example.org/archive/develop/dr_api/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://example.org/archive/api-develop/dr_api/</guid>
+      <guid>http://example.org/archive/develop/dr_api/</guid>
       <description>&lt;!DOCTYPE html&gt; Search API: All APIs Updated as of 18 July 2023</description>
     </item>
   </channel>

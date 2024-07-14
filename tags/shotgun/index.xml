@@ -10,9 +10,9 @@
     <atom:link href="http://example.org/tags/shotgun/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shotgun API</title>
-      <link>http://example.org/archive/api-develop/shotgun_api/</link>
+      <link>http://example.org/archive/develop/shotgun_api/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://example.org/archive/api-develop/shotgun_api/</guid>
+      <guid>http://example.org/archive/develop/shotgun_api/</guid>
       <description> &lt;!DOCTYPE html&gt; Shotgun Shotgrid-python </description>
     </item>
   </channel>

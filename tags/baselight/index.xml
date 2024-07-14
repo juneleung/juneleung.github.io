@@ -10,9 +10,9 @@
     <atom:link href="http://example.org/tags/baselight/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Filmlight API</title>
-      <link>http://example.org/archive/api-develop/fl_api/</link>
+      <link>http://example.org/archive/develop/fl_api/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://example.org/archive/api-develop/fl_api/</guid>
+      <guid>http://example.org/archive/develop/fl_api/</guid>
       <description> &lt;!DOCTYPE html&gt; FLAPI FL-API-python </description>
     </item>
   </channel>

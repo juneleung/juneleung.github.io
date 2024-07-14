@@ -10,16 +10,16 @@
     <atom:link href="http://example.org/tags/vfx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CG &amp; DI色彩管理 Color Management in CG&amp;DI</title>
-      <link>http://example.org/archive/pipeline/color_management_in_cg_di/</link>
+      <link>http://example.org/archive/collection/color_management_in_cg_di/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://example.org/archive/pipeline/color_management_in_cg_di/</guid>
+      <guid>http://example.org/archive/collection/color_management_in_cg_di/</guid>
       <description>&lt;!DOCTYPE html&gt; 目标: 不同软件内监看颜色一致 &lt;!DOCTYPE html&gt; Goal: To keep colors’ exactness across software * 本测试所有文件和工程: @juneleung: Color-Management-in-CG-DI * All files and projects can be downloaded from: @juneleung: Color-Management-in-CG-DI * 本测试使用 OCIO 和 ACES 1.2 进行色彩管理&#xA;* This test uses OCIO and ACES 1.2 for color management&#xA;&lt;!DOCTYPE html&gt; 色卡 ColorChecker * 本测试使用的色卡为 ITU-R_BT.709_ColorChecker2014.exr , 其他色卡可以从 @colour-science: colour-nuke 下载&#xA;* The ColorChecker used in this test is ITU-R_BT.709_ColorChecker2014.exr , other ColorCheckers can be downloaded from @colour-science: colour-nuke &lt;!</description>
     </item>
     <item>
       <title>摄影机数据库 Camera Database</title>
-      <link>http://example.org/archive/tips--collection/%E6%91%84%E5%BD%B1%E6%9C%BA%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <link>http://example.org/archive/collection/%E6%91%84%E5%BD%B1%E6%9C%BA%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://example.org/archive/tips--collection/%E6%91%84%E5%BD%B1%E6%9C%BA%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <guid>http://example.org/archive/collection/%E6%91%84%E5%BD%B1%E6%9C%BA%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
       <description>&#xA;&lt;!DOCTYPE html&gt; 摄影机数据库 Camera database vfxcamdb: https://vfxcamdb.com/ @juneleung&#xA;&lt;!DOCTYPE html&gt; </description>
     </item>
   </channel>

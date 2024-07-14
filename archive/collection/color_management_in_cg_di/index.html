@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en"  class="h-100">
+<head>
+  <script src="/scripts/theme/baseof.js" defer></script>
+  <link href="/css/baseof.css" rel="stylesheet" type="text/css">
+</head><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Your description">
+    <meta name="theme-color" content="#000">
+
+    <link rel="canonical" href="http://example.org/archive/collection/color_management_in_cg_di/" />
+
+    
+    <link defer href="/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <link defer href="/css/rose.css" rel="stylesheet">
+
+    
+    
+    <link defer rel="stylesheet" href="/font.cc958b841144b5e6348b4723514869a46d121c6cf691e9e0009d86281ad5cc37.css" integrity="">
+
+    
+    <title>
+        
+        CG &amp; DI色彩管理 Color Management in CG&amp;DI | Juneleung Chan
+        
+    </title> 
+</head>
+
+<body class="d-flex md h-100 container-sm text-white bg-dark"> 
+  <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+    
+    
+<header class="mb-auto sticky">
+  <h1 class="float-md-start justify-content-center">
+    <a class="head-rose" href="/">Juneleung Chan</a>
+  </h1>
+  <nav class="nav nav-masthead justify-content-center float-md-end" style="padding-bottom: 2vh;">
+    <a class="nav-link text-white" href="/">Home</a>
+    <a class="nav-link text-white" href="/film">Film</a>
+    
+    <a class="nav-link text-white" href="/reel">Reel</a>
+    
+    <a class="nav-link text-white" href="/publication">Publication</a>
+    <a class="nav-link text-white" href="/archive">Archive</a>
+    <a class="nav-link text-white" href="/about">About</a>
+    
+  </nav>
+</header>
+    
+  
+    <div id="content">
+	<main>
+		<article>
+			
+			
+			<div>
+				<hr>
+<p><img src="/img/archive/ColorManagement/Compare/compareDifferentSoftware.jpg" alt="CompView"></p>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h6>目标: 不同软件内监看颜色一致</h6>
+	</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h6>Goal: To keep colors’ exactness across software</h6>
+	</div>
+</body>
+</html>
+
+<br>
+<hr>
+<br>
+<p>* 本测试所有文件和工程: <a href="https://github.com/juneleung/Color-Management-in-CG-DI" target="_blank">@juneleung: Color-Management-in-CG-DI</a>    
+
+</p>
+<p>* All files and projects can be downloaded from: <a href="https://github.com/juneleung/Color-Management-in-CG-DI" target="_blank">@juneleung: Color-Management-in-CG-DI</a>    
+
+</p>
+<br>
+<p>* 本测试使用 <a href="https://github.com/AcademySoftwareFoundation/OpenColorIO" target="_blank">OCIO</a>    
+
+和 ACES 1.2 进行色彩管理</p>
+<p>* This test uses <a href="https://github.com/AcademySoftwareFoundation/OpenColorIO" target="_blank">OCIO</a>    
+
+ and ACES 1.2 for color management</p>
+<br>
+<hr>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>色卡 ColorChecker</h3>
+	</div>
+</body>
+</html>
+
+<p><img src="/img/archive/ColorManagement/Source/sourceinsRGB.jpg" alt="BT709CK2014"></p>
+<br>
+<p>* 本测试使用的色卡为 <a href="https://github.com/colour-science/colour-nuke/blob/master/colour_nuke/resources/images/ColorChecker2014/ITU-R_BT.709_ColorChecker2014.exr" target="_blank">ITU-R_BT.709_ColorChecker2014.exr</a>    
+
+, 其他色卡可以从 <a href="https://github.com/colour-science/colour-nuke/tree/master/colour_nuke/resources/images/ColorChecker2014" target="_blank">@colour-science: colour-nuke</a>    
+
+下载</p>
+<p>* The ColorChecker used in this test is <a href="https://github.com/colour-science/colour-nuke/blob/master/colour_nuke/resources/images/ColorChecker2014/ITU-R_BT.709_ColorChecker2014.exr" target="_blank">ITU-R_BT.709_ColorChecker2014.exr</a>    
+
+, other ColorCheckers can be downloaded from <a href="https://github.com/colour-science/colour-nuke/tree/master/colour_nuke/resources/images/ColorChecker2014" target="_blank">@colour-science: colour-nuke</a>    
+
+</p>
+<br>
+<hr>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>Houdini &amp; Arnold</h3>
+	</div>
+</body>
+</html>
+
+<h6 id="hahahugoshortcode33s18hbhb"><a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/houdini/aces.hip" target="_blank">.hip 工程 (.hip Project)</a>    
+
+</h6>
+<br>
+<p>* 本测试将色卡作为渲染器Environment进行渲染</p>
+<p>* This test renders the ColorChecker as renderer Environment</p>
+<br>
+<p>1、工程设置 Project settings:</p>
+<p>&lt;Arnold IP&gt; - &lt;Properties&gt; - &lt;Output&gt; - &lt;ColorSpace&gt;: &ldquo;ACES - ACEScg&rdquo;</p>
+<br>
+<p>2、监看设置 Viewing settings:</p>
+<p>&lt;Render View&gt; - &lt;Color Correction&gt;: &ldquo;ACES - sRGB&rdquo;</p>
+<p><img src="/img/archive/ColorManagement/houdini/houdin-project.jpg" alt="Hproj"></p>
+<p>3、sRGB监看结果 View in &ldquo;sRGB&rdquo;:</p>
+<p><img src="/img/archive/ColorManagement/houdini/houdiniCGinsRGB.jpg" alt="Hout"></p>
+<br>
+<p>* Houdini渲染的ACEScg EXR: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/houdini/houdini_ACEScg_output.exr" target="_blank">houdini_ACEScg_output.exr</a>    
+
+</p>
+<p>* ACEScg EXR rendered from Houdini: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/houdini/houdini_ACEScg_output.exr" target="_blank">houdini_ACEScg_output.exr</a>    
+
+</p>
+<br>
+<hr>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>Nuke</h3>
+	</div>
+</body>
+</html>
+
+<h6 id="hahahugoshortcode33s27hbhb"><a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/nuke/aces.nk" target="_blank">.nk 工程 (.nk Project)</a>    
+
+</h6>
+<br>
+<p>* 本测试将色卡作为输入图片。</p>
+<p>* Use ColorChecker as the input image in this test.</p>
+<br>
+<p>1、项目设置 Project settings:</p>
+<p>&lt;Color&gt; - &lt;OCIO Config&gt;: &ldquo;ACES 1.2&rdquo;</p>
+<p><img src="/img/archive/ColorManagement/nuke/nuke-projectsetting.jpg" alt="Nproj"></p>
+<p>2、素材输入设置 &ldquo;Read&rdquo; settings:</p>
+<p>&lt;Read&gt; - &lt;Input Transform&gt;: &ldquo;Utility - Linear - sRGB&rdquo;</p>
+<p>* 注：如果是ACES cg文件，则此处选择为 &ldquo;ACES - ACEScg&rdquo;</p>
+<p>* Note: Select &ldquo;ACES - ACEScg&rdquo; if it is an ACES cg file</p>
+<p><img src="/img/archive/ColorManagement/nuke/nuke-inputColorspace.jpg" alt="NInpuptcolorspace"></p>
+<p>3、监看IP设置 Viewing settings:
+&ldquo;sRGB(ACES)&rdquo;</p>
+<p><img src="/img/archive/ColorManagement/nuke/nuke-viewingIPsetting.jpg" alt="NIPcolor"></p>
+<p>4、文件写入设置 &ldquo;Write&rdquo; settings:</p>
+<p>&lt;Write&gt; - &lt;Output Transform&gt;: &ldquo;ACES - ACEScg&rdquo;</p>
+<p><img src="/img/archive/ColorManagement/nuke/nuke-writeColorspace.jpg" alt="Nwrite"></p>
+<p>5、工程节点设置 Project node graph:</p>
+<p><img src="/img/archive/ColorManagement/nuke/nuke-projectnode.jpg" alt="Nprojnode"></p>
+<p>6、sRGB监看结果 View in sRGB:</p>
+<p><img src="/img/archive/ColorManagement/nuke/nukeCGinsRGB.jpg" alt="Nproj"></p>
+<br>
+<p>* Nuke渲染的ACEScg EXR: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/nuke/nuke_ACEScg_output.exr" target="_blank">nuke_ACEScg_output.exr</a>    
+
+</p>
+<p>* ACEScg EXR rendered from Nuke: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/nuke/nuke_ACEScg_output.exr" target="_blank">nuke_ACEScg_output.exr</a>    
+
+</p>
+<br>
+<hr>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>RV</h3>
+	</div>
+</body>
+</html>
+
+<p>* 本测试将色卡作为输入图片。</p>
+<p>* Use ColorChecker as the input image in this test.</p>
+<br>
+<p>1、启用文件色彩空间 Active File color space:</p>
+<p>&lt;OCIO&gt; - &lt;File Color Space&gt; - &ldquo;Active&rdquo;</p>
+<br>
+<p>2、选择文件色彩空间 Select File color space:</p>
+<p>&lt;OCIO&gt; - &lt;File Color Space&gt; - &lt;Utility&gt; - &ldquo;Utility-Linear-sRGB&rdquo;</p>
+<p><img src="/img/archive/ColorManagement/RV/rv-filecolorspace.jpg" alt="RVIn"></p>
+<p>3、启用显示文件色彩空间 Active display color space:</p>
+<p>&lt;OCIO&gt; - &lt;MonitorName&gt; - Active</p>
+<br>
+<p>4、选择显示文件色彩空间 Select display color space:</p>
+<p>&lt;OCIO&gt; - &lt;MonitorName&gt; - &lt;ACES&gt; - sRGB</p>
+<p><img src="/img/archive/ColorManagement/RV/rv-displaycolorspace.jpg" alt="RVDisplay"></p>
+<br>
+<hr>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>Davinci</h3>
+	</div>
+</body>
+</html>
+
+<h6 id="hahahugoshortcode33s40hbhb"><a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/davinci/AcesDR1813.drp" target="_blank">.drp 工程 (.drp Project) (18.1.3)</a>    
+
+</h6>
+<br>
+<p>1、工程色彩设置 Project color settings:</p>
+<p><img src="/img/archive/ColorManagement/davinci/davinci-projectsetting.jpg" alt="DRproj"></p>
+<p>2、转为sRGB监看色卡 View in sRGB:</p>
+<p><img src="/img/archive/ColorManagement/davinci/davinci-projectnode-viewingSource.jpg" alt="DRck14"></p>
+<p>3、转为ACEScg以供渲染 Convert to ACEScg for rendering:</p>
+<p><img src="/img/archive/ColorManagement/davinci/davinci-projectnode-renderingACEScg.jpg" alt="RVDisplay"></p>
+<p>4、转为sRGB监看ACEScg渲染后结果 View ACEScg render result in sRGB:</p>
+<p><img src="/img/archive/ColorManagement/davinci/davinci-projectnode-viewingACEScg.jpg" alt="RVDisplay"></p>
+<p>5、sRGB监看色卡 View in sRGB:</p>
+<p><img src="/img/archive/ColorManagement/davinci/davinciCGinsRGB.jpg" alt="RVDisplay"></p>
+<br>
+<p>* 达芬奇渲染的ACEScg EXR: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/davinci/davinci_ACEScg_output.exr" target="_blank">davinci_ACEScg_output.exr</a>    
+
+</p>
+<p>* ACEScg EXR rendered by DaVinci: <a href="https://github.com/juneleung/Color-Management-in-CG-DI/blob/main/davinci/davinci_ACEScg_output.exr" target="_blank">davinci_ACEScg_output.exr</a>    
+
+</p>
+<br>
+<hr>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>监看对比</h3>
+	</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>Comparison of viewing results</h3>
+	</div>
+</body>
+</html>
+
+<br>
+<p>* 不同软件监看窗口对比： Nuke &amp; Houdini &amp; Davinci &amp; RV</p>
+<p>* Comparison of different software viewing windows: Nuke &amp; Houdini &amp; Davinci &amp; RV</p>
+<br>
+<p>* 监看空间：sRGB</p>
+<p>* Viewing color space: sRGB</p>
+<br>
+<p>* 取色计颜色一致</p>
+<p>* The results of the color meter are consistent</p>
+<p><img src="/img/archive/ColorManagement/Compare/compareDifferentSoftware.jpg" alt="CompView"></p>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>渲染结果对比</h3>
+	</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>Comparison of rendering results</h3>
+	</div>
+</body>
+</html>
+
+<br>
+<p>* 不同软件渲染结果对比： Nuke &amp; Houdini &amp; Davinci in ACEScg</p>
+<p>* Comparison of rendering results from different software: Nuke &amp; Houdini &amp; Davinci in ACEScg</p>
+<br>
+<p>* 监看空间：sRGB</p>
+<p>* Viewing color space: sRGB</p>
+<br>
+<p>* 取色计颜色一致</p>
+<p>* The results of the color meter are consistent</p>
+<p><img src="/img/archive/ColorManagement/Compare/viewingDifferentResultInRV.jpg" alt="CompRend"></p>
+<br>
+<hr>
+<p>@juneleung</p>
+<p>20230612</p>
+<hr>
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.image-container-coffee {
+  			flex-wrap: wrap;
+            margin-bottom: 10px;
+		}
+
+		.image-container-coffee img {
+			max-height: 200px; 
+			width: auto;
+			object-fit: cover;
+			flex: 1;
+            filter: invert(0%); 
+            vertical-align: bottom;
+            margin: 10px;
+			 
+			 
+		}
+	</style>
+</head>
+<body>
+    
+</body>
+</html>
+
+<hr>
+
+			</div>
+			
+			
+			
+		</article>
+	</main>
+
+    </div><footer class="mt-auto text-white text-center">
+    
+    <p>2024</p>
+    
+    
+</footer>
+
+
+  </div>
+
+  <a href="#" id="back-to-top"></a>
+
+</body>
+</html>
+
