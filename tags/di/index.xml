@@ -6,14 +6,14 @@
     <description>Recent content in DI on Juneleung Chan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://example.org/tags/di/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>胶片模拟Film Emulation</title>
       <link>http://example.org/archive/collection/film-emulation/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/collection/film-emulation/</guid>
-      <description>&lt;!DOCTYPE html&gt; 胶片模拟 Film Emulation What is the best example of film emulation?: https://www.liftgammagain.com/forum/index.php?threads/what-is-the-best-example-of-film-emulation.15452/ CN：讨论｜最好的模拟胶片效果的数字电影是？: https://mp.weixin.qq.com/s/4XlwYWN0hbasXtPZg8eGOw @juneleung</description>
+      <description>&lt;!DOCTYPE html&gt; 胶片模拟 Film Emulation 数据 Data Film Database: https://github.com/juneleung/FilmDatabase/ @Juneleung&#xA;filmtypes: https://www.filmtypes.com/ 胶片模拟 Emulation SIGGRAPH 2010 - Color Enhancement and Rendering in Film and Game Production - Film Simulation for Video Games - Yoshiharu Gotanda https://renderwonk.com/publications/s2010-color-course/gotanda/slide_film_simulation_for_videogames.pdf https://renderwonk.com/publications/s2010-color-course/gotanda/course_note_film_simulation_for_videogames.pdf Realistic Film Grain Rendering https://www.lirmm.fr/~nfaraj/publications/film_grain_ipol/2017_Newson_film_grain.pdf AI FilterSimulation https://github.com/fg0521/filter4free @柴师傅在打工&#xA;论坛 Forum What is the best example of film emulation?: https://www.liftgammagain.com/forum/index.php?threads/what-is-the-best-example-of-film-emulation.15452/ CN：讨论｜最好的模拟胶片效果的数字电影是？: https://mp.weixin.qq.com/s/4XlwYWN0hbasXtPZg8eGOw LUT Simulation: https://discuss.pixls.us/t/film-emulation-simulation/22935/8 @juneleung</description>
     </item>
     <item>
       <title>Fotokem</title>

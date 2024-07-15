@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/archive/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/di/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/collection/film-emulation/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://example.org/archive/artists/anne-bernasconi/</loc>
     <lastmod>2024-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/artists/anouck-faure/</loc>
-    <lastmod>2024-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/archive/</loc>
     <lastmod>2024-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/books---reading/butter-and-blood/</loc>
@@ -21,9 +33,6 @@
     <lastmod>2024-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/artists/h%C3%A9l%C3%A8ne-lamarche--brigitte-agulhon/</loc>
-    <lastmod>2024-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/</loc>
     <lastmod>2024-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/books---reading/la-danse-des-%C3%A9toiles/</loc>
@@ -47,16 +56,7 @@
     <loc>http://example.org/archive/books---reading/viewotron-comics--stories-no.-1/</loc>
     <lastmod>2024-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/di/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/archive/artists/steve-yedlin/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/archive/collection/film-emulation/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/behind-the-scene/dogtown/</loc>
