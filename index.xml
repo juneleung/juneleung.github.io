@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cullen Kelly</title>
+      <link>http://example.org/archive/artists/-cullen-kelly/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/artists/-cullen-kelly/</guid>
+      <description>&#xA;&lt;!DOCTYPE html&gt; Cullen Kelly Cullen Kelly - youutbe https://www.youtube.com/c/CullenKelly </description>
+    </item>
+    <item>
       <title>胶片模拟Film Emulation</title>
       <link>http://example.org/archive/collection/film-emulation/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
@@ -434,6 +441,13 @@
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>http://example.org/research/2017-2020@dftt-bfa@department-film-and-tv-technology-beijing-film-academy@%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2-%E5%BD%B1%E8%A7%86%E6%8A%80%E6%9C%AF%E7%B3%BB/%E5%9F%BA%E4%BA%8Eleap-motion%E7%9A%84%E7%94%B5%E5%BD%B1%E5%89%8D%E6%9C%9F%E9%A2%84%E6%BC%94%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92%E6%96%B9%E6%B3%95-human-computer-interaction-method-in-previz-based-on-leap-motion/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>USD</title>
+      <link>http://example.org/archive/collection/usd/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/collection/usd/</guid>
+      <description>&lt;!DOCTYPE html&gt; USD SONY Imageworks: UE &amp;#43; OpenUSD Sony Imageworks Animation Layout Workflow with Unreal Engine and OpenUSD: https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/SIGGRAPHTALKS24/55/9fd0e63d-0e83-11ef-8182-16bb50361d1f/OUT/siggraphtalks24-55.html The design of our shot-structure in the Unreal Level Sequence: The design of our USD layers: @juneleung</description>
     </item>
     <item>
       <title>电影虚拟化制作中的虚拟角色交互控制方法及实现</title>

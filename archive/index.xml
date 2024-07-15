@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://example.org/archive/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cullen Kelly</title>
+      <link>http://example.org/archive/artists/-cullen-kelly/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/artists/-cullen-kelly/</guid>
+      <description>&#xA;&lt;!DOCTYPE html&gt; Cullen Kelly Cullen Kelly - youutbe https://www.youtube.com/c/CullenKelly </description>
+    </item>
+    <item>
       <title>胶片模拟Film Emulation</title>
       <link>http://example.org/archive/collection/film-emulation/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
@@ -287,6 +294,13 @@
       <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/collection/ed-to-di/</guid>
       <description>&lt;!DOCTYPE html&gt; 当你完成一个片子的剪辑之后，应该如何将你的工作完美的交接给DI呢？ &lt;!DOCTYPE html&gt; How to turn over your editing work to DI perfectly after you finish editing a film ? * 本文章所述不一定符合所有情况，请根据具体项目酌情进行修改。&#xA;* The descriptions in this article may not be applicable to all situations, please modify as appropriate according to specific projects.&#xA;&lt;!DOCTYPE html&gt; 1、导出参考小样 Export Reference 一个剪辑完成片的视频，以供调色公司的画面套底参考。&#xA;A video of the edited film, as the DI&amp;rsquo;s conform reference.&#xA;具体文件参数 File Parameters: 苹果平台 mac 格式 (Format) : Quciktime MOV 编码 (Codec) : Apple Prores 类型 (Type) : 422HQ/422/proxy 声音 (Audio) : PCM/AAC 视窗平台 windows 格式 (Format) : MXF 编码 (Codec) : DNxHD / DNxHR 类型 (Type) : 1080p 100/85/80 8bit / DNxHR SQ/LB 声音 (Audio) : PCM/AAC 如e.</description>
+    </item>
+    <item>
+      <title>USD</title>
+      <link>http://example.org/archive/collection/usd/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/collection/usd/</guid>
+      <description>&lt;!DOCTYPE html&gt; USD SONY Imageworks: UE &amp;#43; OpenUSD Sony Imageworks Animation Layout Workflow with Unreal Engine and OpenUSD: https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/SIGGRAPHTALKS24/55/9fd0e63d-0e83-11ef-8182-16bb50361d1f/OUT/siggraphtalks24-55.html The design of our shot-structure in the Unreal Level Sequence: The design of our USD layers: @juneleung</description>
     </item>
   </channel>
 </rss>
