@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://example.org/archive/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/color/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
@@ -12,9 +15,6 @@
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/di/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/</loc>
@@ -193,6 +193,9 @@
   </url><url>
     <loc>http://example.org/archive/develop/shotgun_api/</loc>
     <lastmod>2023-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/dp/</loc>
+    <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/collection/%E9%95%9C%E5%A4%B4%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
