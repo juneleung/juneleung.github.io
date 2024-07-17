@@ -22,7 +22,8 @@ p {
 
 /*backround color*/
 .bg-dark {
-  background-color: rgb(57, 85, 87) ;
+  /* background-color: hsl(184, 17%, 13%) ; */
+  /* background-color: #202c2c ; */
 }
 
 /*posts image*/
