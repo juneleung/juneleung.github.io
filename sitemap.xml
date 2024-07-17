@@ -3,10 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://example.org/archive/</loc>
-    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/</loc>
-    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/color/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
@@ -14,13 +11,10 @@
     <loc>http://example.org/archive/artists/-cullen-kelly/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/di/</loc>
+    <loc>http://example.org/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/archive/collection/film-emulation/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/artists/anne-bernasconi/</loc>
@@ -70,6 +64,12 @@
   </url><url>
     <loc>http://example.org/archive/books---reading/the-worlds-i-see/</loc>
     <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/di/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/collection/film-skintone-saturation/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/bash/</loc>
     <lastmod>2024-02-11T00:00:00+00:00</lastmod>
@@ -238,6 +238,9 @@
   </url><url>
     <loc>http://example.org/research/2021-2024@dmi-bfa@digital-media-institute-china-film-high-technology-institute-beijing-film-academy@%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2-%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2/technical-discussion-on-artificial-intelligence-technology-modeling-in-visual-effects-production/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archive/collection/film-emulation/</loc>
+    <lastmod>2021-10-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/behind-the-scene/roger-deakins-on-how-to-choose-a-camera-lens--cinematography-techniques-ep.-8/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en"  class="h-100">
+<head>
+  <script src="/scripts/theme/baseof.js" defer></script>
+  <link href="/css/baseof.css" rel="stylesheet" type="text/css">
+</head><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Your description">
+    <meta name="theme-color" content="#000">
+
+    <link rel="canonical" href="http://example.org/archive/collection/film-skintone-saturation/" />
+
+    
+    <link defer href="/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <link defer href="/css/rose.css" rel="stylesheet">
+
+    
+    
+    <link defer rel="stylesheet" href="/font.cc958b841144b5e6348b4723514869a46d121c6cf691e9e0009d86281ad5cc37.css" integrity="">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%220.9em%22  font-size=%2290%22>🦒</text></svg>">
+
+    
+    <title>
+        
+        Film Skintone Saturation / Density | Juneleung Chan
+        
+    </title> 
+</head>
+
+<body class="d-flex md h-100 container-sm text-white bg-dark"> 
+  <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+    
+    
+<header class="mb-auto sticky">
+  <h1 class="float-md-start justify-content-center">
+    <a class="head-rose" href="/">Juneleung Chan</a>
+  </h1>
+  <nav class="nav nav-masthead justify-content-center float-md-end" style="padding-bottom: 2vh;">
+    <a class="nav-link text-white" href="/">Home</a>
+    <a class="nav-link text-white" href="/film">Film</a>
+    
+    <a class="nav-link text-white" href="/reel">Reel</a>
+    
+    <a class="nav-link text-white" href="/publication">Publication</a>
+    <a class="nav-link text-white" href="/archive">Archive</a>
+    <a class="nav-link text-white" href="/about">About</a>
+    
+  </nav>
+</header>
+
+
+
+    
+  
+    <div id="content">
+	<main>
+		<article>
+			
+			
+			<div>
+				<p><br>
+<br>
+<br></p>
+<hr>
+<p><br>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style>
+		.center {
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="center">
+        <h3>Film Skintone Saturation</h3>
+	</div>
+</body>
+</html>
+
+<br></p>
+<hr>
+<a href="https://www.liftgammagain.com/forum/index.php?threads/film-skintone-saturation.18267/" target="_blank">https://www.liftgammagain.com/forum/index.php?threads/film-skintone-saturation.18267/</a>    
+<hr>
+
+<span style="background-color: rgb(213, 114, 43); font-weight: bold;">
+	Chris Wright
+</span>
+
+<pre><code>Oct 4, 2023
+#4
+saturation is a perceived visual construct. this is why we have so many color models. HSL, HSV, HCL, etc. The tricky part is transforming from an additive color model to a subtractive one while at the same time, reversing our shot so that we perceive filmed subtractive properties in the first place. You can visually collapse the color model yourself with perceptual grading by reverse modeling. Here's a good tool to get there. free dctl
+<a href="https://drive.google.com/file/d/1iHsoFJO_FXL004NGJIxUihvY9v_d4gXl/view" target="_blank">https://drive.google.com/file/d/1iHsoFJO_FXL004NGJIxUihvY9v_d4gXl/view</a>    
+</code></pre>
+
+<span style="background-color: rgb(213, 114, 43); font-weight: bold;">
+	keidrych wasley
+</span>
+
+<pre><code>Oct 5, 2023
+#8
+Post wise if you take Knives Out as an example Steve Yedlin built a LUT from a 5219 to 2383 data set. So you have a very contrasty curve that will be applying a lot of density below mid grey (where that skin will be landing in your example), and in addition the colour volume is also applying density as saturation is applied in the LUT build. One key ability is to have a colour model that is applying density as it applies saturation, or to have independent control of density and saturation and ideally across sat and luma eg being able to increase the density of only low saturation low luma. This could also be for example having the ability to saturate and apply density to the more neutral tones nearer the grey scale. Steve specifically developed a colour model (similar to HSV) and tools to do this ie be able to isolate and saturate neutrals.
+</code></pre>
+
+<span style="background-color: rgb(213, 114, 43); font-weight: bold;">
+	Juan Pablo Zambrano
+</span>
+
+<pre><code>Oct 8, 2023
+#26
+Steve's model is basically non-piecewise HSV, the &quot;luminance&quot; channel is MAX(RGB), so when you increase saturation in the model, max stays constant, and the other channels decrease.
+
+Basically, when Steves says that his model decreases luminance as saturation increase is because when you calculated weighted photometric luminance it will decrease.
+
+I don't remember if he ever called it density. I think when he talked about densities was literally the measurement log(opacity) of a print.
+
+So, with the color model you can increase chroma and decrease photometric luminance by only manipulating the sat channel of the model, which is the same thing HSV does. I always thought of it just as Max saturation instead of density (I thought it was confusing to call it that).
+</code></pre>
+
+<span style="background-color: rgb(213, 114, 43); font-weight: bold;">
+	R Neil Haugen
+</span>
+
+<pre><code>Oct 9, 2023
+#31
+Increase in density of a negative led to brighter print values.
+
+Increase of densities in print materials meant darker values.
+
+But it wasn't tied to color/chroma.
+
+And this seems to be trying to find a term to use for a relative to change of color perception, due to a relative luma change.
+</code></pre>
+
+<span style="background-color: rgb(213, 114, 43); font-weight: bold;">
+	Fedor Dokuchaev
+</span>
+
+<pre><code>Oct 17, 2023
+#47
+We can formulate our goal differently - perceptually pleasing color model which produces dark saturated colors. There are already different takes on that problem:
+1. HSV_OKLab DCTL, made by Kaur Hendrikson. It is not available freely, but he gave me permission to share it. So, write me DM and I'll send it to you.
+2. HSV-like Reuleaux color model. Not perceptually uniform.
+3. Color saturation model by Aurélien Pierre. Not available in DaVinci Resolve. This article is full of interesting information on the subject.
+</code></pre>
+<hr>
+<p>@juneleung</p>
+<hr>
+
+			</div>
+			
+			
+			
+		</article>
+	</main>
+
+    </div><footer class="mt-auto text-white text-center">
+    
+    <p>2024</p>
+    
+    
+</footer>
+
+
+  </div>
+
+  <a href="#" id="back-to-top"></a>
+
+</body>
+</html>
+

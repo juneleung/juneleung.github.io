@@ -16,13 +16,6 @@
       <description>&#xA;&lt;!DOCTYPE html&gt; Cullen Kelly Cullen Kelly - youutbe https://www.youtube.com/c/CullenKelly </description>
     </item>
     <item>
-      <title>胶片模拟 Film Emulation</title>
-      <link>http://example.org/archive/collection/film-emulation/</link>
-      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://example.org/archive/collection/film-emulation/</guid>
-      <description>&lt;!DOCTYPE html&gt; 胶片模拟 Film Emulation 数据 Data Film Database: https://github.com/juneleung/FilmDatabase/ @Juneleung&#xA;filmtypes: https://www.filmtypes.com/ 胶片模拟 Emulation SIGGRAPH 2010 - Color Enhancement and Rendering in Film and Game Production - Film Simulation for Video Games - Yoshiharu Gotanda https://renderwonk.com/publications/s2010-color-course/gotanda/slide_film_simulation_for_videogames.pdf https://renderwonk.com/publications/s2010-color-course/gotanda/course_note_film_simulation_for_videogames.pdf Realistic Film Grain Rendering https://www.lirmm.fr/~nfaraj/publications/film_grain_ipol/2017_Newson_film_grain.pdf AI FilterSimulation https://github.com/fg0521/filter4free @柴师傅在打工&#xA;论坛 Forum What is the best example of film emulation?: https://www.liftgammagain.com/forum/index.php?threads/what-is-the-best-example-of-film-emulation.15452/ CN：讨论｜最好的模拟胶片效果的数字电影是？: https://mp.weixin.qq.com/s/4XlwYWN0hbasXtPZg8eGOw LUT Simulation: https://discuss.pixls.us/t/film-emulation-simulation/22935/8 @juneleung</description>
-    </item>
-    <item>
       <title>Anne BERNASCONI</title>
       <link>http://example.org/archive/artists/anne-bernasconi/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
@@ -133,6 +126,13 @@
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/books---reading/the-worlds-i-see/</guid>
       <description>NOTE: Content copyright belongs to the original author. This page is only for archiving personal study notes and will not be used for any commercial channels. &lt;!DOCTYPE html&gt; The Worlds I See 1 Unlikely as it seemed at the time, I found my way to the furthest reaches of that world in the years that followed. Not aerospace, but the science of the mind, and the still-nascent study of intelligent machines.</description>
+    </item>
+    <item>
+      <title>Film Skintone Saturation / Density</title>
+      <link>http://example.org/archive/collection/film-skintone-saturation/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/collection/film-skintone-saturation/</guid>
+      <description>&lt;!DOCTYPE html&gt; Film Skintone Saturation https://www.liftgammagain.com/forum/index.php?threads/film-skintone-saturation.18267/ Chris Wright Oct 4, 2023 #4 saturation is a perceived visual construct. this is why we have so many color models. HSL, HSV, HCL, etc. The tricky part is transforming from an additive color model to a subtractive one while at the same time, reversing our shot so that we perceive filmed subtractive properties in the first place. You can visually collapse the color model yourself with perceptual grading by reverse modeling.</description>
     </item>
     <item>
       <title>动态图片转换Convert mvimg2mp4</title>
@@ -399,6 +399,13 @@
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       <guid>http://example.org/research/2021-2024@dmi-bfa@digital-media-institute-china-film-high-technology-institute-beijing-film-academy@%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2-%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2/technical-discussion-on-artificial-intelligence-technology-modeling-in-visual-effects-production/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>胶片模拟 Film Emulation</title>
+      <link>http://example.org/archive/collection/film-emulation/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/collection/film-emulation/</guid>
+      <description>&lt;!DOCTYPE html&gt; 胶片模拟 Film Emulation 数据 Data Film Database: https://github.com/juneleung/FilmDatabase/ @Juneleung&#xA;filmtypes: https://www.filmtypes.com/ 胶片模拟 Emulation SIGGRAPH 2010 - Color Enhancement and Rendering in Film and Game Production - Film Simulation for Video Games - Yoshiharu Gotanda https://renderwonk.com/publications/s2010-color-course/gotanda/slide_film_simulation_for_videogames.pdf https://renderwonk.com/publications/s2010-color-course/gotanda/course_note_film_simulation_for_videogames.pdf Realistic Film Grain Rendering https://www.lirmm.fr/~nfaraj/publications/film_grain_ipol/2017_Newson_film_grain.pdf AI FilterSimulation https://github.com/fg0521/filter4free @柴师傅在打工&#xA;论坛 Forum What is the best example of film emulation?: https://www.liftgammagain.com/forum/index.php?threads/what-is-the-best-example-of-film-emulation.15452/ CN：讨论｜最好的模拟胶片效果的数字电影是？: https://mp.weixin.qq.com/s/4XlwYWN0hbasXtPZg8eGOw LUT Simulation: https://discuss.pixls.us/t/film-emulation-simulation/22935/8 @juneleung</description>
     </item>
     <item>
       <title>Roger Deakins on How to Choose a Camera Lens — Cinematography Techniques Ep. 8</title>

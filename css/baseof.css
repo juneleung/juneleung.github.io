@@ -28,3 +28,7 @@
     transition: opacity 1s; 
 }
 
+
+code {
+    text-wrap: wrap;
+}
