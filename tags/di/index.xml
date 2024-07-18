@@ -6,21 +6,28 @@
     <description>Recent content in DI on Juneleung Chan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://example.org/tags/di/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>S24</title>
+      <link>http://example.org/archive/collection/s24/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/collection/s24/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Film Skintone Saturation / Density</title>
       <link>http://example.org/archive/collection/film-skintone-saturation/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/collection/film-skintone-saturation/</guid>
-      <description>&lt;!DOCTYPE html&gt; Film Skintone Saturation https://www.liftgammagain.com/forum/index.php?threads/film-skintone-saturation.18267/ Chris Wright Oct 4, 2023 #4 saturation is a perceived visual construct. this is why we have so many color models. HSL, HSV, HCL, etc. The tricky part is transforming from an additive color model to a subtractive one while at the same time, reversing our shot so that we perceive filmed subtractive properties in the first place. You can visually collapse the color model yourself with perceptual grading by reverse modeling.</description>
+      <description>https://www.liftgammagain.com/forum/index.php?threads/film-skintone-saturation.18267/ Chris Wright Oct 4, 2023 #4 saturation is a perceived visual construct. this is why we have so many color models. HSL, HSV, HCL, etc. The tricky part is transforming from an additive color model to a subtractive one while at the same time, reversing our shot so that we perceive filmed subtractive properties in the first place. You can visually collapse the color model yourself with perceptual grading by reverse modeling.</description>
     </item>
     <item>
       <title>Fotokem</title>
       <link>http://example.org/archive/collection/fotokem/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/collection/fotokem/</guid>
-      <description>&#xA;&lt;!DOCTYPE html&gt; Fotokem Fotokem: https://fotokem.com/ LGG-Fotokem SHIFT ai Film Scan-Back service BETA is LIVE!:&#xA;https://www.liftgammagain.com/forum/index.php?threads/fotokem-shift-ai-film-scan-back-service-beta-is-live.16386/ Colorist Meetup with Alastor Arnold Fotokem LA:&#xA;https://open.spotify.com/show/7gvOmvy3HFcaKATAWPfRT8 </description>
+      <description>&#xA;Fotokem: https://fotokem.com/ LGG-Fotokem SHIFT ai Film Scan-Back service BETA is LIVE!:&#xA;https://www.liftgammagain.com/forum/index.php?threads/fotokem-shift-ai-film-scan-back-service-beta-is-live.16386/ Colorist Meetup with Alastor Arnold Fotokem LA:&#xA;https://open.spotify.com/show/7gvOmvy3HFcaKATAWPfRT8 </description>
     </item>
     <item>
       <title>CG &amp; DI色彩管理 Color Management in CG&amp;DI</title>
@@ -34,7 +41,7 @@
       <link>http://example.org/archive/collection/film-emulation/</link>
       <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/collection/film-emulation/</guid>
-      <description>&lt;!DOCTYPE html&gt; 胶片模拟 Film Emulation 数据 Data Film Database: https://github.com/juneleung/FilmDatabase/ @Juneleung&#xA;filmtypes: https://www.filmtypes.com/ 胶片模拟 Emulation SIGGRAPH 2010 - Color Enhancement and Rendering in Film and Game Production - Film Simulation for Video Games - Yoshiharu Gotanda https://renderwonk.com/publications/s2010-color-course/gotanda/slide_film_simulation_for_videogames.pdf https://renderwonk.com/publications/s2010-color-course/gotanda/course_note_film_simulation_for_videogames.pdf Realistic Film Grain Rendering https://www.lirmm.fr/~nfaraj/publications/film_grain_ipol/2017_Newson_film_grain.pdf AI FilterSimulation https://github.com/fg0521/filter4free @柴师傅在打工&#xA;论坛 Forum What is the best example of film emulation?: https://www.liftgammagain.com/forum/index.php?threads/what-is-the-best-example-of-film-emulation.15452/ CN：讨论｜最好的模拟胶片效果的数字电影是？: https://mp.weixin.qq.com/s/4XlwYWN0hbasXtPZg8eGOw LUT Simulation: https://discuss.pixls.us/t/film-emulation-simulation/22935/8 @juneleung</description>
+      <description>数据 Data Film Database: https://github.com/juneleung/FilmDatabase/ @Juneleung&#xA;filmtypes: https://www.filmtypes.com/ 胶片模拟 Emulation SIGGRAPH 2010 - Color Enhancement and Rendering in Film and Game Production - Film Simulation for Video Games - Yoshiharu Gotanda https://renderwonk.com/publications/s2010-color-course/gotanda/slide_film_simulation_for_videogames.pdf https://renderwonk.com/publications/s2010-color-course/gotanda/course_note_film_simulation_for_videogames.pdf Realistic Film Grain Rendering https://www.lirmm.fr/~nfaraj/publications/film_grain_ipol/2017_Newson_film_grain.pdf AI FilterSimulation https://github.com/fg0521/filter4free @柴师傅在打工&#xA;论坛 Forum What is the best example of film emulation?: https://www.liftgammagain.com/forum/index.php?threads/what-is-the-best-example-of-film-emulation.15452/ CN：讨论｜最好的模拟胶片效果的数字电影是？: https://mp.weixin.qq.com/s/4XlwYWN0hbasXtPZg8eGOw LUT Simulation: https://discuss.pixls.us/t/film-emulation-simulation/22935/8 @juneleung</description>
     </item>
     <item>
       <title>剪辑和调色的交接物料 Turnover between editing and DI color grading</title>
