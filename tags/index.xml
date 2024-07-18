@@ -23,13 +23,6 @@
       <description></description>
     </item>
     <item>
-      <title>DI</title>
-      <link>http://example.org/tags/di/</link>
-      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/di/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Bash</title>
       <link>http://example.org/tags/bash/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
@@ -41,6 +34,13 @@
       <link>http://example.org/tags/davinci/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://example.org/tags/davinci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DI</title>
+      <link>http://example.org/tags/di/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/di/</guid>
       <description></description>
     </item>
     <item>

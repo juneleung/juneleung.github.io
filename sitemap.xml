@@ -68,11 +68,11 @@
     <loc>http://example.org/archive/behind-the-scene/dogtown/</loc>
     <lastmod>2024-06-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://example.org/archive/collection/photochemically/</loc>
+    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://example.org/archive/books---reading/the-worlds-i-see/</loc>
     <lastmod>2024-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/di/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/collection/film-skintone-saturation---density/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
@@ -100,6 +100,9 @@
   </url><url>
     <loc>http://example.org/about/</loc>
     <lastmod>2023-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/di/</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/archive/collection/fotokem/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
