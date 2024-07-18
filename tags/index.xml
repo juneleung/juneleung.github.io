@@ -6,20 +6,27 @@
     <description>Recent content in Tags on Juneleung Chan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>DI</title>
-      <link>http://example.org/tags/di/</link>
-      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/di/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Color</title>
       <link>http://example.org/tags/color/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://example.org/tags/color/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DP</title>
+      <link>http://example.org/tags/dp/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/dp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DI</title>
+      <link>http://example.org/tags/di/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/di/</guid>
       <description></description>
     </item>
     <item>
@@ -30,17 +37,17 @@
       <description></description>
     </item>
     <item>
+      <title>DaVinci</title>
+      <link>http://example.org/tags/davinci/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://example.org/tags/davinci/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>论文 Paper</title>
       <link>http://example.org/tags/%E8%AE%BA%E6%96%87-paper/</link>
       <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://example.org/tags/%E8%AE%BA%E6%96%87-paper/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DaVinci</title>
-      <link>http://example.org/tags/davinci/</link>
-      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/davinci/</guid>
       <description></description>
     </item>
     <item>
@@ -118,13 +125,6 @@
       <link>http://example.org/tags/shotgun/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
       <guid>http://example.org/tags/shotgun/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DP</title>
-      <link>http://example.org/tags/dp/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://example.org/tags/dp/</guid>
       <description></description>
     </item>
     <item>

@@ -13,7 +13,21 @@
       <link>http://example.org/archive/artists/cullen-kelly/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/artists/cullen-kelly/</guid>
-      <description>&#xA;Cullen Kelly - youutbe https://www.youtube.com/c/CullenKelly </description>
+      <description></description>
+    </item>
+    <item>
+      <title>Jason Bowdach</title>
+      <link>http://example.org/archive/artists/cullen-kelly-copy/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/artists/cullen-kelly-copy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Dimensions of Colour</title>
+      <link>http://example.org/archive/collection/camera-database-copy/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/collection/camera-database-copy/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
