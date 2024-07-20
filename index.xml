@@ -6,8 +6,15 @@
     <description>Recent content on Juneleung Chan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathematics for Machine Learning</title>
+      <link>http://example.org/archive/books---reading/mathematics-for-machine-learning/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/books---reading/mathematics-for-machine-learning/</guid>
+      <description> Page https://mml-book.com Table of Contents Part I: Mathematical Foundations Introduction and Motivation Linear Algebra Analytic Geometry Matrix Decompositions Vector Calculus Probability and Distribution Continuous Optimization Part II: Central Machine Learning Problems When Models Meet Data Linear Regression Dimensionality Reduction with Principal Component Analysis Density Estimation with Gaussian Mixture Models Classification with Support Vector Machines PDF </description>
+    </item>
     <item>
       <title>Cullen Kelly</title>
       <link>http://example.org/archive/artists/cullen-kelly/</link>
