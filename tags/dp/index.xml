@@ -13,28 +13,28 @@
       <link>http://example.org/archive/3.artists/steve-yedlin/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/3.artists/steve-yedlin/</guid>
-      <description>&#xA;Steve Yedlin: https://www.yedlin.net/ </description>
+      <description>&lt;p&gt;&lt;br&gt;&#xA;Steve Yedlin: &lt;a href=&#34;https://www.yedlin.net/&#34; target=&#34;_blank&#34;&gt;https://www.yedlin.net/&lt;/a&gt;    &#xA;&lt;br&gt;&lt;/p&gt;&#xA;&lt;hr&gt;</description>
     </item>
     <item>
       <title>Lens Test Database</title>
       <link>http://example.org/archive/2.collection/lens-dataset/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/2.collection/lens-dataset/</guid>
-      <description>&#xA;sharegrid: https://www.sharegrid.com/learn michaelliu - In House Testing ​内部测试: https://www.michaelliu.online/in-house-testing-%E5%86%85%E9%83%A8%E6%B5%8B%E8%AF%95 </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://global-uploads.webflow.com/5ebc2b39bede4e5d5d68c713/5ecd93e88116e04658b9f957_test-data2.png&#34; alt=&#34;sharegrid&#34;&gt;&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;sharegrid: &lt;a href=&#34;https://www.sharegrid.com/learn&#34; target=&#34;_blank&#34;&gt;https://www.sharegrid.com/learn&lt;/a&gt;    &lt;/p&gt;&#xA;&lt;p&gt;michaelliu - In House Testing ​内部测试: &lt;a href=&#34;https://www.michaelliu.online/in-house-testing-%E5%86%85%E9%83%A8%E6%B5%8B%E8%AF%95&#34; target=&#34;_blank&#34;&gt;https://www.michaelliu.online/in-house-testing-%E5%86%85%E9%83%A8%E6%B5%8B%E8%AF%95&lt;/a&gt;    &lt;/p&gt;</description>
     </item>
     <item>
       <title>Camera Database</title>
       <link>http://example.org/archive/2.collection/camera-database/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/2.collection/camera-database/</guid>
-      <description>&#xA;vfxcamdb: https://vfxcamdb.com/ </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://vfxcamdb.com/wp-content/uploads/2017/04/vfxcamdb_header1c.png&#34; alt=&#34;vfxcamdb&#34;&gt;&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;vfxcamdb: &lt;a href=&#34;https://vfxcamdb.com/&#34; target=&#34;_blank&#34;&gt;https://vfxcamdb.com/&lt;/a&gt;    &lt;/p&gt;</description>
     </item>
     <item>
       <title>Reference Stills Sites</title>
       <link>http://example.org/archive/2.collection/stills/</link>
       <pubDate>Wed, 24 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/2.collection/stills/</guid>
-      <description>&#xA;Film-Grab: https://film-grab.com/ Shotdeck: https://shotdeck.com/ SHOT.CAFE: https://www.shot.cafe FRAMESET: https://www.frameset.app FLIM.AI: https://beta.flim.ai REFSEE: https://www.refsee.com TAGI: https://www.tagi.tv moviestillsdb: https://www.moviestillsdb.com screenmusings: https://screenmusings.org/ </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://shotdeck.com/assets/images/shotdeck_video_3.jpg&#34; alt=&#34;Shotdeck&#34;&gt;&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;Film-Grab: &lt;a href=&#34;https://film-grab.com/&#34; target=&#34;_blank&#34;&gt;https://film-grab.com/&lt;/a&gt;    &lt;/p&gt;&#xA;&lt;p&gt;Shotdeck: &lt;a href=&#34;https://shotdeck.com/&#34; target=&#34;_blank&#34;&gt;https://shotdeck.com/&lt;/a&gt;    &lt;/p&gt;&#xA;&lt;p&gt;SHOT.CAFE: &lt;a href=&#34;https://www.shot.cafe&#34; target=&#34;_blank&#34;&gt;https://www.shot.cafe&lt;/a&gt;    &lt;/p&gt;&#xA;&lt;p&gt;FRAMESET: &lt;a href=&#34;https://www.frameset.app&#34; target=&#34;_blank&#34;&gt;https://www.frameset.app&lt;/a&gt;    &lt;/p&gt;&#xA;&lt;p&gt;FLIM.AI: &lt;a href=&#34;https://beta.flim.ai&#34; target=&#34;_blank&#34;&gt;https://beta.flim.ai&lt;/a&gt;    &lt;/p&gt;&#xA;&lt;p&gt;REFSEE: &lt;a href=&#34;https://www.refsee.com&#34; target=&#34;_blank&#34;&gt;https://www.refsee.com&lt;/a&gt;    &lt;/p&gt;&#xA;&lt;p&gt;TAGI: &lt;a href=&#34;https://www.tagi.tv&#34; target=&#34;_blank&#34;&gt;https://www.tagi.tv&lt;/a&gt;    &lt;/p&gt;&#xA;&lt;p&gt;moviestillsdb: &lt;a href=&#34;https://www.moviestillsdb.com&#34; target=&#34;_blank&#34;&gt;https://www.moviestillsdb.com&lt;/a&gt;    &lt;/p&gt;&#xA;&lt;p&gt;screenmusings: &lt;a href=&#34;https://screenmusings.org/&#34; target=&#34;_blank&#34;&gt;https://screenmusings.org/&lt;/a&gt;    &lt;/p&gt;&#xA;&lt;br&gt;</description>
     </item>
   </channel>
 </rss>
