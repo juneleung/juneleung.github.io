@@ -13,7 +13,7 @@
       <link>http://example.org/archive/5.develop/hou_api/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/5.develop/hou_api/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;!DOCTYPE html&gt;&#xA;&lt;html&gt;&#xA;&lt;head&gt;&#xA;&#x9;&#xA;&#x9;&lt;style&gt;&#xA;&#x9;&#x9;.center {&#xA;&#x9;&#x9;&#x9;text-align: center;&#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;&#xA;&#x9;&lt;/style&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&#x9;&lt;div class=&#34;center&#34;&gt;&#xA;        &lt;h3&gt;Houdini&lt;/h3&gt;&#xA;&#x9;&lt;/div&gt;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;&#xA;&#xA;&lt;a href=&#34;https://www.sidefx.com/docs/houdini/hom/hou/index.html&#34; target=&#34;_blank&#34;&gt;Houdini-python&lt;/a&gt;    &#xA;&#xA;&#xA;&lt;br&gt;&#xA;&lt;a href=&#34;https://www.sidefx.com/docs/houdini/expressions/index.html&#34; target=&#34;_blank&#34;&gt;Hscript-expressions&lt;/a&gt;    &#xA;&#xA;&#xA;&lt;br&gt;&#xA;&lt;a href=&#34;https://www.sidefx.com/docs/houdini/commands/index.html&#34; target=&#34;_blank&#34;&gt;Hscript-commands&lt;/a&gt;    &#xA;&#xA;&#xA;&lt;br&gt;&#xA;&lt;a href=&#34;https://www.sidefx.com/docs/houdini/vex/functions/index.html&#34; target=&#34;_blank&#34;&gt;VEX&lt;/a&gt;    &#xA;&#xA;&#xA;&lt;br&gt;&#xA;&lt;a href=&#34;https://www.sidefx.com/docs/hdk/&#34; target=&#34;_blank&#34;&gt;HDK&lt;/a&gt;</description>
+      <description> &lt;!DOCTYPE html&gt; Houdini Houdini-python Hscript-expressions Hscript-commands VEX HDK </description>
     </item>
   </channel>
 </rss>

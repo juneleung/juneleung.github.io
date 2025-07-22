@@ -13,7 +13,7 @@
       <link>http://example.org/archive/5.develop/maya_api/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
       <guid>http://example.org/archive/5.develop/maya_api/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;!DOCTYPE html&gt;&#xA;&lt;html&gt;&#xA;&lt;head&gt;&#xA;&#x9;&#xA;&#x9;&lt;style&gt;&#xA;&#x9;&#x9;.center {&#xA;&#x9;&#x9;&#x9;text-align: center;&#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;&#xA;&#x9;&lt;/style&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&#x9;&lt;div class=&#34;center&#34;&gt;&#xA;        &lt;h3&gt;Maya&lt;/h3&gt;&#xA;&#x9;&lt;/div&gt;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;&#xA;&#xA;&lt;a href=&#34;https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_Maya_Python_API_html&#34; target=&#34;_blank&#34;&gt;Maya-python&lt;/a&gt;</description>
+      <description> &lt;!DOCTYPE html&gt; Maya Maya-python </description>
     </item>
   </channel>
 </rss>
