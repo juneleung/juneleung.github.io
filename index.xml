@@ -6,8 +6,15 @@
     <description>Recent content on Juneleung Chan</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MAKE A LUT</title>
+      <link>http://example.org/archive/1.behind-the-scene/makelut/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://example.org/archive/1.behind-the-scene/makelut/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;从2019年开始，我开始尝试从胶片和绘画里复刻颜色到影片素材上，手动通过通道、色轮和曲线等进行风格刻画，但是这种方式往往很慢，一个SHOW LUT可能需要做两周，一个月。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2020年，我加入上添影视之后，开始担任流程TD和DI研发(Digital Intermediate ENGINEER)。2020年，我们一起与多名电影摄影师一起，通过采样和程序的方式，结合调色指导的微调，研发制作了一套胶片风格SHOW LUT，大概有十几个基础的种类，延伸出一百多个LUT的“变种”。在调色指导的艺术改编之后，这些LUT应用于《金刚川》、《长津湖》、《1921》、《志愿军》、《刺杀小说家》、《流浪地球2》等电影的制作当中。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2021年，牛蛙的《沙丘 Dune: Part One》上映了，提到了使用了光化学的洗印流程，增强了画面的Texture质感。妙，有机会我也想玩玩！&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2022年里，查了很多网络博主的方法，大部份都是通过翻拍，洗印，手动追色的方法实现，其实跟19年的做法差不多，有些博主花半个月一个月做出来效果还挺棒的。我尝试用了各种数学空间转换，AI机器学习的方式进行色彩学习，但是效果不尽人意，色彩通常只是一层浮纱漂浮在画面上，而且经常还会出现“反色、断层”的问题，不妙。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2023年，我们的《流浪地球2》上映了，我们对DI全流程回顾整理，如果你有兴趣，可以去看看这个存档 ➡️ &lt;a href=&#34;http://example.org/archive/1.behind-the-scene/twe2_di/&#34;&gt;流浪地球2｜DI流程设计 The Wandering Earth II - DI Pipeline&lt;/a&gt;。摄影指导刘寅老师公众号和《流浪地球2制作手记》一书记录了当时的细节。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2023年，一次偶然的机会，在电影《狗阵》制作过程，摄影指导高伟喆老师提出想做Anolog Intermediate的另一种“AI”洗印，也就是《沙丘1》的那种一样的方式。于是，张亘老师与我等一起将影片做了几个月的胶片测试，素材被送到洛杉矶Fotokem洗印，并扫描回来。这期间开发了一套新的色彩校准流程，应对数字和胶片色彩特性。胶片的特性还是非常迷人的。妙，终于被我玩到了！下图从公众号截的，具体看看这个➡️ &lt;a href=&#34;http://example.org/archive/1.behind-the-scene/dogtown/&#34;&gt;电影《狗阵》影像创作及SHIFTai (Analog Intermediate) 流程探索&lt;/a&gt;。&#xA;&lt;img src=&#34;http://example.org/img/archive/AIlut/DOT.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2024年，《沙丘2 Dune: Part Two》他来了他来了，我们的《狗阵》也上映了。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2024年底，这几年一直对色彩的开发也没断过，随着对ML越来越熟悉之后，最近几个月一切被重新提上日程。现在，我已经开发出了一个学习了一万个LUT和超过十万张高质量影像的色彩大脑，看起来它知道的比我多，已经快比我聪明了。可以通过提供色板，照片，胶片，电影截图等各种方式，一张图片就学会一个基础草稿的Look！妙，这个看起来还行！&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;最近，我联系了在德国和新西兰的一些胶片洗印厂，有些洗印厂开始还以为我说错了，“从手机打印到纸上吗，打印机？”。&#xA;说了我的想法之后，一下就不谋而合，「Sounds like an awesome moment. 2025 meets 1975, pretty cool plan!」&#xA;于是便正在开始这场蓄谋已久的「AI+AI」计划的进一步开发，Artificial intelligence (AI) + Anolog Intermediate (AI)。&#xA;如果你有兴趣一起做点什么好玩的，欢迎来找我。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;以下是最近几个月我做的一些测试（测试素材来源网络）。这部分LOOK没有项目保密的要求，所以你也可以在这里在线试玩我最近开发的LOOK（打不开可以来找我，服务器可能睡着了）：&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://example.org/img/archive/AIlut/TENET.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://example.org/img/archive/AIlut/XXXC.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mathematics for Machine Learning</title>
       <link>http://example.org/archive/4.books---reading/mathematics-for-machine-learning/</link>
